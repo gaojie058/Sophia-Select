@@ -1,26 +1,752 @@
 {
   "meta": {
-    "fetched_at": "2026-02-14T00:53:58.935344",
+    "fetched_at": "2026-02-14T02:01:49.973986",
     "lookback_days": 7,
     "keywords": [
       "human-AI collaboration",
       "LLM agent",
       "AI agent",
-      "qualitative analysis",
+      "agentic AI",
       "human-centered AI",
+      "qualitative analysis LLM",
+      "human-LLM interaction",
       "responsible AI",
       "trustworthy AI",
-      "human-LLM interaction",
       "AI-assisted analysis",
-      "collaborative AI",
-      "agentic AI",
+      "collaborative AI systems",
       "computer-supported cooperative work"
     ]
   },
-  "arxiv": [],
-  "semantic_scholar": [
+  "arxiv": [
     {
-      "id": "fb3999a0d6d1b851e62b1fdc9fdeb28f94e0b381",
+      "id": "2602.11527v1",
+      "title": "CausalAgent: A Conversational Multi-Agent System for End-to-End Causal Inference",
+      "authors": [
+        "Jiawei Zhu",
+        "Wei Chen",
+        "Ruichu Cai"
+      ],
+      "summary": "Causal inference holds immense value in fields such as healthcare, economics, and social sciences. However, traditional causal analysis workflows impose significant technical barriers, requiring researchers to possess dual backgrounds in statistics and computer science, while manually selecting algorithms, handling data quality issues, and interpreting complex results. To address these challenges, we propose CausalAgent, a conversational multi-agent system for end-to-end causal inference. The sy",
+      "published": "2026-02-12",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.11527v1",
+      "matched_keyword": "human-AI collaboration",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11522v1",
+      "title": "Implications of AI Involvement for Trust in Expert Advisory Workflows Under Epistemic Dependence",
+      "authors": [
+        "Dennis Kim",
+        "Roya Daneshi",
+        "Bruce Draper",
+        "Sarath Sreedharan"
+      ],
+      "summary": "The increasing integration of AI-powered tools into expert workflows, such as medicine, law, and finance, raises a critical question: how does AI involvement influence a user's trust in the human expert, the AI system, and their combination? To investigate this, we conducted a user study (N=77) featuring a simulated course-planning task. We compared various conditions that differed in both the presence of AI and the specific mode of human-AI collaboration. Our results indicate that while the adv",
+      "published": "2026-02-12",
+      "categories": [
+        "cs.HC"
+      ],
+      "link": "https://arxiv.org/abs/2602.11522v1",
+      "matched_keyword": "human-AI collaboration",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.12259v1",
+      "title": "Think like a Scientist: Physics-guided LLM Agent for Equation Discovery",
+      "authors": [
+        "Jianke Yang",
+        "Ohm Venkatachalam",
+        "Mohammad Kianezhad",
+        "Sharvaree Vadgama",
+        "Rose Yu"
+      ],
+      "summary": "Explaining observed phenomena through symbolic, interpretable formulas is a fundamental goal of science. Recently, large language models (LLMs) have emerged as promising tools for symbolic equation discovery, owing to their broad domain knowledge and strong reasoning capabilities. However, most existing LLM-based systems try to guess equations directly from data, without modeling the multi-step reasoning process that scientists often follow: first inferring physical properties such as symmetries",
+      "published": "2026-02-12",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "link": "https://arxiv.org/abs/2602.12259v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11964v1",
+      "title": "Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments",
+      "authors": [
+        "Romain Froger",
+        "Pierre Andrews",
+        "Matteo Bettini",
+        "Amar Budhiraja",
+        "Ricardo Silveira Cabral"
+      ],
+      "summary": "We introduce Gaia2, a benchmark for evaluating large language model agents in realistic, asynchronous environments. Unlike prior static or synchronous evaluations, Gaia2 introduces scenarios where environments evolve independently of agent actions, requiring agents to operate under temporal constraints, adapt to noisy and dynamic events, resolve ambiguity, and collaborate with other agents. Each scenario is paired with a write-action verifier, enabling fine-grained, action-level evaluation and m",
+      "published": "2026-02-12",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.11964v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11767v1",
+      "title": "TSR: Trajectory-Search Rollouts for Multi-Turn RL of LLM Agents",
+      "authors": [
+        "Aladin Djuhera",
+        "Swanand Ravindra Kadhe",
+        "Farhan Ahmed",
+        "Holger Boche"
+      ],
+      "summary": "Advances in large language models (LLMs) are driving a shift toward using reinforcement learning (RL) to train agents from iterative, multi-turn interactions across tasks. However, multi-turn RL remains challenging as rewards are often sparse or delayed, and environments can be stochastic. In this regime, naive trajectory sampling can hinder exploitation and induce mode collapse. We propose TSR (Trajectory-Search Rollouts), a training-time approach that repurposes test-time scaling ideas for imp",
+      "published": "2026-02-12",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "link": "https://arxiv.org/abs/2602.11767v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11754v1",
+      "title": "Cooperation Breakdown in LLM Agents Under Communication Delays",
+      "authors": [
+        "Keita Nishimoto",
+        "Kimitaka Asatani",
+        "Ichiro Sakata"
+      ],
+      "summary": "LLM-based multi-agent systems (LLM-MAS), in which autonomous AI agents cooperate to solve tasks, are gaining increasing attention. For such systems to be deployed in society, agents must be able to establish cooperation and coordination under real-world computational and communication constraints. We propose the FLCOA framework (Five Layers for Cooperation/Coordination among Autonomous Agents) to conceptualize how cooperation and coordination emerge in groups of autonomous agents, and highlight ",
+      "published": "2026-02-12",
+      "categories": [
+        "cs.MA",
+        "cs.AI",
+        "cs.GT"
+      ],
+      "link": "https://arxiv.org/abs/2602.11754v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11749v1",
+      "title": "AIR: Improving Agent Safety through Incident Response",
+      "authors": [
+        "Zibo Xiao",
+        "Jun Sun",
+        "Junjie Chen"
+      ],
+      "summary": "Large Language Model (LLM) agents are increasingly deployed in practice across a wide range of autonomous applications. Yet current safety mechanisms for LLM agents focus almost exclusively on preventing failures in advance, providing limited capabilities for responding to, containing, or recovering from incidents after they inevitably arise. In this work, we introduce AIR, the first incident response framework for LLM agent systems. AIR defines a domain-specific language for managing the incide",
+      "published": "2026-02-12",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.11749v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11619v1",
+      "title": "When Agents Disagree With Themselves: Measuring Behavioral Consistency in LLM-Based Agents",
+      "authors": [
+        "Aman Mehta"
+      ],
+      "summary": "Run the same LLM agent on the same task twice: do you get the same behavior? We find the answer is often no. In a study of 3,000 agent runs across three models (Llama 3.1 70B, GPT-4o, and Claude Sonnet 4.5) on HotpotQA, we observe that ReAct-style agents produce 2.0--4.2 distinct action sequences per 10 runs on average, even with identical inputs. More importantly, this variance predicts failure: tasks with consistent behavior ($\\leq$2 unique paths) achieve 80--92% accuracy, while highly inconsi",
+      "published": "2026-02-12",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.11619v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.12268v1",
+      "title": "CM2: Reinforcement Learning with Checklist Rewards for Multi-Turn and Multi-Step Agentic Tool Use",
+      "authors": [
+        "Zhen Zhang",
+        "Kaiqiang Song",
+        "Xun Wang",
+        "Yebowen Hu",
+        "Weixiang Yan"
+      ],
+      "summary": "AI agents are increasingly used to solve real-world tasks by reasoning over multi-turn user interactions and invoking external tools. However, applying reinforcement learning to such settings remains difficult: realistic objectives often lack verifiable rewards and instead emphasize open-ended behaviors; moreover, RL for multi-turn, multi-step agentic tool use is still underexplored; and building and maintaining executable tool environments is costly, limiting scale and coverage. We propose CM2,",
+      "published": "2026-02-12",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.12268v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.12207v1",
+      "title": "VIRENA: Virtual Arena for Research, Education, and Democratic Innovation",
+      "authors": [
+        "Emma Hoes",
+        "K. Jonathan Klueser",
+        "Fabrizio Gilardi"
+      ],
+      "summary": "Digital platforms shape how people communicate, deliberate, and form opinions. Studying these dynamics has become increasingly difficult due to restricted data access, ethical constraints on real-world experiments, and limitations of existing research tools. VIRENA (Virtual Arena) is a platform that enables controlled experimentation in realistic social media environments. Multiple participants interact simultaneously in realistic replicas of feed-based platforms (Instagram, Facebook, Reddit) an",
+      "published": "2026-02-12",
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.SI"
+      ],
+      "link": "https://arxiv.org/abs/2602.12207v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.12144v1",
+      "title": "On the Adoption of AI Coding Agents in Open-source Android and iOS Development",
+      "authors": [
+        "Muhammad Ahmad Khan",
+        "Hasnain Ali",
+        "Muneeb Rana",
+        "Muhammad Saqib Ilyas",
+        "Abdul Ali Bangash"
+      ],
+      "summary": "AI coding agents are increasingly contributing to software development, yet their impact on mobile development has received little empirical attention. In this paper, we present the first category-level empirical study of agent-generated code in open-source mobile app projects. We analyzed PR acceptance behaviors across mobile platforms, agents, and task categories using 2,901 AI-authored pull requests (PRs) in 193 verified Android and iOS open-source GitHub repositories in the AIDev dataset. We",
+      "published": "2026-02-12",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.12144v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.12136v1",
+      "title": "Embodied AI Agents for Team Collaboration in Co-located Blue-Collar Work",
+      "authors": [
+        "Kaisa Vaananen",
+        "Niels van Berkel",
+        "Donald McMillan",
+        "Thomas Olsson"
+      ],
+      "summary": "Blue-collar work is often highly collaborative, embodied, and situated in shared physical environments, yet most research on collaborative AI has focused on white-collar work. This position paper explores how the embodied nature of AI agents can support team collaboration and communication in co-located blue-collar workplaces. From the context of our newly started CAI-BLUE research project, we present two speculative scenarios from industrial and maintenance contexts that illustrate how embodied",
+      "published": "2026-02-12",
+      "categories": [
+        "cs.HC"
+      ],
+      "link": "https://arxiv.org/abs/2602.12136v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11931v1",
+      "title": "AdaptEvolve: Improving Efficiency of Evolutionary AI Agents through Adaptive Model Selection",
+      "authors": [
+        "Pretam Ray",
+        "Pratik Prabhanjan Brahma",
+        "Zicheng Liu",
+        "Emad Barsoum"
+      ],
+      "summary": "Evolutionary agentic systems intensify the trade-off between computational efficiency and reasoning capability by repeatedly invoking large language models (LLMs) during inference. This setting raises a central question: how can an agent dynamically select an LLM that is sufficiently capable for the current generation step while remaining computationally efficient? While model cascades offer a practical mechanism for balancing this trade-off, existing routing strategies typically rely on static ",
+      "published": "2026-02-12",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.11931v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11897v1",
+      "title": "Agentic AI for Cybersecurity: A Meta-Cognitive Architecture for Governable Autonomy",
+      "authors": [
+        "Andrei Kojukhov",
+        "Arkady Bovshover"
+      ],
+      "summary": "Contemporary AI-driven cybersecurity systems are predominantly architected as model-centric detection and automation pipelines optimized for task-level performance metrics such as accuracy and response latency. While effective for bounded classification tasks, these architectures struggle to support accountable decision-making under adversarial uncertainty, where actions must be justified, governed, and aligned with organizational and regulatory constraints. This paper argues that cybersecurity ",
+      "published": "2026-02-12",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.11897v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11865v1",
+      "title": "Intelligent AI Delegation",
+      "authors": [
+        "Nenad Tomašev",
+        "Matija Franklin",
+        "Simon Osindero"
+      ],
+      "summary": "AI agents are able to tackle increasingly complex tasks. To achieve more ambitious goals, AI agents need to be able to meaningfully decompose problems into manageable sub-components, and safely delegate their completion across to other AI agents and humans alike. Yet, existing task decomposition and delegation methods rely on simple heuristics, and are not able to dynamically adapt to environmental changes and robustly handle unexpected failures. Here we propose an adaptive framework for intelli",
+      "published": "2026-02-12",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.11865v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.12083v1",
+      "title": "Differentiable Modal Logic for Multi-Agent Diagnosis, Orchestration and Communication",
+      "authors": [
+        "Antonin Sulc"
+      ],
+      "summary": "As multi-agent AI systems evolve from simple chatbots to autonomous swarms, debugging semantic failures requires reasoning about knowledge, belief, causality, and obligation, precisely what modal logic was designed to formalize. However, traditional modal logic requires manual specification of relationship structures that are unknown or dynamic in real systems. This tutorial demonstrates differentiable modal logic (DML), implemented via Modal Logical Neural Networks (MLNNs), enabling systems to ",
+      "published": "2026-02-12",
+      "categories": [
+        "cs.AI",
+        "cs.LO"
+      ],
+      "link": "https://arxiv.org/abs/2602.12083v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11574v1",
+      "title": "Learning to Configure Agentic AI Systems",
+      "authors": [
+        "Aditya Taparia",
+        "Som Sagar",
+        "Ransalu Senanayake"
+      ],
+      "summary": "Configuring LLM-based agent systems involves choosing workflows, tools, token budgets, and prompts from a large combinatorial design space, and is typically handled today by fixed large templates or hand-tuned heuristics. This leads to brittle behavior and unnecessary compute, since the same cumbersome configuration is often applied to both easy and hard input queries. We formulate agent configuration as a query-wise decision problem and introduce ARC (Agentic Resource & Configuration learner), ",
+      "published": "2026-02-12",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.11574v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11924v1",
+      "title": "Who Does What? Archetypes of Roles Assigned to LLMs During Human-AI Decision-Making",
+      "authors": [
+        "Shreya Chappidi",
+        "Jatinder Singh",
+        "Andra V. Krauze"
+      ],
+      "summary": "LLMs are increasingly supporting decision-making across high-stakes domains, requiring critical reflection on the socio-technical factors that shape how humans and LLMs are assigned roles and interact during human-in-the-loop decision-making. This paper introduces the concept of human-LLM archetypes -- defined as re-curring socio-technical interaction patterns that structure the roles of humans and LLMs in collaborative decision-making. We describe 17 human-LLM archetypes derived from a scoping ",
+      "published": "2026-02-12",
+      "categories": [
+        "cs.HC",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.11924v1",
+      "matched_keyword": "human-LLM interaction",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11025v1",
+      "title": "Reality Copilot: Voice-First Human-AI Collaboration in Mixed Reality Using Large Multimodal Models",
+      "authors": [
+        "Liuchuan Yu",
+        "Yongqi Zhang",
+        "Lap-Fai Yu"
+      ],
+      "summary": "Large Multimodal Models (LMMs) have shown strong potential for assisting users in tasks, such as programming, content creation, and information access, yet their interaction remains largely limited to traditional interfaces such as desktops and smartphones. Meanwhile, advances in mixed reality (MR) hardware have enabled applications that extend beyond entertainment and into everyday use. However, most existing MR systems rely primarily on manual input (e.g., hand gestures or controllers) and pro",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.HC"
+      ],
+      "link": "https://arxiv.org/abs/2602.11025v1",
+      "matched_keyword": "human-AI collaboration",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11354v1",
+      "title": "ReplicatorBench: Benchmarking LLM Agents for Replicability in Social and Behavioral Sciences",
+      "authors": [
+        "Bang Nguyen",
+        "Dominik Soós",
+        "Qian Ma",
+        "Rochana R. Obadage",
+        "Zack Ranjan"
+      ],
+      "summary": "The literature has witnessed an emerging interest in AI agents for automated assessment of scientific papers. Existing benchmarks focus primarily on the computational aspect of this task, testing agents' ability to reproduce or replicate research outcomes when having access to the code and data. This setting, while foundational, (1) fails to capture the inconsistent availability of new data for replication as opposed to reproduction, and (2) lacks ground-truth diversity by focusing only on repro",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2602.11354v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11351v1",
+      "title": "Pushing Forward Pareto Frontiers of Proactive Agents with Behavioral Agentic Optimization",
+      "authors": [
+        "Yihang Yao",
+        "Zhepeng Cen",
+        "Haohong Lin",
+        "Shiqi Liu",
+        "Zuxin Liu"
+      ],
+      "summary": "Proactive large language model (LLM) agents aim to actively plan, query, and interact over multiple turns, enabling efficient task completion beyond passive instruction following and making them essential for real-world, user-centric applications. Agentic reinforcement learning (RL) has recently emerged as a promising solution for training such agents in multi-turn settings, allowing interaction strategies to be learned from feedback. However, existing pipelines face a critical challenge in bala",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "link": "https://arxiv.org/abs/2602.11351v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11348v1",
+      "title": "AgentNoiseBench: Benchmarking Robustness of Tool-Using LLM Agents Under Noisy Condition",
+      "authors": [
+        "Ruipeng Wang",
+        "Yuxin Chen",
+        "Yukai Wang",
+        "Chang Wu",
+        "Junfeng Fang"
+      ],
+      "summary": "Recent advances in large language models have enabled LLM-based agents to achieve strong performance on a variety of benchmarks. However, their performance in real-world deployments often that observed on benchmark settings, especially in complex and imperfect environments. This discrepancy largely arises because prevailing training and evaluation paradigms are typically built on idealized assumptions, overlooking the inherent stochasticity and noise present in real-world interactions. To bridge",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.11348v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11243v1",
+      "title": "Evaluating Memory Structure in LLM Agents",
+      "authors": [
+        "Alina Shutova",
+        "Alexandra Olenina",
+        "Ivan Vinogradov",
+        "Anton Sinitsin"
+      ],
+      "summary": "Modern LLM-based agents and chat assistants rely on long-term memory frameworks to store reusable knowledge, recall user preferences, and augment reasoning. As researchers create more complex memory architectures, it becomes increasingly difficult to analyze their capabilities and guide future memory designs. Most long-term memory benchmarks focus on simple fact retention, multi-hop recall, and time-based changes. While undoubtedly important, these capabilities can often be achieved with simple ",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2602.11243v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11224v1",
+      "title": "Agent-Diff: Benchmarking LLM Agents on Enterprise API Tasks via Code Execution with State-Diff-Based Evaluation",
+      "authors": [
+        "Hubert M. Pysklo",
+        "Artem Zhuravel",
+        "Patrick D. Watson"
+      ],
+      "summary": "We present Agent-Diff, a novel benchmarking framework for evaluating agentic Large Language Models (LLMs) on real-world tasks that execute code via external APIs. Agentic LLM performance varies due to differences in models, external tool access, prompt structures, and agentic frameworks. Benchmarks must make fundamental trade-offs between a sandboxed approach that controls for variation in software environments and more ecologically valid approaches employing real services. Agent-Diff attempts t",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.SE",
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2602.11224v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.10715v1",
+      "title": "Locomo-Plus: Beyond-Factual Cognitive Memory Evaluation Framework for LLM Agents",
+      "authors": [
+        "Yifei Li",
+        "Weidong Guo",
+        "Lingling Zhang",
+        "Rongman Xu",
+        "Muye Huang"
+      ],
+      "summary": "Long-term conversational memory is a core capability for LLM-based dialogue systems, yet existing benchmarks and evaluation protocols primarily focus on surface-level factual recall. In realistic interactions, appropriate responses often depend on implicit constraints such as user state, goals, or values that are not explicitly queried later. To evaluate this setting, we introduce \\textbf{LoCoMo-Plus}, a benchmark for assessing cognitive memory under cue--trigger semantic disconnect, where model",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.10715v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.10620v1",
+      "title": "ISD-Agent-Bench: A Comprehensive Benchmark for Evaluating LLM-based Instructional Design Agents",
+      "authors": [
+        "YoungHoon Jeon",
+        "Suwan Kim",
+        "Haein Son",
+        "Sookbun Lee",
+        "Yeil Jeong"
+      ],
+      "summary": "Large Language Model (LLM) agents have shown promising potential in automating Instructional Systems Design (ISD), a systematic approach to developing educational programs. However, evaluating these agents remains challenging due to the lack of standardized benchmarks and the risk of LLM-as-judge bias. We present ISD-Agent-Bench, a comprehensive benchmark comprising 25,795 scenarios generated via a Context Matrix framework that combines 51 contextual variables across 5 categories with 33 ISD sub",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.SE",
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2602.10620v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.10479v1",
+      "title": "From Prompt-Response to Goal-Directed Systems: The Evolution of Agentic AI Software Architecture",
+      "authors": [
+        "Mamdouh Alenezi"
+      ],
+      "summary": "Agentic AI denotes an architectural transition from stateless, prompt-driven generative models toward goal-directed systems capable of autonomous perception, planning, action, and adaptation through iterative control loops. This paper examines this transition by connecting foundational intelligent agent theories, including reactive, deliberative, and Belief-Desire-Intention models, with contemporary LLM-centric approaches such as tool invocation, memory-augmented reasoning, and multi-agent coord",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.SE"
+      ],
+      "link": "https://arxiv.org/abs/2602.10479v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.10453v1",
+      "title": "The Landscape of Prompt Injection Threats in LLM Agents: From Taxonomy to Analysis",
+      "authors": [
+        "Peiran Wang",
+        "Xinfeng Li",
+        "Chong Xiang",
+        "Jinghuai Zhang",
+        "Ying Li"
+      ],
+      "summary": "The evolution of Large Language Models (LLMs) has resulted in a paradigm shift towards autonomous agents, necessitating robust security against Prompt Injection (PI) vulnerabilities where untrusted inputs hijack agent behaviors. This SoK presents a comprehensive overview of the PI landscape, covering attacks, defenses, and their evaluation practices. Through a systematic literature review and quantitative analysis, we establish taxonomies that categorize PI attacks by payload generation strategi",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.CR",
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2602.10453v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.10429v1",
+      "title": "AIvilization v0: Toward Large-Scale Artificial Social Simulation with a Unified Agent Architecture and Adaptive Agent Profiles",
+      "authors": [
+        "Wenkai Fan",
+        "Shurui Zhang",
+        "Xiaolong Wang",
+        "Haowei Yang",
+        "Tsz Wai Chan"
+      ],
+      "summary": "AIvilization v0 is a publicly deployed large-scale artificial society that couples a resource-constrained sandbox economy with a unified LLM-agent architecture, aiming to sustain long-horizon autonomy while remaining executable under rapidly changing environment. To mitigate the tension between goal stability and reactive correctness, we introduce (i) a hierarchical branch-thinking planner that decomposes life goals into parallel objective branches and uses simulation-guided validation plus tier",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.MA",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.10429v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11409v1",
+      "title": "TRACER: Trajectory Risk Aggregation for Critical Episodes in Agentic Reasoning",
+      "authors": [
+        "Sina Tayebati",
+        "Divake Kumar",
+        "Nastaran Darabi",
+        "Davide Ettori",
+        "Ranganath Krishnan"
+      ],
+      "summary": "Estimating uncertainty for AI agents in real-world multi-turn tool-using interaction with humans is difficult because failures are often triggered by sparse critical episodes (e.g., looping, incoherent tool use, or user-agent miscoordination) even when local generation appears confident. Existing uncertainty proxies focus on single-shot text generation and therefore miss these trajectory-level breakdown signals. We introduce TRACER, a trajectory-level uncertainty metric for dual-control Tool-Age",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.11409v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11327v1",
+      "title": "Security Threat Modeling for Emerging AI-Agent Protocols: A Comparative Analysis of MCP, A2A, Agora, and ANP",
+      "authors": [
+        "Zeynab Anbiaee",
+        "Mahdi Rabbani",
+        "Mansur Mirani",
+        "Gunjan Piya",
+        "Igor Opushnyev"
+      ],
+      "summary": "The rapid development of the AI agent communication protocols, including the Model Context Protocol (MCP), Agent2Agent (A2A), Agora, and Agent Network Protocol (ANP), is reshaping how AI agents communicate with tools, services, and each other. While these protocols support scalable multi-agent interaction and cross-organizational interoperability, their security principles remain understudied, and standardized threat modeling is limited; no protocol-centric risk assessment framework has been est",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.11327v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.10814v1",
+      "title": "See, Plan, Snap: Evaluating Multimodal GUI Agents in Scratch",
+      "authors": [
+        "Xingyi Zhang",
+        "Yulei Ye",
+        "Kaifeng Huang",
+        "Wenhao Li",
+        "Xiangfeng Wang"
+      ],
+      "summary": "Block-based programming environments such as Scratch play a central role in low-code education, yet evaluating the capabilities of AI agents to construct programs through Graphical User Interfaces (GUIs) remains underexplored. We introduce ScratchWorld, a benchmark for evaluating multimodal GUI agents on program-by-construction tasks in Scratch. Grounded in the Use-Modify-Create pedagogical framework, ScratchWorld comprises 83 curated tasks spanning four distinct problem categories: Create, Debu",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.10814v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11412v1",
+      "title": "When Visibility Outpaces Verification: Delayed Verification and Narrative Lock-in in Agentic AI Discourse",
+      "authors": [
+        "Hanjing Shi",
+        "Dominic DiFranzo"
+      ],
+      "summary": "Agentic AI systems-autonomous entities capable of independent planning and execution-reshape the landscape of human-AI trust. Long before direct system exposure, user expectations are mediated through high-stakes public discourse on social platforms. However, platform-mediated engagement signals (e.g., upvotes) may inadvertently function as a ``credibility proxy,'' potentially stifling critical evaluation.   This paper investigates the interplay between social proof and verification timing in on",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.CY",
+        "cs.AI",
+        "cs.HC"
+      ],
+      "link": "https://arxiv.org/abs/2602.11412v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11301v1",
+      "title": "The PBSAI Governance Ecosystem: A Multi-Agent AI Reference Architecture for Securing Enterprise AI Estates",
+      "authors": [
+        "John M. Willis"
+      ],
+      "summary": "Enterprises are rapidly deploying large language models, retrieval augmented generation pipelines, and tool using agents into production, often on shared high performance computing clusters and cloud accelerator platforms that also support defensive analytics. These systems increasingly function not as isolated models but as AI estates: socio technical systems spanning models, agents, data pipelines, security tooling, human workflows, and hyperscale infrastructure. Existing governance and securi",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "link": "https://arxiv.org/abs/2602.11301v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.11024v1",
+      "title": "Chain-of-Look Spatial Reasoning for Dense Surgical Instrument Counting",
+      "authors": [
+        "Rishikesh Bhyri",
+        "Brian R Quaranto",
+        "Philip J Seger",
+        "Kaity Tung",
+        "Brendan Fox"
+      ],
+      "summary": "Accurate counting of surgical instruments in Operating Rooms (OR) is a critical prerequisite for ensuring patient safety during surgery. Despite recent progress of large visual-language models and agentic AI, accurately counting such instruments remains highly challenging, particularly in dense scenarios where instruments are tightly clustered. To address this problem, we introduce Chain-of-Look, a novel visual reasoning framework that mimics the sequential human counting process by enforcing a ",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.11024v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.10465v1",
+      "title": "Authenticated Workflows: A Systems Approach to Protecting Agentic AI",
+      "authors": [
+        "Mohan Rajagopalan",
+        "Vinay Rao"
+      ],
+      "summary": "Agentic AI systems automate enterprise workflows but existing defenses--guardrails, semantic filters--are probabilistic and routinely bypassed. We introduce authenticated workflows, the first complete trust layer for enterprise agentic AI. Security reduces to protecting four fundamental boundaries: prompts, tools, data, and context. We enforce intent (operations satisfy organizational policies) and integrity (operations are cryptographically authentic) at every boundary crossing, combining crypt",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.DC",
+        "cs.MA"
+      ],
+      "link": "https://arxiv.org/abs/2602.10465v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.10450v1",
+      "title": "Constructing Industrial-Scale Optimization Modeling Benchmark",
+      "authors": [
+        "Zhong Li",
+        "Hongliang Lu",
+        "Tao Wei",
+        "Wenyu Liu",
+        "Yuxuan Chen"
+      ],
+      "summary": "Optimization modeling underpins decision-making in logistics, manufacturing, energy, and finance, yet translating natural-language requirements into correct optimization formulations and solver-executable code remains labor-intensive. Although large language models (LLMs) have been explored for this task, evaluation is still dominated by toy-sized or synthetic benchmarks, masking the difficulty of industrial problems with $10^{3}$--$10^{6}$ (or more) variables and constraints. A key bottleneck i",
+      "published": "2026-02-11",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "math.OC"
+      ],
+      "link": "https://arxiv.org/abs/2602.10450v1",
+      "matched_keyword": "human-LLM interaction",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.10177v2",
+      "title": "Towards Autonomous Mathematics Research",
+      "authors": [
+        "Tony Feng",
+        "Trieu H. Trinh",
+        "Garrett Bingham",
+        "Dawsen Hwang",
+        "Yuri Chervonyi"
+      ],
+      "summary": "Recent advances in foundational models have yielded reasoning systems capable of achieving a gold-medal standard at the International Mathematical Olympiad. The transition from competition-level problem-solving to professional research, however, requires navigating vast literature and constructing long-horizon proofs. In this work, we introduce Aletheia, a math research agent that iteratively generates, verifies, and revises solutions end-to-end in natural language. Specifically, Aletheia is pow",
+      "published": "2026-02-10",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL",
+        "cs.CY"
+      ],
+      "link": "https://arxiv.org/abs/2602.10177v2",
+      "matched_keyword": "human-AI collaboration",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.10001v1",
+      "title": "Human-AI Synergy Supports Collective Creative Search",
+      "authors": [
+        "Chenyi Li",
+        "Raja Marjieh",
+        "Haoyu Hu",
+        "Mark Steyvers",
+        "Katherine M. Collins"
+      ],
+      "summary": "Generative AI is increasingly transforming creativity into a hybrid human-artificial process, but its impact on the quality and diversity of creative output remains unclear. We study collective creativity using a controlled word-guessing task that balances open-endedness with an objective measure of task performance. Participants attempt to infer a hidden target word, scored based on the semantic similarity of their guesses to the target, while also observing the best guess from previous players",
+      "published": "2026-02-10",
+      "categories": [
+        "cs.SI",
+        "cs.HC"
+      ],
+      "link": "https://arxiv.org/abs/2602.10001v1",
+      "matched_keyword": "human-AI collaboration",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.09496v1",
       "title": "Jokeasy: Exploring Human-AI Collaboration in Thematic Joke Generation",
       "authors": [
         "Yate Ge",
@@ -31,28 +757,521 @@
       ],
       "summary": "Thematic jokes are central to stand-up comedy, sitcoms, and public speaking, where contexts and punchlines rely on fresh material - news, anecdotes, and cultural references that resonate with the audience. Recent advances in Large Language Models (LLMs) have enabled interactive joke generation through conversational interfaces. Although LLMs enable interactive joke generation, ordinary conversational interfaces seldom give creators enough agency, control, or timely access to such source material",
       "published": "2026-02-10",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/fb3999a0d6d1b851e62b1fdc9fdeb28f94e0b381",
-      "matched_keyword": "human-AI collaboration LLM",
-      "source": "semantic_scholar"
+      "categories": [
+        "cs.HC"
+      ],
+      "link": "https://arxiv.org/abs/2602.09496v1",
+      "matched_keyword": "human-AI collaboration",
+      "source": "arxiv"
     },
     {
-      "id": "dadcf5b53ed96a478c10f455a0e4a6d14822b540",
-      "title": "LLM-Grounded Dynamic Task Planning with Hierarchical Temporal Logic for Human-Aware Multi-Robot Collaboration",
+      "id": "2602.09423v1",
+      "title": "Beyond Input-Output: Rethinking Creativity through Design-by-Analogy in Human-AI Collaboration",
       "authors": [
-        "Shuyuan Hu",
-        "Tao Lin",
-        "Kai Ye",
-        "Yang Yang",
-        "Tianwei Zhang"
+        "Xuechen Li",
+        "Shuai Zhang",
+        "Nan Cao",
+        "Qing Chen"
       ],
-      "summary": "While Large Language Models (LLM) enable non-experts to specify open-world multi-robot tasks, the generated plans often lack kinematic feasibility and are not efficient, especially in long-horizon scenarios. Formal methods like Linear Temporal Logic (LTL) offer correctness and optimal guarantees, but are typically confined to static, offline settings and struggle with computational scalability. To bridge this gap, we propose a neuro-symbolic framework that grounds LLM reasoning into hierarchical",
+      "summary": "While the proliferation of foundation models has significantly boosted individual productivity, it also introduces a potential challenge: the homogenization of creative content. In response, we revisit Design-by-Analogy (DbA), a cognitively grounded approach that fosters novel solutions by mapping inspiration across domains. However, prevailing perspectives often restrict DbA to early ideation or specific data modalities, while reducing AI-driven design to simplified input-output pipelines. Such",
       "published": "2026-02-10",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/dadcf5b53ed96a478c10f455a0e4a6d14822b540",
-      "matched_keyword": "human-AI collaboration LLM",
-      "source": "semantic_scholar"
+      "categories": [
+        "cs.HC",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.09423v1",
+      "matched_keyword": "human-AI collaboration",
+      "source": "arxiv"
     },
+    {
+      "id": "2602.10226v1",
+      "title": "Self-Evolving Recommendation System: End-To-End Autonomous Model Optimization With LLM Agents",
+      "authors": [
+        "Haochen Wang",
+        "Yi Wu",
+        "Daryl Chang",
+        "Li Wei",
+        "Lukasz Heldt"
+      ],
+      "summary": "Optimizing large-scale machine learning systems, such as recommendation models for global video platforms, requires navigating a massive hyperparameter search space and, more critically, designing sophisticated optimizers, architectures, and reward functions to capture nuanced user behaviors. Achieving substantial improvements in these areas is a non-trivial task, traditionally relying on extensive manual iterations to test new hypotheses. We propose a self-evolving system that leverages Large L",
+      "published": "2026-02-10",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.10226v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.10046v1",
+      "title": "Artisan: Agentic Artifact Evaluation",
+      "authors": [
+        "Doehyun Baek",
+        "Michael Pradel"
+      ],
+      "summary": "Artifact evaluation has become standard practice in the software engineering community to ensure the reproducibility of research results. However, the current manual process is labor-intensive, and hence, done only as a one-time assessment for a subset of all papers. To support the artifact evaluation effort, we present Artisan, an automated LLM agent for reproducing research results given a paper and its artifact. The approach is enabled by two key contributions: First, we frame the reproductio",
+      "published": "2026-02-10",
+      "categories": [
+        "cs.SE"
+      ],
+      "link": "https://arxiv.org/abs/2602.10046v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.09937v1",
+      "title": "Why Do AI Agents Systematically Fail at Cloud Root Cause Analysis?",
+      "authors": [
+        "Taeyoon Kim",
+        "Woohyeok Park",
+        "Hoyeong Yun",
+        "Kyungyong Lee"
+      ],
+      "summary": "Failures in large-scale cloud systems incur substantial financial losses, making automated Root Cause Analysis (RCA) essential for operational stability. Recent efforts leverage Large Language Model (LLM) agents to automate this task, yet existing systems exhibit low detection accuracy even with capable models, and current evaluation frameworks assess only final answer correctness without revealing why the agent's reasoning failed. This paper presents a process level failure analysis of LLM-base",
+      "published": "2026-02-10",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.09937v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.09817v1",
+      "title": "AnalyticsGPT: An LLM Workflow for Scientometric Question Answering",
+      "authors": [
+        "Khang Ly",
+        "Georgios Cheirmpos",
+        "Adrian Raudaschl",
+        "Christopher James",
+        "Seyed Amin Tabatabaei"
+      ],
+      "summary": "This paper introduces AnalyticsGPT, an intuitive and efficient large language model (LLM)-powered workflow for scientometric question answering. This underrepresented downstream task addresses the subcategory of meta-scientific questions concerning the \"science of science.\" When compared to traditional scientific question answering based on papers, the task poses unique challenges in the planning phase. Namely, the need for named-entity recognition of academic entities within questions and multi",
+      "published": "2026-02-10",
+      "categories": [
+        "cs.CL",
+        "cs.DL"
+      ],
+      "link": "https://arxiv.org/abs/2602.09817v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.10009v1",
+      "title": "Discovering High Level Patterns from Simulation Traces",
+      "authors": [
+        "Sean Memery",
+        "Kartic Subr"
+      ],
+      "summary": "Artificial intelligence (AI) agents embedded in environments with physics-based interaction face many challenges including reasoning, planning, summarization, and question answering. This problem is exacerbated when a human user wishes to either guide or interact with the agent in natural language. Although the use of Language Models (LMs) is the default choice, as an AI tool, they struggle with tasks involving physics. The LM's capability for physical reasoning is learned from observational dat",
+      "published": "2026-02-10",
+      "categories": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "link": "https://arxiv.org/abs/2602.10009v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.09345v1",
+      "title": "AgentCgroup: Understanding and Controlling OS Resources of AI Agents",
+      "authors": [
+        "Yusheng Zheng",
+        "Jiakun Fan",
+        "Quanzhi Fu",
+        "Yiwei Yang",
+        "Wei Zhang"
+      ],
+      "summary": "AI agents are increasingly deployed in multi-tenant cloud environments, where they execute diverse tool calls within sandboxed containers, each call with distinct resource demands and rapid fluctuations. We present a systematic characterization of OS-level resource dynamics in sandboxed AI coding agents, analyzing 144 software engineering tasks from the SWE-rebench benchmark across two LLM models. Our measurements reveal that (1) OS-level execution (tool calls, container and agent initialization",
+      "published": "2026-02-10",
+      "categories": [
+        "cs.OS",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.09345v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.09286v1",
+      "title": "Human Control Is the Anchor, Not the Answer: Early Divergence of Oversight in Agentic AI Communities",
+      "authors": [
+        "Hanjing Shi",
+        "Dominic DiFranzo"
+      ],
+      "summary": "Oversight for agentic AI is often discussed as a single goal (\"human control\"), yet early adoption may produce role-specific expectations. We present a comparative analysis of two newly active Reddit communities in Jan--Feb 2026 that reflect different socio-technical roles: r/OpenClaw (deployment and operations) and r/Moltbook (agent-centered social interaction). We conceptualize this period as an early-stage crystallization phase, where oversight expectations form before norms reach equilibrium",
+      "published": "2026-02-10",
+      "categories": [
+        "cs.AI",
+        "cs.CY",
+        "cs.HC"
+      ],
+      "link": "https://arxiv.org/abs/2602.09286v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.10295v1",
+      "title": "ECHO: An Open Research Platform for Evaluation of Chat, Human Behavior, and Outcomes",
+      "authors": [
+        "Jiqun Liu",
+        "Nischal Dinesh",
+        "Ran Yu"
+      ],
+      "summary": "ECHO (Evaluation of Chat, Human behavior, and Outcomes) is an open research platform designed to support reproducible, mixed-method studies of human interaction with both conversational AI systems and Web search engines. It enables researchers from varying disciplines to orchestrate end-to-end experimental workflows that integrate consent and background surveys, chat-based and search-based information-seeking sessions, writing or judgment tasks, and pre- and post-task evaluations within a unifie",
+      "published": "2026-02-10",
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.IR"
+      ],
+      "link": "https://arxiv.org/abs/2602.10295v1",
+      "matched_keyword": "human-centered AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.09841v1",
+      "title": "Hybrid Responsible AI-Stochastic Approach for SLA Compliance in Multivendor 6G Networks",
+      "authors": [
+        "Emanuel Figetakis",
+        "Ahmed Refaey Hussein"
+      ],
+      "summary": "The convergence of AI and 6G network automation introduces new challenges in maintaining transparency, fairness, and accountability across multivendor management systems. Although closed-loop AI orchestration improves adaptability and self-optimization, it also creates a responsibility gap, where violations of SLAs cannot be causally attributed to specific agents or vendors. This paper presents a hybrid responsible AI-stochastic learning framework that embeds fairness, robustness, and auditabili",
+      "published": "2026-02-10",
+      "categories": [
+        "cs.NI",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "link": "https://arxiv.org/abs/2602.09841v1",
+      "matched_keyword": "responsible AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.09269v1",
+      "title": "Measuring Inclusion in Interaction: Inclusion Analytics for Human-AI Collaborative Learning",
+      "authors": [
+        "Jaeyoon Choi",
+        "Nia Nixon"
+      ],
+      "summary": "Inclusion, equity, and access are widely valued in AI and education, yet are often assessed through coarse sample descriptors or post-hoc self-reports that miss how inclusion is shaped moment by moment in collaborative problem solving (CPS). In this proof-of-concept paper, we introduce inclusion analytics, a discourse-based framework for examining inclusion as a dynamic, interactional process in CPS. We conceptualize inclusion along three complementary dimensions -- participation equity, affecti",
+      "published": "2026-02-09",
+      "categories": [
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2602.09269v1",
+      "matched_keyword": "human-AI collaboration",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.09185v1",
+      "title": "AIDev: Studying AI Coding Agents on GitHub",
+      "authors": [
+        "Hao Li",
+        "Haoxiang Zhang",
+        "Ahmed E. Hassan"
+      ],
+      "summary": "AI coding agents are rapidly transforming software engineering by performing tasks such as feature development, debugging, and testing. Despite their growing impact, the research community lacks a comprehensive dataset capturing how these agents are used in real-world projects. To address this gap, we introduce AIDev, a large-scale dataset focused on agent-authored pull requests (Agentic-PRs) in real-world GitHub repositories. AIDev aggregates 932,791 Agentic-PRs produced by five agents: OpenAI ",
+      "published": "2026-02-09",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.09185v1",
+      "matched_keyword": "human-AI collaboration",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.09270v1",
+      "title": "Collective Behavior of AI Agents: the Case of Moltbook",
+      "authors": [
+        "Giordano De Marzo",
+        "David Garcia"
+      ],
+      "summary": "We present a large scale data analysis of Moltbook, a Reddit-style social media platform exclusively populated by AI agents. Analyzing over 369,000 posts and 3.0 million comments from approximately 46,000 active agents, we find that AI collective behavior exhibits many of the same statistical regularities observed in human online communities: heavy-tailed distributions of activity, power-law scaling of popularity metrics, and temporal decay patterns consistent with limited attention dynamics. Ho",
+      "published": "2026-02-09",
+      "categories": [
+        "physics.soc-ph",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "link": "https://arxiv.org/abs/2602.09270v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.09163v1",
+      "title": "FlyAOC: Evaluating Agentic Ontology Curation of Drosophila Scientific Knowledge Bases",
+      "authors": [
+        "Xingjian Zhang",
+        "Sophia Moylan",
+        "Ziyang Xiong",
+        "Qiaozhu Mei",
+        "Yichen Luo"
+      ],
+      "summary": "Scientific knowledge bases accelerate discovery by curating findings from primary literature into structured, queryable formats for both human researchers and emerging AI systems. Maintaining these resources requires expert curators to search relevant papers, reconcile evidence across documents, and produce ontology-grounded annotations - a workflow that existing benchmarks, focused on isolated subtasks like named entity recognition or relation extraction, do not capture. We present FlyBench to ",
+      "published": "2026-02-09",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.IR"
+      ],
+      "link": "https://arxiv.org/abs/2602.09163v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.08949v1",
+      "title": "Digital Twin and Agentic AI for Wild Fire Disaster Management: Intelligent Virtual Situation Room",
+      "authors": [
+        "Mohammad Morsali",
+        "Siavash H. Khajavi"
+      ],
+      "summary": "According to the United Nations, wildfire frequency and intensity are projected to increase by approximately 14% by 2030 and 30% by 2050 due to global warming, posing critical threats to life, infrastructure, and ecosystems. Conventional disaster management frameworks rely on static simulations and passive data acquisition, hindering their ability to adapt to arbitrarily evolving wildfire episodes in real-time. To address these limitations, we introduce the Intelligent Virtual Situation Room (IV",
+      "published": "2026-02-09",
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "link": "https://arxiv.org/abs/2602.08949v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.08554v1",
+      "title": "Three Lessons from Citizen-Centric Participatory AI Design",
+      "authors": [
+        "Eike Schneiders",
+        "Sarah Kiden",
+        "Beining Zhang",
+        "Bruno Rafael Queiros Arcanjo",
+        "Zhaoxing Li"
+      ],
+      "summary": "This workshop paper examines challenges in designing agentic AI systems from a citizen-centric perspective. Drawing on three participatory workshops conducted in 2025 with members of the general public and cross-sector stakeholders, we explore how societal values and expectations shape visions of future AI agents. Using constructive design research methods, participants engaged in storytelling and lo-fi prototyping to reflect on potential community impacts. We identify three key challenges: enab",
+      "published": "2026-02-09",
+      "categories": [
+        "cs.CY",
+        "cs.HC"
+      ],
+      "link": "https://arxiv.org/abs/2602.08554v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.07754v1",
+      "title": "Humanizing AI Grading: Student-Centered Insights on Fairness, Trust, Consistency and Transparency",
+      "authors": [
+        "Bahare Riahi",
+        "Veronica Catete"
+      ],
+      "summary": "This study investigates students' perceptions of Artificial Intelligence (AI) grading systems in an undergraduate computer science course (n = 27), focusing on a block-based programming final project. Guided by the ethical principles framework articulated by Jobin (2019), our study examines fairness, trust, consistency, and transparency in AI grading by comparing AI-generated feedback with original human-graded feedback. Findings reveal concerns about AI's lack of contextual understanding and pe",
+      "published": "2026-02-08",
+      "categories": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "link": "https://arxiv.org/abs/2602.07754v1",
+      "matched_keyword": "trustworthy AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.07491v1",
+      "title": "GraphAgents: Knowledge Graph-Guided Agentic AI for Cross-Domain Materials Design",
+      "authors": [
+        "Isabella A. Stewart",
+        "Tarjei Paule Hage",
+        "Yu-Chuan Hsu",
+        "Markus J. Buehler"
+      ],
+      "summary": "Large Language Models (LLMs) promise to accelerate discovery by reasoning across the expanding scientific landscape. Yet, the challenge is no longer access to information but connecting it in meaningful, domain-spanning ways. In materials science, where innovation demands integrating concepts from molecular chemistry to mechanical performance, this is especially acute. Neither humans nor single-agent LLMs can fully contend with this torrent of information, with the latter often prone to hallucin",
+      "published": "2026-02-07",
+      "categories": [
+        "cs.AI",
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci",
+        "cond-mat.soft",
+        "cs.LG"
+      ],
+      "link": "https://arxiv.org/abs/2602.07491v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.07433v1",
+      "title": "Multi-Agent Systems Shape Social Norms for Prosocial Behavior Change",
+      "authors": [
+        "Yibin Feng",
+        "Tianqi Song",
+        "Yugin Tan",
+        "Zicheng Zhu",
+        "Yi-Chieh Lee"
+      ],
+      "summary": "Social norm interventions are used promote prosocial behaviors by highlighting prevalent actions, but their effectiveness is often limited in heterogeneous populations where shared understandings of desirable behaviors are lacking. This study explores whether multi-agent systems can establish \"virtual social norms\" to encourage donation behavior. We conducted an online experiment where participants interacted with a group of agents to discuss donation behaviors. Changes in perceived social norms",
+      "published": "2026-02-07",
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.CY"
+      ],
+      "link": "https://arxiv.org/abs/2602.07433v1",
+      "matched_keyword": "computer-supported cooperative work",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.07266v1",
+      "title": "ADCanvas: Accessible and Conversational Audio Description Authoring for Blind and Low Vision Creators",
+      "authors": [
+        "Franklin Mingzhe Li",
+        "Michael Xieyang Liu",
+        "Cynthia L. Bennett",
+        "Shaun K. Kane"
+      ],
+      "summary": "Audio Description (AD) provides essential access to visual media for blind and low vision (BLV) audiences. Yet current AD production tools remain largely inaccessible to BLV video creators, who possess valuable expertise but face barriers due to visually-driven interfaces. We present ADCanvas, a multimodal authoring system that supports non-visual control over audio description (AD) creation. ADCanvas combines conversational interaction with keyboard-based playback control and a plain-text, scre",
+      "published": "2026-02-06",
+      "categories": [
+        "cs.HC"
+      ],
+      "link": "https://arxiv.org/abs/2602.07266v1",
+      "matched_keyword": "human-AI collaboration",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.06305v2",
+      "title": "Reimagining Legal Fact Verification with GenAI: Toward Effective Human-AI Collaboration",
+      "authors": [
+        "Sirui Han",
+        "Yuyao Zhang",
+        "Yidan Huang",
+        "Xueyan Li",
+        "Chengzhong Liu"
+      ],
+      "summary": "Fact verification is a critical yet underexplored component of non-litigation legal practice. While existing research has examined automation in legal workflow and human-AI collaboration in high-stakes domains, little is known about how GenAI can support fact verification, a task that demands prudent judgment and strict accountability. To address this, we conducted semi-structured interviews with 18 lawyers to understand their current verification practices, attitudes toward GenAI adoption, and ",
+      "published": "2026-02-06",
+      "categories": [
+        "cs.HC"
+      ],
+      "link": "https://arxiv.org/abs/2602.06305v2",
+      "matched_keyword": "human-AI collaboration",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.07243v1",
+      "title": "Realistic Synthetic Household Data Generation at Scale",
+      "authors": [
+        "Siddharth Singh",
+        "Ifrah Idrees",
+        "Abraham Dauhajre"
+      ],
+      "summary": "Advancements in foundation models have catalyzed research in Embodied AI to develop interactive agents capable of environmental reasoning and interaction. Developing such agents requires diverse, large-scale datasets. Prior frameworks generate synthetic data for long-term human-robot interactions but fail to model the bidirectional influence between human behavior and household environments. Our proposed generative framework creates household datasets at scale through loosely coupled generation ",
+      "published": "2026-02-06",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "link": "https://arxiv.org/abs/2602.07243v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.07215v1",
+      "title": "Multi-Agentic AI for Fairness-Aware and Accelerated Multi-modal Large Model Inference in Real-world Mobile Edge Networks",
+      "authors": [
+        "Haiyuan Li",
+        "Hari Madhukumar",
+        "Shuangyi Yan",
+        "Yulei Wu",
+        "Dimitra Simeonidou"
+      ],
+      "summary": "Generative AI (GenAI) has transformed applications in natural language processing and content creation, yet centralized inference remains hindered by high latency, limited customizability, and privacy concerns. Deploying large models (LMs) in mobile edge networks emerges as a promising solution. However, it also poses new challenges, including heterogeneous multi-modal LMs with diverse resource demands and inference speeds, varied prompt/output modalities that complicate orchestration, and resou",
+      "published": "2026-02-06",
+      "categories": [
+        "eess.SY",
+        "cs.AI",
+        "cs.DC"
+      ],
+      "link": "https://arxiv.org/abs/2602.07215v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.06841v2",
+      "title": "From Features to Actions: Explainability in Traditional and Agentic AI Systems",
+      "authors": [
+        "Sindhuja Chaduvula",
+        "Jessee Ho",
+        "Kina Kim",
+        "Aravind Narayanan",
+        "Mahshid Alinoori"
+      ],
+      "summary": "Over the last decade, explainable AI has primarily focused on interpreting individual model predictions, producing post-hoc explanations that relate inputs to outputs under a fixed decision structure. Recent advances in large language models (LLMs) have enabled agentic AI systems whose behaviour unfolds over multi-step trajectories. In these settings, success and failure are determined by sequences of decisions rather than a single output. While useful, it remains unclear how explanation approac",
+      "published": "2026-02-06",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.06841v2",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.06486v1",
+      "title": "JADE: Expert-Grounded Dynamic Evaluation for Open-Ended Professional Tasks",
+      "authors": [
+        "Lanbo Lin",
+        "Jiayao Liu",
+        "Tianyuan Yang",
+        "Li Cai",
+        "Yuanwu Xu"
+      ],
+      "summary": "Evaluating agentic AI on open-ended professional tasks faces a fundamental dilemma between rigor and flexibility. Static rubrics provide rigorous, reproducible assessment but fail to accommodate diverse valid response strategies, while LLM-as-a-judge approaches adapt to individual responses yet suffer from instability and bias. Human experts address this dilemma by combining domain-grounded principles with dynamic, claim-level assessment. Inspired by this process, we propose JADE, a two-layer ev",
+      "published": "2026-02-06",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2602.06486v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.06310v1",
+      "title": "Trustworthy AI Software Engineers",
+      "authors": [
+        "Aldeida Aleti",
+        "Baishakhi Ray",
+        "Rashina Hoda",
+        "Simin Chen"
+      ],
+      "summary": "With the rapid rise of AI coding agents, the fundamental premise of what it means to be a software engineer is in question. In this vision paper, we re-examine what it means for an AI agent to be considered a software engineer and then critically think about what makes such an agent trustworthy. \\textit{Grounded} in established definitions of software engineering (SE) and informed by recent research on agentic AI systems, we conceptualise AI software engineers as participants in human-AI SE team",
+      "published": "2026-02-06",
+      "categories": [
+        "cs.SE"
+      ],
+      "link": "https://arxiv.org/abs/2602.06310v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.06395v1",
+      "title": "Empirical Analysis of Adversarial Robustness and Explainability Drift in Cybersecurity Classifiers",
+      "authors": [
+        "Mona Rajhans",
+        "Vishal Khawarey"
+      ],
+      "summary": "Machine learning (ML) models are increasingly deployed in cybersecurity applications such as phishing detection and network intrusion prevention. However, these models remain vulnerable to adversarial perturbations small, deliberate input modifications that can degrade detection accuracy and compromise interpretability. This paper presents an empirical study of adversarial robustness and explainability drift across two cybersecurity domains phishing URL classification and network intrusion detec",
+      "published": "2026-02-06",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "link": "https://arxiv.org/abs/2602.06395v1",
+      "matched_keyword": "trustworthy AI",
+      "source": "arxiv"
+    }
+  ],
+  "semantic_scholar": [
     {
       "id": "8b82fa412642816f7db5deaed364a836ebdd201d",
       "title": "Thinking Makes LLM Agents Introverted: How Mandatory Thinking Can Backfire in User-Engaged Agents",
@@ -105,23 +1324,6 @@
       "source": "semantic_scholar"
     },
     {
-      "id": "0bf6ab530c50492142bf37789e81e6637315a012",
-      "title": "From Human-Human Collaboration to Human-Agent Collaboration: A Vision, Design Philosophy, and an Empirical Framework for Achieving Successful Partnerships Between Humans and LLM Agents",
-      "authors": [
-        "Bingsheng Yao",
-        "Chaoran Chen",
-        "A. Wang",
-        "Sherry Tongshuang Wu",
-        "T. Li"
-      ],
-      "summary": "The emergence of Large Language Model (LLM) agents enables us to build agent-based intelligent systems that move beyond the role of a\"tool\"to become genuine collaborators with humans, thereby realizing a novel human-agent collaboration paradigm. Our vision is that LLM agents should resemble remote human collaborators, which allows HCI researchers to ground the future exploration in decades of research on trust, awareness, and common ground in remote human collaboration, while also revealing the ",
-      "published": "2026-02-05",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/0bf6ab530c50492142bf37789e81e6637315a012",
-      "matched_keyword": "human-AI collaboration LLM",
-      "source": "semantic_scholar"
-    },
-    {
       "id": "b901ef580574dc6b16cc2a61f56802e781b7aeff",
       "title": "Testing LLM Diagnostics in Endodontics: The Impact of Linguistic Variation on Unseen Cases.",
       "authors": [
@@ -148,6 +1350,22 @@
       "citations": 0,
       "link": "https://www.semanticscholar.org/paper/a8613e716d87ac0faecdbf6acd5197ab6951a466",
       "matched_keyword": "AI agent workflow",
+      "source": "semantic_scholar"
+    },
+    {
+      "id": "822f705e1d2058d8cb698a365effddaf7277e1f4",
+      "title": "Human-centered AI to promote youth mental health: a serendipitous natural experiment enabled by a digital health platform",
+      "authors": [
+        "T. Katapally",
+        "Nadine Elsahli",
+        "S. Ibrahim",
+        "Jasmin Bhawra"
+      ],
+      "summary": "Background Health systems are struggling to deliver timely preventive care, particularly for marginalized populations, necessitating integration across health, education, and social services. For Indigenous youth in rural communities, fragmented services, isolation, and limited culturally safe options worsen mental health disparities. Interactive technologies, particularly human-centered artificial intelligence (AI)-enabled digital health platforms grounded in human-computer interaction (HCI), c",
+      "published": "2026-02-02",
+      "citations": 0,
+      "link": "https://www.semanticscholar.org/paper/822f705e1d2058d8cb698a365effddaf7277e1f4",
+      "matched_keyword": "human-centered AI systems",
       "source": "semantic_scholar"
     },
     {
@@ -181,6 +1399,21 @@
       "source": "semantic_scholar"
     },
     {
+      "id": "802f3d25799b1a1e9543e97031f24e8f009770f4",
+      "title": "An HCAI Methodological Framework: Putting it Into Action to Enable Human-Centered AI",
+      "authors": [
+        "Wei Xu",
+        "Zaifeng Gao",
+        "Marvin J. Dainoff"
+      ],
+      "summary": "Human-centered artificial intelligence (HCAI) is a design philosophy that prioritizes humans in the design, development, deployment, and use of AI systems, aiming to maximize AI’s benefits while mitigating its negative impacts. Despite its growing prominence in literature, the lack of methodological guidance for its implementation poses challenges to HCAI practice. To address this gap, this article proposes a comprehensive HCAI methodological framework (HCAI-MF) comprising five key components: H",
+      "published": "2026-02-01",
+      "citations": 11,
+      "link": "https://www.semanticscholar.org/paper/802f3d25799b1a1e9543e97031f24e8f009770f4",
+      "matched_keyword": "human-centered AI systems",
+      "source": "semantic_scholar"
+    },
+    {
       "id": "5eb71f6e5f5bf8b1f7299601df0eb309576edc96",
       "title": "How topic content shapes LLM personality-tailored persuasion: semantic anchoring and topic stereotype effects",
       "authors": [
@@ -196,20 +1429,18 @@
       "source": "semantic_scholar"
     },
     {
-      "id": "ae236ed343c8fd827b06f0d6f7a2bbaaa34fec83",
-      "title": "A Human-Centred AI System for Multi-Actor Planning and Collaboration in Family Learning",
+      "id": "1ba6983531e7c074c1d70fea993c3f6ca64d2969",
+      "title": "Designing Understandable and Fair AI for Learning: The PEARL Framework for Human-Centered Educational AI",
       "authors": [
-        "Si Chen",
-        "Jingyi Xie",
-        "Yao Li",
-        "Ya-Fang Lin",
-        "He Zhang"
+        "S. Dakshit",
+        "Kouider Mokhtari",
+        "A. Khalid"
       ],
-      "summary": "Family learning takes place in everyday routines where children and caregivers read, practice, and develop new skills together. Despite growing interest in AI tutors, most existing systems are designed for single learners or classroom settings and do not address the distributed planning, coordination, and execution demands of learning at home. This paper introduces ParPal, a human-centred, LLM-powered system that supports multi-actor family learning by decomposing learning goals into actionable ",
+      "summary": "As artificial intelligence (AI) is increasingly used in classrooms, tutoring systems, and learning platforms, it is essential that these tools are not only powerful, but also easy to understand, fair, and supportive of real learning. Many current AI systems can generate fluent responses or accurate predictions, yet they often fail to clearly explain their decisions, reflect students’ cultural contexts, or give learners and educators meaningful control. This gap can reduce trust and limit the edu",
       "published": "2026-01-28",
       "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/ae236ed343c8fd827b06f0d6f7a2bbaaa34fec83",
-      "matched_keyword": "human-AI collaboration LLM",
+      "link": "https://www.semanticscholar.org/paper/1ba6983531e7c074c1d70fea993c3f6ca64d2969",
+      "matched_keyword": "human-centered AI systems",
       "source": "semantic_scholar"
     },
     {
@@ -230,48 +1461,20 @@
       "source": "semantic_scholar"
     },
     {
-      "id": "2cf5b15bc32dfa983f5e4bd24fb6ed2e4f6c6e87",
-      "title": "Autonomous Multi-Agent AI for High-Throughput Polymer Informatics: From Property Prediction to Generative Design Across Synthetic and Bio-Polymers",
+      "id": "b02e865f62b7a79909a3b3c9ecf28f2e42ca6e67",
+      "title": "ResQConnect: An AI-Powered Multi-Agentic Platform for Human-Centered and Resilient Disaster Response",
       "authors": [
-        "Mahule Roy",
-        "Adib Bazgir",
-        "Arthur da Silva Sousa Santos",
-        "Yuwen Zhang"
+        "Aththanayake Aththanayake",
+        "Chemini Mallikarachchi",
+        "Janeesha Wickramasinghe",
+        "Sajeev Kugarajah",
+        "D. Meedeniya"
       ],
-      "summary": "We present an integrated multiagent AI ecosystem for polymer discovery that unifies high-throughput materials workflows, artificial intelligence, and computational modeling within a single Polymer Research Lifecycle (PRL) pipeline. The system orchestrates specialized agents powered by state-of-the-art large language models (DeepSeek-V2 and DeepSeek-Coder) to retrieve and reason over scientific resources, invoke external tools, execute domain-specific code, and perform metacognitive self-assessme",
-      "published": "2026-01-25",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/2cf5b15bc32dfa983f5e4bd24fb6ed2e4f6c6e87",
-      "matched_keyword": "AI agent workflow",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "ee72f858e8b46326d0fb58db6b74449fdac1e4a2",
-      "title": "Human-AI collaboration enhances the performance of large language models in risk of bias assessment",
-      "authors": [
-        "Yingyin Li",
-        "Fengchun Yang",
-        "Meng Wu",
-        "Jiao Li"
-      ],
-      "summary": "",
-      "published": "2026-01-20",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/ee72f858e8b46326d0fb58db6b74449fdac1e4a2",
-      "matched_keyword": "human-AI collaboration LLM",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "98a6b200d61cee0d0c3b58fb9140786b7bfbc471",
-      "title": "Inventory optimization under supply chain disruptions: Leveraging large language models for human-AI collaborative decision-making",
-      "authors": [
-        "Ruijing Wu"
-      ],
-      "summary": "",
+      "summary": "Effective disaster management is critical for safeguarding lives, infrastructure and economies in an era of escalating natural hazards like floods and landslides. Despite advanced early-warning systems and coordination frameworks, a persistent “last-mile” challenge undermines response effectiveness: transforming fragmented and unstructured multimodal data into timely and accountable field actions. This paper introduces ResQConnect, a human-centered, AI-powered multimodal multi-agent platform tha",
       "published": "2026-01-19",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/98a6b200d61cee0d0c3b58fb9140786b7bfbc471",
-      "matched_keyword": "human-AI collaboration LLM",
+      "citations": 1,
+      "link": "https://www.semanticscholar.org/paper/b02e865f62b7a79909a3b3c9ecf28f2e42ca6e67",
+      "matched_keyword": "human-centered AI systems",
       "source": "semantic_scholar"
     },
     {
@@ -292,68 +1495,17 @@
       "source": "semantic_scholar"
     },
     {
-      "id": "192a166871cf394d97cb8c6cf09e73325a2800dd",
-      "title": "Exploring Human-AI Collaboration Dynamics in LLM-supported Engineering Project-Based Learning",
+      "id": "2e207f78284460ce59438de4512e2ba3b8127547",
+      "title": "HYBRID SENSING AND CLOUD DEPLOYED AGENT MESH FOR AI‑DRIVEN TRAFFIC OPTIMIZATION IN CONGESTED CITIES",
       "authors": [
-        "Xuan Qiu",
-        "Tin Nok Mak"
+        "Florin Andreescu",
+        "Dorin Simionescu"
       ],
-      "summary": "",
+      "summary": "Urban traffic congestion in crowded cities is increasingly shaped by short term demand fluctuations, spillback formation, and heterogeneous vehicle dynamics, which challenge fixed time signal plans and reactive controllers. This paper proposes an AI enabled intersection agent that combines (i) a deep learning (DL) predictor for short horizon traffic forecasting (15–60 minutes) and (ii) an intersection level machine learning (ML) controller that applies bounded adaptations of green times based on",
       "published": "2026",
       "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/192a166871cf394d97cb8c6cf09e73325a2800dd",
-      "matched_keyword": "human-AI collaboration LLM",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "66ea1aa845a34c6693e11d31789a0eec330433de",
-      "title": "Human-LLM Collaboration Framework for Translating Health Instruments",
-      "authors": [
-        "Hind Bitar",
-        "Omaima Almatrafi",
-        "Amal Babour",
-        "Ohoud Alzamzami",
-        "Mayda Alrige"
-      ],
-      "summary": "Large language models have revolutionized various sectors, including education and healthcare, by demonstrating significant advancements in producing human-like text and enhancing translation accuracy. Despite these advancements, the conventional process of cross-cultural instrument translation remains labor-intensive, expensive, and heavily dependent on the expertise of human professionals, including translators and healthcare specialists. The objective of this study is to address the translati",
-      "published": "2026",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/66ea1aa845a34c6693e11d31789a0eec330433de",
-      "matched_keyword": "human-AI collaboration LLM",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "a785dc215f8dd317f272e1db008ee9fa0733850e",
-      "title": "CCM-FCC: LLM-powered cognition-centered AI agent framework for proactive human-robot collaboration",
-      "authors": [
-        "Pengfei Ding",
-        "Jie Zhang",
-        "Peng Zhang",
-        "Hongsen Li",
-        "Dexian Wang"
-      ],
-      "summary": "",
-      "published": "2026",
-      "citations": 1,
-      "link": "https://www.semanticscholar.org/paper/a785dc215f8dd317f272e1db008ee9fa0733850e",
-      "matched_keyword": "human-AI collaboration LLM",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "55079826666485d2e95611bc5e337db4a07114f8",
-      "title": "Proactive safety reasoning in human-robot collaboration in disassembly through LLM-augmented STPA and FMEA",
-      "authors": [
-        "Morteza Jalali Alenjareghi",
-        "Fardin Ghorbani",
-        "S. Keivanpour",
-        "Y. Chinniah",
-        "Sabrina Jocelyn"
-      ],
-      "summary": "",
-      "published": "2026",
-      "citations": 1,
-      "link": "https://www.semanticscholar.org/paper/55079826666485d2e95611bc5e337db4a07114f8",
-      "matched_keyword": "human-AI collaboration LLM",
+      "link": "https://www.semanticscholar.org/paper/2e207f78284460ce59438de4512e2ba3b8127547",
+      "matched_keyword": "AI agent workflow",
       "source": "semantic_scholar"
     },
     {
@@ -369,6 +1521,36 @@
       "citations": 0,
       "link": "https://www.semanticscholar.org/paper/7321344ff13d71d7f1c6035636751206d0590782",
       "matched_keyword": "LLM qualitative analysis",
+      "source": "semantic_scholar"
+    },
+    {
+      "id": "5b732ee2ff422121aa66cd4b0fa207ca54216df6",
+      "title": "Intercultural Human-Centered AI for Automotive Systems: Bridging ASPICE Processes and Intelligent Human Systems Integration",
+      "authors": [
+        "Rüdiger Heimgärtner"
+      ],
+      "summary": "The integration of Artificial Intelligence into safety-critical automotive systems demands approaches that combine technical rigor with cultural and human-centred sensitivity. While Automotive SPICE (ASPICE) ensures structured engineering practices, it lacks explicit guidance on integrating intercultural human factors and intelligent AI-driven support. This paper proposes a framework for Intercultural Human-Centred AI that bridges ASPICE-based practices with intelligent human systems integration",
+      "published": "2026",
+      "citations": 0,
+      "link": "https://www.semanticscholar.org/paper/5b732ee2ff422121aa66cd4b0fa207ca54216df6",
+      "matched_keyword": "human-centered AI systems",
+      "source": "semantic_scholar"
+    },
+    {
+      "id": "37952a875dc6a5f3507546773d5eaa834d926cc2",
+      "title": "Enhancing obstacle detectability in tunnel look-ahead systems through human-centered explainable AI and inverse inference",
+      "authors": [
+        "Yanlong Niu",
+        "Huaigu Tang",
+        "E. Nilot",
+        "Yuhan Zhou",
+        "Yunyue Elita Li"
+      ],
+      "summary": "",
+      "published": "2026",
+      "citations": 0,
+      "link": "https://www.semanticscholar.org/paper/37952a875dc6a5f3507546773d5eaa834d926cc2",
+      "matched_keyword": "human-centered AI systems",
       "source": "semantic_scholar"
     },
     {
@@ -476,8 +1658,8 @@
       "title": "An AI agent published a hit piece on me",
       "link": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/",
       "hn_link": "https://news.ycombinator.com/item?id=46990729",
-      "points": 2260,
-      "comments": 923,
+      "points": 2264,
+      "comments": 926,
       "published": "2026-02-12",
       "matched_keyword": "AI agent",
       "source": "hackernews"
@@ -487,7 +1669,7 @@
       "title": "AI agent opens a PR write a blogpost to shames the maintainer who closes it",
       "link": "https://github.com/matplotlib/matplotlib/pull/31132",
       "hn_link": "https://news.ycombinator.com/item?id=46987559",
-      "points": 927,
+      "points": 928,
       "comments": 739,
       "published": "2026-02-12",
       "matched_keyword": "AI agent",
@@ -510,7 +1692,7 @@
       "link": "https://arxiv.org/abs/2512.20798",
       "hn_link": "https://news.ycombinator.com/item?id=46954920",
       "points": 544,
-      "comments": 365,
+      "comments": 366,
       "published": "2026-02-10",
       "matched_keyword": "AI agent",
       "source": "hackernews"
@@ -593,6 +1775,17 @@
       "source": "hackernews"
     },
     {
+      "id": "47006843",
+      "title": "The \"AI agent hit piece\" situation clarifies how dumb we are acting",
+      "link": "https://ardentperf.com/2026/02/13/the-scott-shambaugh-situation-clarifies-how-dumb-we-are-acting/",
+      "hn_link": "https://news.ycombinator.com/item?id=47006843",
+      "points": 164,
+      "comments": 86,
+      "published": "2026-02-13",
+      "matched_keyword": "AI agent",
+      "source": "hackernews"
+    },
+    {
       "id": "46932343",
       "title": "Matchlock – Secures AI agent workloads with a Linux-based sandbox",
       "link": "https://github.com/jingkaihe/matchlock",
@@ -604,13 +1797,13 @@
       "source": "hackernews"
     },
     {
-      "id": "47006843",
-      "title": "The \"AI agent hit piece\" situation clarifies how dumb we are acting",
-      "link": "https://ardentperf.com/2026/02/13/the-scott-shambaugh-situation-clarifies-how-dumb-we-are-acting/",
-      "hn_link": "https://news.ycombinator.com/item?id=47006843",
-      "points": 128,
-      "comments": 60,
-      "published": "2026-02-13",
+      "id": "47009949",
+      "title": "An AI Agent Published a Hit Piece on Me – More Things Have Happened",
+      "link": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me-part-2/",
+      "hn_link": "https://news.ycombinator.com/item?id=47009949",
+      "points": 91,
+      "comments": 43,
+      "published": "2026-02-14",
       "matched_keyword": "AI agent",
       "source": "hackernews"
     },
@@ -630,8 +1823,8 @@
       "title": "Show HN: Moltis – AI assistant with memory, tools, and self-extending skills",
       "link": "https://www.moltis.org",
       "hn_link": "https://news.ycombinator.com/item?id=46993587",
-      "points": 68,
-      "comments": 23,
+      "points": 77,
+      "comments": 30,
       "published": "2026-02-12",
       "matched_keyword": "AI assistant",
       "source": "hackernews"
@@ -652,8 +1845,8 @@
       "title": "Cloudflare adds real-time Markdown rendering for AI agents",
       "link": "https://blog.cloudflare.com/markdown-for-agents/",
       "hn_link": "https://news.ycombinator.com/item?id=46997526",
-      "points": 37,
-      "comments": 18,
+      "points": 39,
+      "comments": 20,
       "published": "2026-02-13",
       "matched_keyword": "AI agent",
       "source": "hackernews"
@@ -678,17 +1871,6 @@
       "comments": 12,
       "published": "2026-02-09",
       "matched_keyword": "agentic",
-      "source": "hackernews"
-    },
-    {
-      "id": "46943506",
-      "title": "Stack Overflow for AI Coding Agents",
-      "link": "https://shareful.ai",
-      "hn_link": "https://news.ycombinator.com/item?id=46943506",
-      "points": 19,
-      "comments": 10,
-      "published": "2026-02-09",
-      "matched_keyword": "AI agent",
       "source": "hackernews"
     },
     {
@@ -1044,5 +2226,267 @@
       "source": "hackernews"
     }
   ],
-  "reddit": []
+  "reddit": [],
+  "blogs": [
+    {
+      "名称": "Anthropic Research",
+      "链接": "https://anthropic.com/research",
+      "说明": "Claude生态，MCP协议，human-AI交互理念"
+    },
+    {
+      "名称": "OpenAI Research",
+      "链接": "https://openai.com/research",
+      "说明": "GPT系列、agent框架、ChatGPT产品迭代"
+    },
+    {
+      "名称": "Google DeepMind",
+      "链接": "https://deepmind.google/research",
+      "说明": "Gemini、agent研究、AI safety"
+    },
+    {
+      "名称": "Microsoft Research Blog",
+      "链接": "https://microsoft.com/en-us/research/blog",
+      "说明": "HAX Toolkit, Human-AI Interaction Guidelines, Copilot"
+    },
+    {
+      "名称": "Meta AI (FAIR)",
+      "链接": "https://ai.meta.com/research",
+      "说明": "Llama开源生态"
+    },
+    {
+      "名称": "Amazon Science",
+      "链接": "https://amazon.science",
+      "说明": "应用型AI研究"
+    },
+    {
+      "名称": "Apple Machine Learning",
+      "链接": "https://machinelearning.apple.com",
+      "说明": "设备端AI、隐私AI"
+    },
+    {
+      "名称": "Hugging Face Blog",
+      "链接": "https://huggingface.co/blog",
+      "说明": "开源模型、工具、社区趋势"
+    },
+    {
+      "名称": "LangChain Blog",
+      "链接": "https://blog.langchain.dev",
+      "说明": "Agent框架生态风向标"
+    }
+  ],
+  "newsletters": [
+    {
+      "名称": "Simon Willison's Blog",
+      "链接": "https://simonwillison.net",
+      "作者": "Simon Willison",
+      "说明": "LLM生态最全面的实践者视角"
+    },
+    {
+      "名称": "Ahead of AI",
+      "链接": "https://magazine.sebastianraschka.com",
+      "作者": "Sebastian Raschka",
+      "说明": "LLM研究深度解读"
+    },
+    {
+      "名称": "Interconnects",
+      "链接": "https://interconnects.ai",
+      "作者": "Nathan Lambert",
+      "说明": "RLHF/对齐方向"
+    },
+    {
+      "名称": "Latent Space",
+      "链接": "https://latent.space",
+      "作者": "Swyx & Alessio",
+      "说明": "AI工程师视角，agent和tooling"
+    },
+    {
+      "名称": "MIT Technology Review",
+      "链接": "https://technologyreview.com",
+      "作者": "编辑团队",
+      "说明": "日刊科技新闻"
+    },
+    {
+      "名称": "The Batch",
+      "链接": "https://deeplearning.ai/the-batch",
+      "作者": "Andrew Ng",
+      "说明": "AI新闻周报"
+    },
+    {
+      "名称": "Import AI",
+      "链接": "https://importai.substack.com",
+      "作者": "Jack Clark",
+      "说明": "偏policy和大趋势"
+    },
+    {
+      "名称": "阮一峰的网络日志",
+      "链接": "https://ruanyifeng.com/blog",
+      "作者": "阮一峰",
+      "说明": "中文技术圈信号"
+    }
+  ],
+  "researchers": [
+    {
+      "姓名": "Sherry Tongshuang Wu",
+      "平台": "X",
+      "Handle": "@tongshuangwu",
+      "说明": "HCI×NLP，human-AI interaction"
+    },
+    {
+      "姓名": "Saleema Amershi",
+      "平台": "X",
+      "Handle": "@sabornershi",
+      "说明": "Human-AI Interaction Guidelines"
+    },
+    {
+      "姓名": "Gagan Bansal",
+      "平台": "X",
+      "Handle": "@gaaborned",
+      "说明": "Human-AI teaming"
+    },
+    {
+      "姓名": "Q. Vera Liao",
+      "平台": "X",
+      "Handle": "@qaborned",
+      "说明": "Explainable AI, responsible AI in HCI"
+    },
+    {
+      "姓名": "Kenneth Holstein",
+      "平台": "X",
+      "Handle": "@kenholstein",
+      "说明": "Human-AI系统评估，教育AI"
+    },
+    {
+      "姓名": "Lydia Chilton",
+      "平台": "X",
+      "Handle": "@lyaborned",
+      "说明": "AI创造力，人机协作写作"
+    },
+    {
+      "姓名": "Michael Bernstein",
+      "平台": "X",
+      "Handle": "@msb",
+      "说明": "Generative agents, social computing"
+    },
+    {
+      "姓名": "Mina Lee",
+      "平台": "X",
+      "Handle": "@maborned",
+      "说明": "Human-AI collaborative writing"
+    },
+    {
+      "姓名": "Aniket Kittur",
+      "平台": "X",
+      "Handle": "@nkittur",
+      "说明": "Sensemaking, knowledge work with AI"
+    },
+    {
+      "姓名": "April Wang",
+      "平台": "X",
+      "Handle": "—",
+      "说明": "Programming + HCI + AI"
+    },
+    {
+      "姓名": "Toby Jia-Jun Li",
+      "平台": "X",
+      "Handle": "@tobyjiajun",
+      "说明": "End-user programming, human-AI systems"
+    },
+    {
+      "姓名": "Dakuo Wang",
+      "平台": "X",
+      "Handle": "@dakuowang",
+      "说明": "Human-AI collaboration, CSCW"
+    },
+    {
+      "姓名": "Percy Liang",
+      "平台": "X",
+      "Handle": "@percyliang",
+      "说明": "LLM evaluation框架"
+    },
+    {
+      "姓名": "Simon Willison",
+      "平台": "X",
+      "Handle": "@simonw",
+      "说明": "LLM工具生态最佳信息源"
+    },
+    {
+      "姓名": "Andrej Karpathy",
+      "平台": "X",
+      "Handle": "@karpathy",
+      "说明": "深度技术解读"
+    },
+    {
+      "姓名": "Swyx",
+      "平台": "X",
+      "Handle": "@swyx",
+      "说明": "AI工程/agent生态trend"
+    },
+    {
+      "姓名": "Eric Horvitz",
+      "平台": "LinkedIn",
+      "Handle": "—",
+      "说明": "MSR Chief Scientist, 大趋势预判"
+    },
+    {
+      "姓名": "Ben Shneiderman",
+      "平台": "LinkedIn",
+      "Handle": "—",
+      "说明": "Human-centered AI倡导者"
+    },
+    {
+      "姓名": "Ece Kamar",
+      "平台": "LinkedIn",
+      "Handle": "—",
+      "说明": "Human-AI complementarity"
+    }
+  ],
+  "podcasts": [
+    {
+      "名称": "Latent Space Podcast",
+      "链接": "https://latent.space",
+      "说明": "AI工程最前沿，agent相关讨论"
+    },
+    {
+      "名称": "TWIML AI Podcast",
+      "链接": "https://twimlai.com",
+      "说明": "学术+工业混合视角"
+    },
+    {
+      "名称": "NeurIPS/CHI 录播",
+      "链接": "https://youtube.com",
+      "说明": "重要talk的录播"
+    }
+  ],
+  "conferences": [
+    {
+      "名称": "CHI GenAICHI Workshop",
+      "频率": "年度",
+      "说明": "Generative AI × HCI"
+    },
+    {
+      "名称": "HHAI Conference",
+      "频率": "年度",
+      "说明": "Hybrid Human-AI Intelligence"
+    },
+    {
+      "名称": "CHI TREW Workshop",
+      "频率": "年度",
+      "说明": "Trust & Reliance in Human-AI Workflows"
+    },
+    {
+      "名称": "ACL/EMNLP HCI+NLP Workshop",
+      "频率": "年度",
+      "说明": "HCI×NLP交叉"
+    },
+    {
+      "名称": "IUI Conference",
+      "频率": "年度",
+      "说明": "Intelligent User Interfaces"
+    },
+    {
+      "名称": "NeurIPS/ICML Agent Workshops",
+      "频率": "年度",
+      "说明": "系统/ML视角的agent研究"
+    }
+  ]
 }
