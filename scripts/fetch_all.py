@@ -105,10 +105,10 @@ def fetch_arxiv():
 
     for keyword in ARXIV_KEYWORDS:
         # Search across our categories with this keyword
-        cat_query = "+OR+".join(f"cat:{c}" for c in ARXIV_CATEGORIES)
-        query = f'({cat_query})+AND+all:"{urllib.parse.quote(keyword)}"'
+        cat_query = " OR ".join(f"cat:{c}" for c in ARXIV_CATEGORIES)
+        query = f'({cat_query}) AND all:"{keyword}"'
         url = (
-            f"http://export.arxiv.org/api/query?search_query={query}"
+            f"http://export.arxiv.org/api/query?search_query={urllib.parse.quote(query)}"
             f"&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending"
         )
 
