@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "fetched_at": "2026-02-13T10:00:00",
+    "lookback_days": 7,
+    "keywords": ["human-AI collaboration", "LLM agent", "AI agent", "qualitative analysis", "human-centered AI"]
+  },
+  "arxiv": [
+    {
+      "id": "2602.00001",
+      "title": "AgentBench: Evaluating LLMs as Autonomous Agents in Collaborative Settings",
+      "authors": ["Alice Zhang", "Bob Chen", "Carol Liu"],
+      "summary": "We introduce AgentBench, a comprehensive benchmark for evaluating large language models as autonomous agents in multi-step collaborative tasks. Our framework covers 8 distinct environments including code generation, web browsing, and data analysis workflows...",
+      "published": "2026-02-11",
+      "categories": ["cs.AI", "cs.CL"],
+      "link": "https://arxiv.org/abs/2602.00001",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.00042",
+      "title": "Beyond Prompt Engineering: Designing Interaction Paradigms for Human-LLM Collaboration",
+      "authors": ["David Park", "Eva Martinez"],
+      "summary": "Current approaches to human-LLM interaction are predominantly prompt-centric. We propose a taxonomy of interaction paradigms that goes beyond single-turn prompting to include iterative refinement, mixed-initiative dialogue, and collaborative reasoning patterns...",
+      "published": "2026-02-10",
+      "categories": ["cs.HC", "cs.AI"],
+      "link": "https://arxiv.org/abs/2602.00042",
+      "matched_keyword": "human-AI collaboration",
+      "source": "arxiv"
+    },
+    {
+      "id": "2602.00099",
+      "title": "Trustworthy Qualitative Analysis with LLM Assistance: A Mixed-Methods Framework",
+      "authors": ["Fatima Al-Said", "George Kim", "Hannah Lee"],
+      "summary": "We present a mixed-methods framework for conducting qualitative data analysis with LLM assistance while maintaining methodological rigor. Our approach combines automated coding suggestions with researcher oversight mechanisms...",
+      "published": "2026-02-08",
+      "categories": ["cs.HC"],
+      "link": "https://arxiv.org/abs/2602.00099",
+      "matched_keyword": "qualitative analysis",
+      "source": "arxiv"
+    }
+  ],
+  "semantic_scholar": [
+    {
+      "id": "s2-001",
+      "title": "Human-AI Teaming: A Survey of Recent Advances in Collaborative Intelligence",
+      "authors": ["Saleema Amershi", "Dan Weld", "James Fogarty"],
+      "summary": "This survey covers recent developments in human-AI teaming, focusing on systems where humans and AI agents collaborate on complex tasks. We identify key design patterns and open challenges...",
+      "published": "2026-01-15",
+      "citations": 12,
+      "link": "https://semanticscholar.org/paper/s2-001",
+      "matched_keyword": "author:Amershi, Saleema",
+      "source": "semantic_scholar"
+    },
+    {
+      "id": "s2-002",
+      "title": "Agentic Workflows: How LLM Agents Transform Knowledge Work",
+      "authors": ["Wei Chen", "Priya Patel"],
+      "summary": "We study how LLM-powered agentic workflows are reshaping knowledge work in enterprise settings, with implications for human-AI collaboration design...",
+      "published": "2026-02-01",
+      "citations": 3,
+      "link": "https://semanticscholar.org/paper/s2-002",
+      "matched_keyword": "AI agent workflow",
+      "source": "semantic_scholar"
+    }
+  ],
+  "hackernews": [
+    {
+      "id": "hn-39001",
+      "title": "OpenAI's new agent framework lets AI systems collaborate with humans on complex tasks",
+      "link": "https://example.com/openai-agent",
+      "hn_link": "https://news.ycombinator.com/item?id=39001",
+      "points": 847,
+      "comments": 312,
+      "published": "2026-02-12",
+      "matched_keyword": "AI agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "hn-39042",
+      "title": "The case for human-in-the-loop AI agents in research workflows",
+      "link": "https://example.com/human-loop",
+      "hn_link": "https://news.ycombinator.com/item?id=39042",
+      "points": 234,
+      "comments": 89,
+      "published": "2026-02-10",
+      "matched_keyword": "human-AI",
+      "source": "hackernews"
+    }
+  ],
+  "reddit": [
+    {
+      "id": "red-001",
+      "title": "[D] Are AI agents actually useful for research, or just hype?",
+      "subreddit": "MachineLearning",
+      "link": "https://reddit.com/r/MachineLearning/comments/red-001",
+      "score": 456,
+      "comments": 178,
+      "published": "2026-02-11",
+      "matched_keyword": "agent",
+      "source": "reddit"
+    },
+    {
+      "id": "red-002",
+      "title": "Using Claude/GPT for qualitative coding - anyone tried this seriously?",
+      "subreddit": "MachineLearning",
+      "link": "https://reddit.com/r/MachineLearning/comments/red-002",
+      "score": 89,
+      "comments": 45,
+      "published": "2026-02-09",
+      "matched_keyword": "qualitative",
+      "source": "reddit"
+    }
+  ]
+}
