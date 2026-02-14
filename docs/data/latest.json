@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetched_at": "2026-02-13T21:12:02.817611",
+    "fetched_at": "2026-02-14T02:27:20.059995",
     "lookback_days": 7,
     "keywords": [
       "human-AI collaboration",
@@ -1269,47 +1269,43 @@
       "link": "https://arxiv.org/abs/2602.06395v1",
       "matched_keyword": "trustworthy AI",
       "source": "arxiv"
-    },
-    {
-      "id": "2602.05877v1",
-      "title": "Agent2Agent Threats in Safety-Critical LLM Assistants: A Human-Centric Taxonomy",
-      "authors": [
-        "Lukas Stappen",
-        "Ahmet Erkan Turan",
-        "Johann Hagerer",
-        "Georg Groh"
-      ],
-      "summary": "The integration of Large Language Model (LLM)-based conversational agents into vehicles creates novel security challenges at the intersection of agentic AI, automotive safety, and inter-agent communication. As these intelligent assistants coordinate with external services via protocols such as Google's Agent-to-Agent (A2A), they establish attack surfaces where manipulations can propagate through natural language payloads, potentially causing severe consequences ranging from driver distraction to",
-      "published": "2026-02-05",
-      "categories": [
-        "cs.AI",
-        "cs.HC"
-      ],
-      "link": "https://arxiv.org/abs/2602.05877v1",
-      "matched_keyword": "agentic AI",
-      "source": "arxiv"
-    },
-    {
-      "id": "2602.05465v1",
-      "title": "Can We Classify Flaky Tests Using Only Test Code? An LLM-Based Empirical Study",
-      "authors": [
-        "Alexander Berndt",
-        "Vekil Bekmyradov",
-        "Rainer Gemulla",
-        "Marcus Kessel",
-        "Thomas Bach"
-      ],
-      "summary": "Flaky tests yield inconsistent results when they are repeatedly executed on the same code revision. They interfere with automated quality assurance of code changes and hinder efficient software testing. Previous work evaluated approaches to train machine learning models to classify flaky tests based on identifiers in the test code. However, the resulting classifiers have been shown to lack generalizability, hindering their applicability in practical environments. Recently, pre-trained Large Lang",
-      "published": "2026-02-05",
-      "categories": [
-        "cs.SE"
-      ],
-      "link": "https://arxiv.org/abs/2602.05465v1",
-      "matched_keyword": "agentic AI",
-      "source": "arxiv"
     }
   ],
   "semantic_scholar": [
+    {
+      "id": "fb3999a0d6d1b851e62b1fdc9fdeb28f94e0b381",
+      "title": "Jokeasy: Exploring Human-AI Collaboration in Thematic Joke Generation",
+      "authors": [
+        "Yate Ge",
+        "Lin Tian",
+        "Chiqian Xu",
+        "Luyao Xu",
+        "Meiying Li"
+      ],
+      "summary": "Thematic jokes are central to stand-up comedy, sitcoms, and public speaking, where contexts and punchlines rely on fresh material - news, anecdotes, and cultural references that resonate with the audience. Recent advances in Large Language Models (LLMs) have enabled interactive joke generation through conversational interfaces. Although LLMs enable interactive joke generation, ordinary conversational interfaces seldom give creators enough agency, control, or timely access to such source material",
+      "published": "2026-02-10",
+      "citations": 0,
+      "link": "https://www.semanticscholar.org/paper/fb3999a0d6d1b851e62b1fdc9fdeb28f94e0b381",
+      "matched_keyword": "human-AI collaboration LLM",
+      "source": "semantic_scholar"
+    },
+    {
+      "id": "dadcf5b53ed96a478c10f455a0e4a6d14822b540",
+      "title": "LLM-Grounded Dynamic Task Planning with Hierarchical Temporal Logic for Human-Aware Multi-Robot Collaboration",
+      "authors": [
+        "Shuyuan Hu",
+        "Tao Lin",
+        "Kai Ye",
+        "Yang Yang",
+        "Tianwei Zhang"
+      ],
+      "summary": "While Large Language Models (LLM) enable non-experts to specify open-world multi-robot tasks, the generated plans often lack kinematic feasibility and are not efficient, especially in long-horizon scenarios. Formal methods like Linear Temporal Logic (LTL) offer correctness and optimal guarantees, but are typically confined to static, offline settings and struggle with computational scalability. To bridge this gap, we propose a neuro-symbolic framework that grounds LLM reasoning into hierarchical",
+      "published": "2026-02-10",
+      "citations": 0,
+      "link": "https://www.semanticscholar.org/paper/dadcf5b53ed96a478c10f455a0e4a6d14822b540",
+      "matched_keyword": "human-AI collaboration LLM",
+      "source": "semantic_scholar"
+    },
     {
       "id": "f8f14298320d24e5965d932a4513610b89940aae",
       "title": "An AI Agent for Automated Causal Inference in Epidemiology",
@@ -1345,6 +1341,37 @@
       "source": "semantic_scholar"
     },
     {
+      "id": "0bf6ab530c50492142bf37789e81e6637315a012",
+      "title": "From Human-Human Collaboration to Human-Agent Collaboration: A Vision, Design Philosophy, and an Empirical Framework for Achieving Successful Partnerships Between Humans and LLM Agents",
+      "authors": [
+        "Bingsheng Yao",
+        "Chaoran Chen",
+        "A. Wang",
+        "Sherry Tongshuang Wu",
+        "T. Li"
+      ],
+      "summary": "The emergence of Large Language Model (LLM) agents enables us to build agent-based intelligent systems that move beyond the role of a\"tool\"to become genuine collaborators with humans, thereby realizing a novel human-agent collaboration paradigm. Our vision is that LLM agents should resemble remote human collaborators, which allows HCI researchers to ground the future exploration in decades of research on trust, awareness, and common ground in remote human collaboration, while also revealing the ",
+      "published": "2026-02-05",
+      "citations": 0,
+      "link": "https://www.semanticscholar.org/paper/0bf6ab530c50492142bf37789e81e6637315a012",
+      "matched_keyword": "human-AI collaboration LLM",
+      "source": "semantic_scholar"
+    },
+    {
+      "id": "a8613e716d87ac0faecdbf6acd5197ab6951a466",
+      "title": "Constrained Process Maps for Multi-Agent Generative AI Workflows",
+      "authors": [
+        "Ananya Joshi",
+        "Michael Rudow"
+      ],
+      "summary": "Large language model (LLM)-based agents are increasingly used to perform complex, multi-step workflows in regulated settings such as compliance and due diligence. However, many agentic architectures rely primarily on prompt engineering of a single agent, making it difficult to observe or compare how models handle uncertainty and coordination across interconnected decision stages and with human oversight. We introduce a multi-agent system formalized as a finite-horizon Markov Decision Process (MD",
+      "published": "2026-02-02",
+      "citations": 0,
+      "link": "https://www.semanticscholar.org/paper/a8613e716d87ac0faecdbf6acd5197ab6951a466",
+      "matched_keyword": "AI agent workflow",
+      "source": "semantic_scholar"
+    },
+    {
       "id": "d5d656f4328e4eb0c170421b4d8b186a4e0549ef",
       "title": "Designing AI Agent Workflows for Consumer Behavior Applications: A Practitioner's Framework",
       "authors": [
@@ -1360,16 +1387,20 @@
       "source": "semantic_scholar"
     },
     {
-      "id": "90633562667b88ef2831422b959652738660ea7d",
-      "title": "MedBeads: An Agent-Native, Immutable Data Substrate for Trustworthy Medical AI",
+      "id": "ae236ed343c8fd827b06f0d6f7a2bbaaa34fec83",
+      "title": "A Human-Centred AI System for Multi-Actor Planning and Collaboration in Family Learning",
       "authors": [
-        "Takahito Nakajima"
+        "Si Chen",
+        "Jingyi Xie",
+        "Yao Li",
+        "Ya-Fang Lin",
+        "He Zhang"
       ],
-      "summary": "Background: As of 2026, Large Language Models (LLMs) demonstrate expert-level medical knowledge. However, deploying them as autonomous\"Clinical Agents\"remains limited. Current Electronic Medical Records (EMRs) and standards like FHIR are designed for human review, creating a\"Context Mismatch\": AI agents receive fragmented data and must rely on probabilistic inference (e.g., RAG) to reconstruct patient history. This approach causes hallucinations and hinders auditability. Methods: We propose MedB",
-      "published": "2026-02-01",
+      "summary": "Family learning takes place in everyday routines where children and caregivers read, practice, and develop new skills together. Despite growing interest in AI tutors, most existing systems are designed for single learners or classroom settings and do not address the distributed planning, coordination, and execution demands of learning at home. This paper introduces ParPal, a human-centred, LLM-powered system that supports multi-actor family learning by decomposing learning goals into actionable ",
+      "published": "2026-01-28",
       "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/90633562667b88ef2831422b959652738660ea7d",
-      "matched_keyword": "AI agent workflow",
+      "link": "https://www.semanticscholar.org/paper/ae236ed343c8fd827b06f0d6f7a2bbaaa34fec83",
+      "matched_keyword": "human-AI collaboration LLM",
       "source": "semantic_scholar"
     },
     {
@@ -1390,19 +1421,32 @@
       "source": "semantic_scholar"
     },
     {
-      "id": "2cf5b15bc32dfa983f5e4bd24fb6ed2e4f6c6e87",
-      "title": "Autonomous Multi-Agent AI for High-Throughput Polymer Informatics: From Property Prediction to Generative Design Across Synthetic and Bio-Polymers",
+      "id": "ee72f858e8b46326d0fb58db6b74449fdac1e4a2",
+      "title": "Human-AI collaboration enhances the performance of large language models in risk of bias assessment",
       "authors": [
-        "Mahule Roy",
-        "Adib Bazgir",
-        "Arthur da Silva Sousa Santos",
-        "Yuwen Zhang"
+        "Yingyin Li",
+        "Fengchun Yang",
+        "Meng Wu",
+        "Jiao Li"
       ],
-      "summary": "We present an integrated multiagent AI ecosystem for polymer discovery that unifies high-throughput materials workflows, artificial intelligence, and computational modeling within a single Polymer Research Lifecycle (PRL) pipeline. The system orchestrates specialized agents powered by state-of-the-art large language models (DeepSeek-V2 and DeepSeek-Coder) to retrieve and reason over scientific resources, invoke external tools, execute domain-specific code, and perform metacognitive self-assessme",
-      "published": "2026-01-25",
+      "summary": "",
+      "published": "2026-01-20",
       "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/2cf5b15bc32dfa983f5e4bd24fb6ed2e4f6c6e87",
-      "matched_keyword": "AI agent workflow",
+      "link": "https://www.semanticscholar.org/paper/ee72f858e8b46326d0fb58db6b74449fdac1e4a2",
+      "matched_keyword": "human-AI collaboration LLM",
+      "source": "semantic_scholar"
+    },
+    {
+      "id": "98a6b200d61cee0d0c3b58fb9140786b7bfbc471",
+      "title": "Inventory optimization under supply chain disruptions: Leveraging large language models for human-AI collaborative decision-making",
+      "authors": [
+        "Ruijing Wu"
+      ],
+      "summary": "",
+      "published": "2026-01-19",
+      "citations": 0,
+      "link": "https://www.semanticscholar.org/paper/98a6b200d61cee0d0c3b58fb9140786b7bfbc471",
+      "matched_keyword": "human-AI collaboration LLM",
       "source": "semantic_scholar"
     },
     {
@@ -1419,6 +1463,85 @@
       "published": "2026-01-18",
       "citations": 0,
       "link": "https://www.semanticscholar.org/paper/a68e5e3ff83ce1a7452e3a28fb016635f9a07a36",
+      "matched_keyword": "AI agent workflow",
+      "source": "semantic_scholar"
+    },
+    {
+      "id": "192a166871cf394d97cb8c6cf09e73325a2800dd",
+      "title": "Exploring Human-AI Collaboration Dynamics in LLM-supported Engineering Project-Based Learning",
+      "authors": [
+        "Xuan Qiu",
+        "Tin Nok Mak"
+      ],
+      "summary": "",
+      "published": "2026",
+      "citations": 0,
+      "link": "https://www.semanticscholar.org/paper/192a166871cf394d97cb8c6cf09e73325a2800dd",
+      "matched_keyword": "human-AI collaboration LLM",
+      "source": "semantic_scholar"
+    },
+    {
+      "id": "66ea1aa845a34c6693e11d31789a0eec330433de",
+      "title": "Human-LLM Collaboration Framework for Translating Health Instruments",
+      "authors": [
+        "Hind Bitar",
+        "Omaima Almatrafi",
+        "Amal Babour",
+        "Ohoud Alzamzami",
+        "Mayda Alrige"
+      ],
+      "summary": "Large language models have revolutionized various sectors, including education and healthcare, by demonstrating significant advancements in producing human-like text and enhancing translation accuracy. Despite these advancements, the conventional process of cross-cultural instrument translation remains labor-intensive, expensive, and heavily dependent on the expertise of human professionals, including translators and healthcare specialists. The objective of this study is to address the translati",
+      "published": "2026",
+      "citations": 0,
+      "link": "https://www.semanticscholar.org/paper/66ea1aa845a34c6693e11d31789a0eec330433de",
+      "matched_keyword": "human-AI collaboration LLM",
+      "source": "semantic_scholar"
+    },
+    {
+      "id": "a785dc215f8dd317f272e1db008ee9fa0733850e",
+      "title": "CCM-FCC: LLM-powered cognition-centered AI agent framework for proactive human-robot collaboration",
+      "authors": [
+        "Pengfei Ding",
+        "Jie Zhang",
+        "Peng Zhang",
+        "Hongsen Li",
+        "Dexian Wang"
+      ],
+      "summary": "",
+      "published": "2026",
+      "citations": 1,
+      "link": "https://www.semanticscholar.org/paper/a785dc215f8dd317f272e1db008ee9fa0733850e",
+      "matched_keyword": "human-AI collaboration LLM",
+      "source": "semantic_scholar"
+    },
+    {
+      "id": "55079826666485d2e95611bc5e337db4a07114f8",
+      "title": "Proactive safety reasoning in human-robot collaboration in disassembly through LLM-augmented STPA and FMEA",
+      "authors": [
+        "Morteza Jalali Alenjareghi",
+        "Fardin Ghorbani",
+        "S. Keivanpour",
+        "Y. Chinniah",
+        "Sabrina Jocelyn"
+      ],
+      "summary": "",
+      "published": "2026",
+      "citations": 1,
+      "link": "https://www.semanticscholar.org/paper/55079826666485d2e95611bc5e337db4a07114f8",
+      "matched_keyword": "human-AI collaboration LLM",
+      "source": "semantic_scholar"
+    },
+    {
+      "id": "2e207f78284460ce59438de4512e2ba3b8127547",
+      "title": "HYBRID SENSING AND CLOUD DEPLOYED AGENT MESH FOR AI‑DRIVEN TRAFFIC OPTIMIZATION IN CONGESTED CITIES",
+      "authors": [
+        "Florin Andreescu",
+        "Dorin Simionescu"
+      ],
+      "summary": "Urban traffic congestion in crowded cities is increasingly shaped by short term demand fluctuations, spillback formation, and heterogeneous vehicle dynamics, which challenge fixed time signal plans and reactive controllers. This paper proposes an AI enabled intersection agent that combines (i) a deep learning (DL) predictor for short horizon traffic forecasting (15–60 minutes) and (ii) an intersection level machine learning (ML) controller that applies bounded adaptations of green times based on",
+      "published": "2026",
+      "citations": 0,
+      "link": "https://www.semanticscholar.org/paper/2e207f78284460ce59438de4512e2ba3b8127547",
       "matched_keyword": "AI agent workflow",
       "source": "semantic_scholar"
     },
@@ -1527,8 +1650,8 @@
       "title": "An AI agent published a hit piece on me",
       "link": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/",
       "hn_link": "https://news.ycombinator.com/item?id=46990729",
-      "points": 2264,
-      "comments": 926,
+      "points": 2267,
+      "comments": 927,
       "published": "2026-02-12",
       "matched_keyword": "AI agent",
       "source": "hackernews"
@@ -1648,9 +1771,20 @@
       "title": "The \"AI agent hit piece\" situation clarifies how dumb we are acting",
       "link": "https://ardentperf.com/2026/02/13/the-scott-shambaugh-situation-clarifies-how-dumb-we-are-acting/",
       "hn_link": "https://news.ycombinator.com/item?id=47006843",
-      "points": 177,
-      "comments": 87,
+      "points": 180,
+      "comments": 90,
       "published": "2026-02-13",
+      "matched_keyword": "AI agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "47009949",
+      "title": "An AI Agent Published a Hit Piece on Me – More Things Have Happened",
+      "link": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me-part-2/",
+      "hn_link": "https://news.ycombinator.com/item?id=47009949",
+      "points": 149,
+      "comments": 74,
+      "published": "2026-02-14",
       "matched_keyword": "AI agent",
       "source": "hackernews"
     },
@@ -1666,14 +1800,14 @@
       "source": "hackernews"
     },
     {
-      "id": "47009949",
-      "title": "An AI Agent Published a Hit Piece on Me – More Things Have Happened",
-      "link": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me-part-2/",
-      "hn_link": "https://news.ycombinator.com/item?id=47009949",
-      "points": 112,
-      "comments": 56,
-      "published": "2026-02-14",
-      "matched_keyword": "AI agent",
+      "id": "46993587",
+      "title": "Show HN: Moltis – AI assistant with memory, tools, and self-extending skills",
+      "link": "https://www.moltis.org",
+      "hn_link": "https://news.ycombinator.com/item?id=46993587",
+      "points": 81,
+      "comments": 32,
+      "published": "2026-02-12",
+      "matched_keyword": "AI assistant",
       "source": "hackernews"
     },
     {
@@ -1685,17 +1819,6 @@
       "comments": 36,
       "published": "2026-02-11",
       "matched_keyword": "LLM agent",
-      "source": "hackernews"
-    },
-    {
-      "id": "46993587",
-      "title": "Show HN: Moltis – AI assistant with memory, tools, and self-extending skills",
-      "link": "https://www.moltis.org",
-      "hn_link": "https://news.ycombinator.com/item?id=46993587",
-      "points": 79,
-      "comments": 30,
-      "published": "2026-02-12",
-      "matched_keyword": "AI assistant",
       "source": "hackernews"
     },
     {
@@ -1715,7 +1838,7 @@
       "link": "https://blog.cloudflare.com/markdown-for-agents/",
       "hn_link": "https://news.ycombinator.com/item?id=46997526",
       "points": 39,
-      "comments": 20,
+      "comments": 21,
       "published": "2026-02-13",
       "matched_keyword": "AI agent",
       "source": "hackernews"
@@ -2095,305 +2218,7 @@
       "source": "hackernews"
     }
   ],
-  "reddit": [
-    {
-      "id": "1r30nzv",
-      "title": "[D] We scanned 18,000 exposed OpenClaw instances and found 15% of community skills contain malicious instructions",
-      "subreddit": "MachineLearning",
-      "link": "https://reddit.com/r/MachineLearning/comments/1r30nzv/d_we_scanned_18000_exposed_openclaw_instances_and/",
-      "score": 91,
-      "comments": 17,
-      "published": "2026-02-12",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r3toe1",
-      "title": "Minimax-M2.5 at same level of GLM-4.7 and DeepSeek-3.2",
-      "subreddit": "LocalLLaMA",
-      "link": "https://reddit.com/r/LocalLLaMA/comments/1r3toe1/minimaxm25_at_same_level_of_glm47_and_deepseek32/",
-      "score": 40,
-      "comments": 28,
-      "published": "2026-02-13",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r3gbrx",
-      "title": "1Password open sources a benchmark to stop AI agents from leaking credentials",
-      "subreddit": "artificial",
-      "link": "https://reddit.com/r/artificial/comments/1r3gbrx/1password_open_sources_a_benchmark_to_stop_ai/",
-      "score": 29,
-      "comments": 5,
-      "published": "2026-02-13",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r0ulu3",
-      "title": "[D] PhD application did not go well, considering research while working fulltime",
-      "subreddit": "MachineLearning",
-      "link": "https://reddit.com/r/MachineLearning/comments/1r0ulu3/d_phd_application_did_not_go_well_considering/",
-      "score": 19,
-      "comments": 8,
-      "published": "2026-02-10",
-      "matched_keyword": "collaboration",
-      "source": "reddit"
-    },
-    {
-      "id": "1r0wpn8",
-      "title": "[R] On Randomness in Agentic Evals",
-      "subreddit": "MachineLearning",
-      "link": "https://reddit.com/r/MachineLearning/comments/1r0wpn8/r_on_randomness_in_agentic_evals/",
-      "score": 14,
-      "comments": 2,
-      "published": "2026-02-10",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r3dja8",
-      "title": "Humanity's Pattern of Delayed Harm Intervention Is The Threat, Not AI.",
-      "subreddit": "artificial",
-      "link": "https://reddit.com/r/artificial/comments/1r3dja8/humanitys_pattern_of_delayed_harm_intervention_is/",
-      "score": 12,
-      "comments": 20,
-      "published": "2026-02-12",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r0kitb",
-      "title": "STLE: An Open-Source Framework for AI Uncertainty - Teaches Models to Say \"I Don't Know\"",
-      "subreddit": "artificial",
-      "link": "https://reddit.com/r/artificial/comments/1r0kitb/stle_an_opensource_framework_for_ai_uncertainty/",
-      "score": 12,
-      "comments": 8,
-      "published": "2026-02-09",
-      "matched_keyword": "collaboration",
-      "source": "reddit"
-    },
-    {
-      "id": "1qyjktt",
-      "title": "[WARNING] Kimi.com (ok computer + other agents) CRYPTO STEALING MALWARE",
-      "subreddit": "artificial",
-      "link": "https://reddit.com/r/artificial/comments/1qyjktt/warning_kimicom_ok_computer_other_agents_crypto/",
-      "score": 11,
-      "comments": 3,
-      "published": "2026-02-07",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r45700",
-      "title": "I've been building a P2P protocol for distributed 1-bit inference on CPU. Here are the real benchmarks across AMD and Intel.",
-      "subreddit": "LocalLLaMA",
-      "link": "https://reddit.com/r/LocalLLaMA/comments/1r45700/ive_been_building_a_p2p_protocol_for_distributed/",
-      "score": 9,
-      "comments": 2,
-      "published": "2026-02-13",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1qyoehj",
-      "title": "Roast my OSS AI memory graph engine &gt; feedback on MVP?",
-      "subreddit": "artificial",
-      "link": "https://reddit.com/r/artificial/comments/1qyoehj/roast_my_oss_ai_memory_graph_engine_feedback_on/",
-      "score": 7,
-      "comments": 16,
-      "published": "2026-02-07",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r2yblf",
-      "title": "Izwi v0.1.0-alpha is out: new desktop app for local audio inference",
-      "subreddit": "artificial",
-      "link": "https://reddit.com/r/artificial/comments/1r2yblf/izwi_v010alpha_is_out_new_desktop_app_for_local/",
-      "score": 5,
-      "comments": 5,
-      "published": "2026-02-12",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r2wpd2",
-      "title": "Planoai 0.4.6 🚀 Signals-based tracing for agents via a terminal UI",
-      "subreddit": "artificial",
-      "link": "https://reddit.com/r/artificial/comments/1r2wpd2/planoai_046_signalsbased_tracing_for_agents_via_a/",
-      "score": 5,
-      "comments": 3,
-      "published": "2026-02-12",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r42beh",
-      "title": "Fake linux environment?",
-      "subreddit": "LocalLLaMA",
-      "link": "https://reddit.com/r/LocalLLaMA/comments/1r42beh/fake_linux_environment/",
-      "score": 4,
-      "comments": 16,
-      "published": "2026-02-13",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r0e4io",
-      "title": "[R] AIRS-Bench: A Benchmark for AI Agents on the Full ML Research Lifecycle",
-      "subreddit": "MachineLearning",
-      "link": "https://reddit.com/r/MachineLearning/comments/1r0e4io/r_airsbench_a_benchmark_for_ai_agents_on_the_full/",
-      "score": 3,
-      "comments": 1,
-      "published": "2026-02-09",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r3yi20",
-      "title": "Best Coding-LLM to run locally on M4 Mac Mini (Feb 2026)",
-      "subreddit": "LocalLLaMA",
-      "link": "https://reddit.com/r/LocalLLaMA/comments/1r3yi20/best_codingllm_to_run_locally_on_m4_mac_mini_feb/",
-      "score": 3,
-      "comments": 4,
-      "published": "2026-02-13",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r3wr2x",
-      "title": "do anybody success opencode using qwen3-next-code?",
-      "subreddit": "LocalLLaMA",
-      "link": "https://reddit.com/r/LocalLLaMA/comments/1r3wr2x/do_anybody_success_opencode_using_qwen3nextcode/",
-      "score": 3,
-      "comments": 19,
-      "published": "2026-02-13",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r0eau4",
-      "title": "[D] Benchmarking deterministic schema enforcement vs. long-context prompting for SOP adherence in 8B models",
-      "subreddit": "MachineLearning",
-      "link": "https://reddit.com/r/MachineLearning/comments/1r0eau4/d_benchmarking_deterministic_schema_enforcement/",
-      "score": 2,
-      "comments": 1,
-      "published": "2026-02-09",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r41h6v",
-      "title": "How do you handle agent loops and cost overruns in production?",
-      "subreddit": "LocalLLaMA",
-      "link": "https://reddit.com/r/LocalLLaMA/comments/1r41h6v/how_do_you_handle_agent_loops_and_cost_overruns/",
-      "score": 2,
-      "comments": 9,
-      "published": "2026-02-13",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r48949",
-      "title": "Best LLM and Coding Agent for solo Game Dev",
-      "subreddit": "LocalLLaMA",
-      "link": "https://reddit.com/r/LocalLLaMA/comments/1r48949/best_llm_and_coding_agent_for_solo_game_dev/",
-      "score": 1,
-      "comments": 0,
-      "published": "2026-02-13",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r3yl5i",
-      "title": "Omni-Crawler: from a ton of links to a single md file to feed your LLMs",
-      "subreddit": "LocalLLaMA",
-      "link": "https://reddit.com/r/LocalLLaMA/comments/1r3yl5i/omnicrawler_from_a_ton_of_links_to_a_single_md/",
-      "score": 1,
-      "comments": 2,
-      "published": "2026-02-13",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r3vtpy",
-      "title": "Anyone have experience with Langgraph environments and performance gains",
-      "subreddit": "LocalLLaMA",
-      "link": "https://reddit.com/r/LocalLLaMA/comments/1r3vtpy/anyone_have_experience_with_langgraph/",
-      "score": 1,
-      "comments": 2,
-      "published": "2026-02-13",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r1w34h",
-      "title": "[R] I probed 6 open-weight LLMs (7B-9B) for \"personality\" using hidden states — instruct fine-tuning is associated with measurable behavioral constraints",
-      "subreddit": "MachineLearning",
-      "link": "https://reddit.com/r/MachineLearning/comments/1r1w34h/r_i_probed_6_openweight_llms_7b9b_for_personality/",
-      "score": 0,
-      "comments": 6,
-      "published": "2026-02-11",
-      "matched_keyword": "qualitative",
-      "source": "reddit"
-    },
-    {
-      "id": "1r0xfvh",
-      "title": "[D] These papers have been accepted by ICLR, NeurIPS, EMNLP, ACL, and NAACL.",
-      "subreddit": "MachineLearning",
-      "link": "https://reddit.com/r/MachineLearning/comments/1r0xfvh/d_these_papers_have_been_accepted_by_iclr_neurips/",
-      "score": 0,
-      "comments": 2,
-      "published": "2026-02-10",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r0fg3d",
-      "title": "[R] Convert Once, Consume Many: SDF for Cacheable, Typed Semantic Extraction from Web Pages",
-      "subreddit": "MachineLearning",
-      "link": "https://reddit.com/r/MachineLearning/comments/1r0fg3d/r_convert_once_consume_many_sdf_for_cacheable/",
-      "score": 0,
-      "comments": 0,
-      "published": "2026-02-09",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r47a79",
-      "title": "AI Developer Tools Map (2026 Edition)",
-      "subreddit": "LocalLLaMA",
-      "link": "https://reddit.com/r/LocalLLaMA/comments/1r47a79/ai_developer_tools_map_2026_edition/",
-      "score": 0,
-      "comments": 1,
-      "published": "2026-02-13",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r3w2jp",
-      "title": "Are vector databases fundamentally insufficient for long-term LLM memory?",
-      "subreddit": "LocalLLaMA",
-      "link": "https://reddit.com/r/LocalLLaMA/comments/1r3w2jp/are_vector_databases_fundamentally_insufficient/",
-      "score": 0,
-      "comments": 6,
-      "published": "2026-02-13",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    },
-    {
-      "id": "1r46yy5",
-      "title": "GPT 5.2 Pro + Claude 4.6 Opus For $5/Month",
-      "subreddit": "artificial",
-      "link": "https://reddit.com/r/artificial/comments/1r46yy5/gpt_52_pro_claude_46_opus_for_5month/",
-      "score": 0,
-      "comments": 3,
-      "published": "2026-02-13",
-      "matched_keyword": "agent",
-      "source": "reddit"
-    }
-  ],
+  "reddit": [],
   "blogs": [
     {
       "名称": "Anthropic Research",
