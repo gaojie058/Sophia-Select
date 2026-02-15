@@ -1,4 +1,4 @@
-# Research Radar 📡
+# Sophia严选 📡 (Research Radar)
 
 Automated research signal aggregator that monitors arXiv, Semantic Scholar, HackerNews, and Reddit for topics relevant to your research. Outputs a clean dashboard hosted on GitHub Pages.
 
