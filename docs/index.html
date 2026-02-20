@@ -961,8 +961,29 @@ document.getElementById('collection-btn').addEventListener('click', () => {
   render();
 });
 
+// ─── Tab View Tracking (GoatCounter) ───
+// Track tab switches as virtual page views
+function trackPageView(category) {
+  if (window.goatcounter && window.goatcounter.count) {
+    window.goatcounter.count({ path: '/' + category, title: 'Sophia Select - ' + category });
+  }
+}
+
+// Patch tab click to track views
+const _origTabClick = document.getElementById('tabs').onclick;
+document.getElementById('tabs').addEventListener('click', () => {
+  setTimeout(() => trackPageView(currentCategory), 100);
+});
+document.getElementById('collection-btn').addEventListener('click', () => {
+  setTimeout(() => trackPageView('mycollection'), 100);
+});
+
 // ─── Init ───
 loadData();
 </script>
+
+<!-- GoatCounter Analytics (free, privacy-friendly, no cookies) -->
+<!-- TODO: Replace YOURCODE with your GoatCounter code after signup at goatcounter.com -->
+<script data-goatcounter="https://YOURCODE.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
