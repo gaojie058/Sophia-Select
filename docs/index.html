@@ -521,6 +521,21 @@
           <option value="link">📎 Link / Paper</option>
           <option value="author">👤 Author</option>
           <option value="note">📝 Note</option>
+          <option value="opportunity">💼 Career/Grant</option>
+        </select>
+      </div>
+      <div style="width:160px;">
+        <label style="font-size:0.7rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--text-muted); font-family:var(--font-mono); display:block; margin-bottom:0.25rem;">Category</label>
+        <select id="col-category" style="width:100%; padding:0.5rem; border:1px solid var(--border); border-radius:6px; font-family:var(--font-sans); font-size:0.85rem; background:var(--bg);">
+          <option value="mycollection">📌 General</option>
+          <option value="papers">📄 学术论文</option>
+          <option value="discussions">💬 社区讨论</option>
+          <option value="blogs">🔬 实验室博客</option>
+          <option value="newsletters">📰 Newsletter</option>
+          <option value="researchers">👤 推荐关注</option>
+          <option value="podcasts">🎙️ 播客</option>
+          <option value="conferences">🏛️ 会议</option>
+          <option value="opportunities">💼 Career/Grants</option>
         </select>
       </div>
       <div style="flex:1;">
@@ -706,11 +721,20 @@ function render() {
       const q = searchQuery.toLowerCase();
       items = items.filter(i => Object.values(i).join(' ').toLowerCase().includes(q));
     }
-    if (items.length === 0) {
+    // Also include user-added items for this category
+    const userItems = getCollection().filter(i => i.category === currentCategory);
+    const userHtml = userItems.length > 0 ? userItems.sort((a,b) => (b.addedAt||0) - (a.addedAt||0)).map((item) => {
+      const typeIcon = item.type === 'author' ? '👤' : item.type === 'note' ? '📝' : item.type === 'opportunity' ? '💼' : '📎';
+      const titleHtml = item.url ? `<a href="${escapeHtml(item.url)}" target="_blank">${escapeHtml(item.title)}</a>` : escapeHtml(item.title);
+      const tags = item.tags ? item.tags.split(',').map(t => t.trim()).filter(Boolean).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('') : '';
+      return `<div class="card"><div class="card-header"><div class="card-source-indicator" style="background:#e74c3c"></div><div style="flex:1"><div class="card-title">${titleHtml}</div>${item.notes ? `<div class="card-summary">${escapeHtml(item.notes)}</div>` : ''}<div class="card-meta"><span class="tag" style="border-left:2px solid #e74c3c;padding-left:0.5rem">${typeIcon} My Collection</span>${tags}</div></div></div></div>`;
+    }).join('') : '';
+
+    if (items.length === 0 && userItems.length === 0) {
       container.innerHTML = '<div class="empty-state">No items match your filters.</div>';
       return;
     }
-    container.innerHTML = items.map(item => renderLinkCard(item, meta)).join('');
+    container.innerHTML = (userHtml ? '<div style="margin-bottom:0.5rem;font-size:0.7rem;color:var(--text-muted);font-family:var(--font-mono);padding:0 0.5rem;">📌 MY ADDITIONS</div>' + userHtml + '<div style="margin:1rem 0 0.5rem;font-size:0.7rem;color:var(--text-muted);font-family:var(--font-mono);padding:0 0.5rem;">AUTO-FETCHED</div>' : '') + items.map(item => renderLinkCard(item, meta)).join('');
     return;
   }
 
@@ -891,15 +915,22 @@ function saveCollection(items) {
   document.getElementById('count-mycollection').textContent = items.length;
 }
 
-function renderCollection() {
+function renderCollection(filterCategory) {
   const container = document.getElementById('content');
   const form = document.getElementById('collection-form');
-  form.style.display = '';
+  form.style.display = currentCategory === 'mycollection' ? '' : 'none';
   
   let items = getCollection();
+  // Filter by category if viewing a specific tab
+  if (filterCategory) {
+    items = items.filter(i => i.category === filterCategory);
+  } else {
+    // In "My Collection" tab, show all or filter to general-only
+    // Show all items
+  }
   if (searchQuery) {
     const q = searchQuery.toLowerCase();
-    items = items.filter(i => [i.title, i.url, i.notes, i.tags, i.type].join(' ').toLowerCase().includes(q));
+    items = items.filter(i => [i.title, i.url, i.notes, i.tags, i.type, i.category].join(' ').toLowerCase().includes(q));
   }
 
   if (items.length === 0) {
@@ -955,6 +986,7 @@ document.getElementById('col-submit').addEventListener('click', () => {
   const items = getCollection();
   items.push({
     type: document.getElementById('col-type').value,
+    category: document.getElementById('col-category').value,
     title,
     url: document.getElementById('col-url').value.trim(),
     notes: document.getElementById('col-notes').value.trim(),
