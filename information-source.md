@@ -322,3 +322,14 @@ agent, human-AI, agentic, collaboration, qualitative
 | ACL/EMNLP HCI+NLP Workshop | https://aclanthology.org | 年度 | HCI×NLP交叉 |
 | IUI Conference | https://iui.acm.org | 年度 | Intelligent User Interfaces |
 | NeurIPS/ICML Agent Workshops | https://neurips.cc | 年度 | 系统/ML视角的agent研究 |
+
+### Career/Grant Opportunities
+
+| 名称 | 链接 | 类型 | 说明 |
+|------|------|------|------|
+| NSF CAREER Award | https://www.nsf.gov/funding/opportunities?fund_program_desc=CAREER | Grant | Junior faculty, 5-year research funding |
+| NSF CISE Core Programs | https://www.nsf.gov/cise/funding.jsp | Grant | Computer Science research grants |
+| CRA-WP Scholarships | https://cra.org/cra-wp/ | Fellowship | Women in computing research |
+| ACM SIGCHI Open Positions | https://sigchi.org/resources/open-positions/ | Job Board | HCI academic positions |
+| CRA Job Board | https://cra.org/ads/ | Job Board | CS academic positions |
+| Computing Research Association | https://cra.org | Resource | CS research community resources |

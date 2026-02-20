@@ -28,6 +28,7 @@
     --accent-researchers: #e91e63;
     --accent-podcasts: #ff9800;
     --accent-conferences: #00897b;
+    --accent-opportunities: #5c6bc0;
     --tag-bg: rgba(0,0,0,0.04);
     --font-mono: 'IBM Plex Mono', monospace;
     --font-sans: 'IBM Plex Sans', sans-serif;
@@ -464,6 +465,10 @@
     <span class="source-dot" style="background:var(--accent-conferences)"></span>
     会议 <span class="count" id="count-conferences">—</span>
   </button>
+  <button class="tab" data-category="opportunities">
+    <span class="source-dot" style="background:var(--accent-opportunities)"></span>
+    Career/Grants <span class="count" id="count-opportunities">—</span>
+  </button>
 </div>
 
 <div class="main-right">
@@ -565,6 +570,7 @@ const categoryMeta = {
   researchers: { static: true, color: 'var(--accent-researchers)', nameKey: '\u59d3\u540d', urlKey: '\u94fe\u63a5', descKey: '\u8bf4\u660e', extraKey: '\u5e73\u53f0' },
   podcasts:    { static: true, color: 'var(--accent-podcasts)',    nameKey: '\u540d\u79f0', urlKey: '\u94fe\u63a5', descKey: '\u8bf4\u660e' },
   conferences: { static: true, color: 'var(--accent-conferences)', nameKey: '\u540d\u79f0', urlKey: '\u94fe\u63a5', descKey: '\u8bf4\u660e', extraKey: '\u9891\u7387' },
+  opportunities: { static: true, color: 'var(--accent-opportunities)', nameKey: '\u540d\u79f0', urlKey: '\u94fe\u63a5', descKey: '\u8bf4\u660e', extraKey: '\u7c7b\u578b' },
 };
 
 // ─── Load Data ───
@@ -587,6 +593,7 @@ async function loadData() {
       researchers: data.researchers || [],
       podcasts: data.podcasts || [],
       conferences: data.conferences || [],
+      opportunities: data.opportunities || [],
     };
 
     // Update meta
@@ -607,6 +614,7 @@ async function loadData() {
     document.getElementById('count-researchers').textContent = staticData.researchers.length;
     document.getElementById('count-podcasts').textContent = staticData.podcasts.length;
     document.getElementById('count-conferences').textContent = staticData.conferences.length;
+    document.getElementById('count-opportunities').textContent = staticData.opportunities.length;
 
     // Stats
     document.getElementById('stat-total').textContent = allItems.length;

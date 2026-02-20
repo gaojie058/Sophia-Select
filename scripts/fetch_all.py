@@ -145,6 +145,7 @@ def load_config():
     config["researchers"] = parse_link_table(extract_section("推荐关注"))
     config["podcasts"] = parse_link_table(extract_section("播客"))
     config["conferences"] = parse_link_table(extract_section("会议/Workshop"))
+    config["opportunities"] = parse_link_table(extract_section("Career/Grant Opportunities"))
 
     return config
 
@@ -487,6 +488,7 @@ def main():
         "researchers": CFG["researchers"],
         "podcasts": CFG["podcasts"],
         "conferences": CFG["conferences"],
+        "opportunities": CFG.get("opportunities", []),
     }
 
     # Write combined data
