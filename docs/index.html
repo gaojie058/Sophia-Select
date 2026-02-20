@@ -41,6 +41,8 @@
     font-family: var(--font-sans);
     line-height: 1.6;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
   /* ─── Header ─── */
@@ -106,22 +108,34 @@
     color: var(--text-muted);
   }
 
-  /* ─── Tabs / Source Filter ─── */
+  /* ─── Layout: Sidebar + Main ─── */
+  .main-layout {
+    display: flex;
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  /* ─── Sidebar Navigation ─── */
   .tabs {
     display: flex;
+    flex-direction: column;
     gap: 0;
-    border-bottom: 1px solid var(--border);
-    padding: 0 2rem;
-    overflow-x: auto;
+    border-right: 1px solid var(--border);
+    padding: 0.5rem 0;
+    width: 180px;
+    flex-shrink: 0;
+    overflow-y: auto;
+    background: var(--surface);
   }
 
   .tab {
-    padding: 0.7rem 1.2rem;
-    font-size: 0.8rem;
+    padding: 0.55rem 1rem;
+    font-size: 0.78rem;
     font-family: var(--font-mono);
     color: var(--text-muted);
     cursor: pointer;
-    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
     transition: all 0.2s;
     white-space: nowrap;
     display: flex;
@@ -129,23 +143,26 @@
     gap: 0.5rem;
     background: none;
     border-top: none;
-    border-left: none;
+    border-bottom: none;
     border-right: none;
+    text-align: left;
   }
 
-  .tab:hover { color: var(--text-dim); }
+  .tab:hover { color: var(--text-dim); background: var(--surface-hover); }
 
   .tab.active {
     color: var(--text);
-    border-bottom-color: var(--text);
+    border-left-color: var(--text);
+    background: var(--bg);
   }
 
   .tab .count {
     background: var(--tag-bg);
     padding: 0.1rem 0.45rem;
     border-radius: 10px;
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     color: var(--text-dim);
+    margin-left: auto;
   }
 
   .tab.active .count {
@@ -157,6 +174,39 @@
     height: 6px;
     border-radius: 50%;
     display: inline-block;
+    flex-shrink: 0;
+  }
+
+  .main-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    overflow-y: auto;
+  }
+
+  /* ─── My Collection Button (header) ─── */
+  .collection-btn {
+    padding: 0.35rem 0.8rem;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    transition: opacity 0.2s;
+  }
+  .collection-btn:hover { opacity: 0.85; }
+  .collection-btn .count {
+    background: rgba(255,255,255,0.25);
+    padding: 0.05rem 0.4rem;
+    border-radius: 8px;
+    font-size: 0.65rem;
   }
 
   /* ─── Stats Bar ─── */
@@ -353,8 +403,11 @@
 
   /* ─── Responsive ─── */
   @media (max-width: 768px) {
-    .header { padding: 1rem; }
-    .tabs { padding: 0 1rem; }
+    .header { padding: 1rem; flex-wrap: wrap; }
+    .main-layout { flex-direction: column; }
+    .tabs { flex-direction: row; width: 100%; overflow-x: auto; border-right: none; border-bottom: 1px solid var(--border); padding: 0; }
+    .tab { border-left: none; border-bottom: 2px solid transparent; padding: 0.5rem 0.8rem; font-size: 0.7rem; }
+    .tab.active { border-left-color: transparent; border-bottom-color: var(--text); }
     .content { padding: 1rem; }
     .stats-bar { padding: 0.8rem 1rem; gap: 1.2rem; }
     .search-box { width: 100%; }
@@ -372,9 +425,13 @@
   </div>
   <div class="header-right">
     <input type="text" class="search-box" id="search" placeholder="filter by keyword, author, title..." />
+    <button class="collection-btn" id="collection-btn" data-category="mycollection">
+      📌 My Collection <span class="count" id="count-mycollection">—</span>
+    </button>
   </div>
 </div>
 
+<div class="main-layout">
 <div class="tabs" id="tabs">
   <button class="tab active" data-category="all">
     全部 <span class="count" id="count-all">—</span>
@@ -407,12 +464,9 @@
     <span class="source-dot" style="background:var(--accent-conferences)"></span>
     会议 <span class="count" id="count-conferences">—</span>
   </button>
-  <button class="tab" data-category="mycollection" style="margin-left:auto">
-    <span class="source-dot" style="background:#e74c3c"></span>
-    📌 My Collection <span class="count" id="count-mycollection">—</span>
-  </button>
 </div>
 
+<div class="main-right">
 <div class="stats-bar" id="stats-bar">
   <div class="stat">
     <div class="stat-value" id="stat-total">—</div>
@@ -478,6 +532,8 @@
 <div class="content" id="content">
   <div class="loading">Fetching data...</div>
 </div>
+</div><!-- /main-right -->
+</div><!-- /main-layout -->
 
 <script>
 // ─── State ───
@@ -886,6 +942,16 @@ render = function() {
 
 // Init collection count
 document.getElementById('count-mycollection').textContent = getCollection().length;
+
+// Collection button in header
+document.getElementById('collection-btn').addEventListener('click', () => {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('collection-btn').style.opacity = '1';
+  currentCategory = 'mycollection';
+  currentKeyword = '';
+  document.querySelectorAll('.keyword-pill').forEach(p => p.classList.remove('active'));
+  render();
+});
 
 // ─── Init ───
 loadData();
