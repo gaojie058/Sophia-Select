@@ -246,6 +246,21 @@
     padding: 1.5rem 2rem;
   }
 
+  .content.grid-mode {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 0.75rem;
+    max-width: none;
+  }
+
+  .content.grid-mode .card {
+    margin-bottom: 0;
+  }
+
+  .content.grid-mode .grid-section-header {
+    grid-column: 1 / -1;
+  }
+
   /* ─── Card ─── */
   .card {
     border: 1px solid var(--border);
@@ -732,6 +747,8 @@ function render() {
   const isStatic = meta && meta.static;
   const hasUserItems = getCollection().some(i => i.category === currentCategory);
   const confSection = document.getElementById('conf-section');
+  // Grid layout for static categories
+  container.classList.toggle('grid-mode', isStatic && currentCategory !== 'mycollection');
   kwSection.style.display = (!isStatic && currentCategory !== 'mycollection') ? '' : 'none';
   regionSection.style.display = currentCategory === 'opportunities' ? '' : 'none';
   confSection.style.display = currentCategory === 'conferences' ? '' : 'none';
@@ -800,7 +817,7 @@ function render() {
 
     let html = '';
     if (userHtml && autoHtml) {
-      html = '<div style="margin-bottom:0.5rem;font-size:0.7rem;color:var(--text-muted);font-family:var(--font-mono);padding:0 0.5rem;">📌 MY ADDITIONS</div>' + userHtml + '<div style="margin:1rem 0 0.5rem;font-size:0.7rem;color:var(--text-muted);font-family:var(--font-mono);padding:0 0.5rem;">📡 AUTO-FETCHED</div>' + autoHtml;
+      html = '<div class="grid-section-header" style="margin-bottom:0.5rem;font-size:0.7rem;color:var(--text-muted);font-family:var(--font-mono);padding:0 0.5rem;">📌 MY ADDITIONS</div>' + userHtml + '<div class="grid-section-header" style="margin:1rem 0 0.5rem;font-size:0.7rem;color:var(--text-muted);font-family:var(--font-mono);padding:0 0.5rem;">📡 AUTO-FETCHED</div>' + autoHtml;
     } else {
       html = userHtml || autoHtml;
     }
@@ -1154,6 +1171,7 @@ render = function() {
   const form = document.getElementById('collection-form');
   if (currentCategory === 'mycollection') {
     form.style.display = '';
+    document.getElementById('content').classList.remove('grid-mode');
     renderCollection();
     return;
   }
