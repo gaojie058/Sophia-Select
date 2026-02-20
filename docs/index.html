@@ -507,7 +507,15 @@
     <span class="keyword-pill" data-region="🇦🇺">🇦🇺 Australia</span>
     <span class="keyword-pill" data-region="🎓">🎓 Fellowship</span>
     <span class="keyword-pill" data-region="🏢">🏢 University</span>
+    <span class="keyword-pill" data-region="🌏">🌏 International</span>
     <span class="keyword-pill" data-region="📋">📋 Job Board</span>
+  </div>
+</div>
+<div class="keyword-section" id="source-section" style="display:none">
+  <div class="keyword-pills" id="source-pills">
+    <span class="keyword-pill" data-source="all">All</span>
+    <span class="keyword-pill" data-source="mine">📌 My Additions</span>
+    <span class="keyword-pill" data-source="auto">📡 Auto-Fetched</span>
   </div>
 </div>
 
@@ -574,6 +582,7 @@ let staticData = {};
 let currentCategory = 'all';
 let currentKeyword = '';
 let currentRegion = 'all';
+let currentSource = 'all';
 let searchQuery = '';
 
 const sourceColors = {
@@ -697,18 +706,14 @@ function render() {
   const kwSection = document.getElementById('keyword-section');
 
   const regionSection = document.getElementById('region-section');
+  const sourceSection = document.getElementById('source-section');
 
-  // Show keyword pills only for fetched-data categories, region pills for opportunities
-  if (currentCategory === 'opportunities') {
-    kwSection.style.display = 'none';
-    regionSection.style.display = '';
-  } else if (meta && meta.static) {
-    kwSection.style.display = 'none';
-    regionSection.style.display = 'none';
-  } else {
-    kwSection.style.display = '';
-    regionSection.style.display = 'none';
-  }
+  // Show appropriate filter bars
+  const isStatic = meta && meta.static;
+  const hasUserItems = getCollection().some(i => i.category === currentCategory);
+  kwSection.style.display = (!isStatic && currentCategory !== 'mycollection') ? '' : 'none';
+  regionSection.style.display = currentCategory === 'opportunities' ? '' : 'none';
+  sourceSection.style.display = (isStatic && hasUserItems) ? '' : 'none';
 
   // Static link categories
   if (meta && meta.static) {
@@ -721,20 +726,40 @@ function render() {
       const q = searchQuery.toLowerCase();
       items = items.filter(i => Object.values(i).join(' ').toLowerCase().includes(q));
     }
-    // Also include user-added items for this category
-    const userItems = getCollection().filter(i => i.category === currentCategory);
-    const userHtml = userItems.length > 0 ? userItems.sort((a,b) => (b.addedAt||0) - (a.addedAt||0)).map((item) => {
+    // User-added items for this category
+    let userItems = getCollection().filter(i => i.category === currentCategory);
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      userItems = userItems.filter(i => [i.title, i.url, i.notes, i.tags].join(' ').toLowerCase().includes(q));
+    }
+    userItems.sort((a,b) => (b.addedAt||0) - (a.addedAt||0));
+
+    const renderUserCard = (item) => {
       const typeIcon = item.type === 'author' ? '👤' : item.type === 'note' ? '📝' : item.type === 'opportunity' ? '💼' : '📎';
       const titleHtml = item.url ? `<a href="${escapeHtml(item.url)}" target="_blank">${escapeHtml(item.title)}</a>` : escapeHtml(item.title);
       const tags = item.tags ? item.tags.split(',').map(t => t.trim()).filter(Boolean).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('') : '';
-      return `<div class="card"><div class="card-header"><div class="card-source-indicator" style="background:#e74c3c"></div><div style="flex:1"><div class="card-title">${titleHtml}</div>${item.notes ? `<div class="card-summary">${escapeHtml(item.notes)}</div>` : ''}<div class="card-meta"><span class="tag" style="border-left:2px solid #e74c3c;padding-left:0.5rem">${typeIcon} My Collection</span>${tags}</div></div></div></div>`;
-    }).join('') : '';
+      return `<div class="card"><div class="card-header"><div class="card-source-indicator" style="background:#e74c3c"></div><div style="flex:1"><div class="card-title">${titleHtml}</div>${item.notes ? `<div class="card-summary">${escapeHtml(item.notes)}</div>` : ''}<div class="card-meta"><span class="tag" style="border-left:2px solid #e74c3c;padding-left:0.5rem">${typeIcon} My Addition</span>${tags}</div></div></div></div>`;
+    };
 
-    if (items.length === 0 && userItems.length === 0) {
+    // Apply source filter
+    const showMine = currentSource === 'all' || currentSource === 'mine';
+    const showAuto = currentSource === 'all' || currentSource === 'auto';
+
+    const userHtml = (showMine && userItems.length > 0) ? userItems.map(renderUserCard).join('') : '';
+    const autoHtml = showAuto ? items.map(item => renderLinkCard(item, meta)).join('') : '';
+
+    if (!userHtml && !autoHtml) {
       container.innerHTML = '<div class="empty-state">No items match your filters.</div>';
       return;
     }
-    container.innerHTML = (userHtml ? '<div style="margin-bottom:0.5rem;font-size:0.7rem;color:var(--text-muted);font-family:var(--font-mono);padding:0 0.5rem;">📌 MY ADDITIONS</div>' + userHtml + '<div style="margin:1rem 0 0.5rem;font-size:0.7rem;color:var(--text-muted);font-family:var(--font-mono);padding:0 0.5rem;">AUTO-FETCHED</div>' : '') + items.map(item => renderLinkCard(item, meta)).join('');
+
+    let html = '';
+    if (userHtml && autoHtml) {
+      html = '<div style="margin-bottom:0.5rem;font-size:0.7rem;color:var(--text-muted);font-family:var(--font-mono);padding:0 0.5rem;">📌 MY ADDITIONS</div>' + userHtml + '<div style="margin:1rem 0 0.5rem;font-size:0.7rem;color:var(--text-muted);font-family:var(--font-mono);padding:0 0.5rem;">📡 AUTO-FETCHED</div>' + autoHtml;
+    } else {
+      html = userHtml || autoHtml;
+    }
+    container.innerHTML = html;
     return;
   }
 
@@ -869,8 +894,10 @@ document.getElementById('tabs').addEventListener('click', e => {
   // Clear filters when switching tabs
   currentKeyword = '';
   currentRegion = 'all';
+  currentSource = 'all';
   document.querySelectorAll('.keyword-pill').forEach(p => p.classList.remove('active'));
   document.querySelectorAll('#region-pills .keyword-pill').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('#source-pills .keyword-pill').forEach(p => p.classList.remove('active'));
   render();
 });
 
@@ -900,6 +927,16 @@ document.getElementById('region-pills').addEventListener('click', e => {
   currentRegion = region;
   document.querySelectorAll('#region-pills .keyword-pill').forEach(p => p.classList.remove('active'));
   if (region !== 'all') pill.classList.add('active');
+  render();
+});
+
+// ─── Source Filter (My Additions vs Auto-Fetched) ───
+document.getElementById('source-pills').addEventListener('click', e => {
+  const pill = e.target.closest('.keyword-pill');
+  if (!pill) return;
+  currentSource = pill.dataset.source;
+  document.querySelectorAll('#source-pills .keyword-pill').forEach(p => p.classList.remove('active'));
+  if (currentSource !== 'all') pill.classList.add('active');
   render();
 });
 
