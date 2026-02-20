@@ -322,6 +322,20 @@ agent, human-AI, agentic, collaboration, qualitative
 | ACL/EMNLP HCI+NLP Workshop | https://aclanthology.org | 年度 | HCI×NLP交叉 |
 | IUI Conference | https://iui.acm.org | 年度 | Intelligent User Interfaces |
 | NeurIPS/ICML Agent Workshops | https://neurips.cc | 年度 | 系统/ML视角的agent研究 |
+| CHI | https://chi2026.acm.org | 年度 | ACM顶会, Human-Computer Interaction核心会议 |
+| CSCW | https://cscw.acm.org | 年度 | Computer-Supported Cooperative Work, 协作与社会计算 |
+| UIST | https://uist.acm.org | 年度 | User Interface Software and Technology |
+| ICSE | https://conf.researchr.org/home/icse-2026 | 年度 | 软件工程顶会, AI4SE/SE4AI方向 |
+| ICLR | https://iclr.cc | 年度 | 表示学习顶会, LLM/foundation model前沿 |
+| NeurIPS | https://neurips.cc | 年度 | ML/AI最大顶会, agent/alignment/human-AI |
+| ICML | https://icml.cc | 年度 | 机器学习顶会 |
+| ACL | https://www.aclweb.org | 年度 | NLP顶会, human-LLM interaction相关 |
+| EMNLP | https://www.aclweb.org | 年度 | NLP顶会, empirical methods |
+| AAAI | https://aaai.org | 年度 | 综合AI顶会, human-AI collaboration track |
+| FAccT | https://facctconference.org | 年度 | Fairness, Accountability, Transparency in AI |
+| AIES | https://www.aies-conference.com | 年度 | AI, Ethics, and Society |
+| DIS | https://dis.acm.org | 年度 | Designing Interactive Systems |
+| ASSETS | https://assets.acm.org | 年度 | Accessible Computing, AI accessibility |
 
 ### Career/Grant Opportunities
 

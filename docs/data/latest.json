@@ -2449,6 +2449,90 @@
       "链接": "https://neurips.cc",
       "频率": "年度",
       "说明": "系统/ML视角的agent研究"
+    },
+    {
+      "名称": "CHI",
+      "链接": "https://chi2026.acm.org",
+      "频率": "年度",
+      "说明": "ACM顶会, Human-Computer Interaction核心会议"
+    },
+    {
+      "名称": "CSCW",
+      "链接": "https://cscw.acm.org",
+      "频率": "年度",
+      "说明": "Computer-Supported Cooperative Work, 协作与社会计算"
+    },
+    {
+      "名称": "UIST",
+      "链接": "https://uist.acm.org",
+      "频率": "年度",
+      "说明": "User Interface Software and Technology"
+    },
+    {
+      "名称": "ICSE",
+      "链接": "https://conf.researchr.org/home/icse-2026",
+      "频率": "年度",
+      "说明": "软件工程顶会, AI4SE/SE4AI方向"
+    },
+    {
+      "名称": "ICLR",
+      "链接": "https://iclr.cc",
+      "频率": "年度",
+      "说明": "表示学习顶会, LLM/foundation model前沿"
+    },
+    {
+      "名称": "NeurIPS",
+      "链接": "https://neurips.cc",
+      "频率": "年度",
+      "说明": "ML/AI最大顶会, agent/alignment/human-AI"
+    },
+    {
+      "名称": "ICML",
+      "链接": "https://icml.cc",
+      "频率": "年度",
+      "说明": "机器学习顶会"
+    },
+    {
+      "名称": "ACL",
+      "链接": "https://www.aclweb.org",
+      "频率": "年度",
+      "说明": "NLP顶会, human-LLM interaction相关"
+    },
+    {
+      "名称": "EMNLP",
+      "链接": "https://www.aclweb.org",
+      "频率": "年度",
+      "说明": "NLP顶会, empirical methods"
+    },
+    {
+      "名称": "AAAI",
+      "链接": "https://aaai.org",
+      "频率": "年度",
+      "说明": "综合AI顶会, human-AI collaboration track"
+    },
+    {
+      "名称": "FAccT",
+      "链接": "https://facctconference.org",
+      "频率": "年度",
+      "说明": "Fairness, Accountability, Transparency in AI"
+    },
+    {
+      "名称": "AIES",
+      "链接": "https://www.aies-conference.com",
+      "频率": "年度",
+      "说明": "AI, Ethics, and Society"
+    },
+    {
+      "名称": "DIS",
+      "链接": "https://dis.acm.org",
+      "频率": "年度",
+      "说明": "Designing Interactive Systems"
+    },
+    {
+      "名称": "ASSETS",
+      "链接": "https://assets.acm.org",
+      "频率": "年度",
+      "说明": "Accessible Computing, AI accessibility"
     }
   ],
   "opportunities": [
