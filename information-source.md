@@ -366,5 +366,14 @@ agent, human-AI, agentic, collaboration, qualitative
 | ARC Discovery Projects | https://www.arc.gov.au/ | 🇦🇺 AU Grant | 澳洲core research grant, 类似NSF standard grant. 拿到faculty后申请 |
 | ARC Linkage Projects | https://www.arc.gov.au/ | 🇦🇺 AU Grant | 需industry partner合作. 适合open-source tool有industry adoption的情况 |
 | Microsoft Research Fellowship 2026 | https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/ | 🌏 International | 美加$47K, 欧洲$27K, 亚太$17K. 覆盖human-AI collaboration. 2026轮次已过(Dec 2025), 关注2027 |
+| Google DeepMind Singapore | https://job-boards.greenhouse.io/deepmind | 🇸🇬 SG Industry | Research Scientist: Reasoning & AGI + Autonomous Agents方向. LLM agents/NLP/evaluation, 与研究方向高度匹配 |
+| ByteDance/TikTok Singapore (Seed) | https://jobs.bytedance.com | 🇸🇬 SG Industry | LLM Research Scientist (Code AI方向与CodeMap直接相关) + Responsible AI + Conversational AI |
+| NVIDIA Singapore | https://www.nvidia.com/en-sg/about-nvidia/careers/ | 🇸🇬 SG Industry | AI Researcher: language model + efficient AI computing |
+| Sea AI Lab (SAIL) | https://careers.sea.com | 🇸🇬 SG Industry | Language models, trustworthy AI, scalable systems. 研究+产品落地兼顾, 应用到Shopee/Garena |
+| Grab AI Centre | https://grab.careers | 🇸🇬 SG Industry | AI researcher/data scientist: mobility, delivery, payments相关AI |
+| AI Singapore (AISG) | https://aisingapore.org/careers/ | 🇸🇬 SG Gov | 国家级AI计划. Programme Manager, AI Engineer等 |
+| A*STAR | https://www.a-star.edu.sg/careers | 🇸🇬 SG Gov | Research Scientist: ML, NLP, drug discovery等 |
+| GovTech Singapore | https://www.tech.gov.sg/careers/ | 🇸🇬 SG Gov | Data Scientist: 隐私保护技术, 政府数据共享 |
+| DSO National Laboratories | https://www.dso.org.sg/careers | 🇸🇬 SG Gov | AI Research Engineer: 国防/安全应用方向 |
 | ACM SIGCHI Open Positions | https://sigchi.org/resources/open-positions/ | 📋 Job Board | HCI academic positions |
 | CRA Job Board | https://cra.org/ads/ | 📋 Job Board | CS academic positions |
