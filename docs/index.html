@@ -29,6 +29,7 @@
     --accent-podcasts: #ff9800;
     --accent-conferences: #00897b;
     --accent-opportunities: #5c6bc0;
+    --accent-faculty_jobs: #e91e63;
     --tag-bg: rgba(0,0,0,0.04);
     --font-mono: 'IBM Plex Mono', monospace;
     --font-sans: 'IBM Plex Sans', sans-serif;
@@ -483,6 +484,10 @@
     <span class="source-dot" style="background:var(--accent-conferences)"></span>
     会议 <span class="count" id="count-conferences">—</span>
   </button>
+  <button class="tab" data-category="faculty_jobs">
+    <span class="source-dot" style="background:#e91e63"></span>
+    🎓 Faculty Jobs <span class="count" id="count-faculty_jobs">—</span>
+  </button>
   <button class="tab" data-category="opportunities">
     <span class="source-dot" style="background:var(--accent-opportunities)"></span>
     Career/Grants <span class="count" id="count-opportunities">—</span>
@@ -572,6 +577,7 @@
           <option value="author">👤 Author</option>
           <option value="note">📝 Note</option>
           <option value="opportunity">💼 Career/Grant</option>
+          <option value="faculty_job">🎓 Faculty Job</option>
         </select>
       </div>
       <div style="width:160px;">
@@ -641,6 +647,7 @@ const sourceLabels = {
   semantic_scholar: 'S2',
   hackernews: 'HN',
   reddit: 'Reddit',
+  faculty_jobs: 'Faculty',
 };
 
 const categoryMeta = {
@@ -652,6 +659,7 @@ const categoryMeta = {
   podcasts:    { static: true, color: 'var(--accent-podcasts)',    nameKey: '\u540d\u79f0', urlKey: '\u94fe\u63a5', descKey: '\u8bf4\u660e' },
   conferences: { static: true, color: 'var(--accent-conferences)', nameKey: '\u540d\u79f0', urlKey: '\u94fe\u63a5', descKey: '\u8bf4\u660e', extraKey: '\u9886\u57df', deadlineKey: 'Deadline', confDateKey: '\u4f1a\u8bae\u65e5\u671f' },
   opportunities: { static: true, color: 'var(--accent-opportunities)', nameKey: '\u540d\u79f0', urlKey: '\u94fe\u63a5', descKey: '\u8bf4\u660e', extraKey: '\u7c7b\u578b' },
+  faculty_jobs: { sources: ['faculty_jobs'], color: 'var(--accent-faculty_jobs)' },
 };
 
 // ─── Load Data ───
@@ -666,6 +674,7 @@ async function loadData() {
       ...(data.semantic_scholar || []),
       ...(data.hackernews || []),
       ...(data.reddit || []),
+      ...(data.faculty_jobs || []),
     ];
 
     staticData = {
@@ -696,6 +705,7 @@ async function loadData() {
     document.getElementById('count-podcasts').textContent = staticData.podcasts.length;
     document.getElementById('count-conferences').textContent = staticData.conferences.length;
     document.getElementById('count-opportunities').textContent = staticData.opportunities.length;
+    document.getElementById('count-faculty_jobs').textContent = (data.faculty_jobs || []).length;
 
     // Stats
     document.getElementById('stat-total').textContent = allItems.length;

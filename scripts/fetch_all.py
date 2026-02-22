@@ -491,6 +491,15 @@ def main():
         "opportunities": CFG.get("opportunities", []),
     }
 
+    # Fetch faculty jobs
+    try:
+        from fetch_faculty_jobs import main as fetch_faculty
+        faculty_jobs = fetch_faculty()
+        all_data["faculty_jobs"] = faculty_jobs
+    except Exception as e:
+        print(f"⚠ Faculty jobs fetch failed: {e}")
+        all_data["faculty_jobs"] = []
+
     # Write combined data
     output_path = DATA_DIR / "latest.json"
     with open(output_path, "w") as f:

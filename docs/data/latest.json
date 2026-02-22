@@ -2968,5 +2968,87 @@
       "类型": "🏢 Big Tech UX",
       "说明": "探索AI如何增强知识工作者的工作流程。HCI+AI交叉方向，与你的研究兴趣高度一致"
     }
+  ],
+  "faculty_jobs": [
+    {
+      "title": "🔍 CRA Career Center — CS Faculty Positions",
+      "url": "https://careercenter.cra.org/?s=&post_type=job_listing&search_category%5B%5D=faculty",
+      "source": "faculty_jobs",
+      "summary": "Computing Research Association job board. Largest source of CS academic positions in North America.",
+      "region": "🇺🇸 US",
+      "origin": "Board",
+      "ts": 1771731192,
+      "matched_keyword": "🇺🇸 US"
+    },
+    {
+      "title": "🔍 HigherEdJobs — CS & IT Faculty",
+      "url": "https://www.higheredjobs.com/faculty/search.cfm?JobCat=93",
+      "source": "faculty_jobs",
+      "summary": "Large US-focused academic job board. Filter by Computer Science / IT category.",
+      "region": "🇺🇸 US",
+      "origin": "Board",
+      "ts": 1771731192,
+      "matched_keyword": "🇺🇸 US"
+    },
+    {
+      "title": "🔍 AcademicJobsOnline — Computer Science",
+      "url": "https://academicjobsonline.org/ajo/jobs?department=Computer+Science",
+      "source": "faculty_jobs",
+      "summary": "Global academic recruitment platform. Strong for R1 universities.",
+      "region": "🌐 Global",
+      "origin": "Board",
+      "ts": 1771731192,
+      "matched_keyword": "🌐 Global"
+    },
+    {
+      "title": "🔍 Times Higher Education — CS Academic Jobs",
+      "url": "https://www.timeshighereducation.com/unijobs/en/listing/computer-science/",
+      "source": "faculty_jobs",
+      "summary": "Global academic job listings, strong for UK/Europe/Asia/Australia.",
+      "region": "🌐 Global",
+      "origin": "Board",
+      "ts": 1771731192,
+      "matched_keyword": "🌐 Global"
+    },
+    {
+      "title": "🔍 jobs.ac.uk — CS & IT",
+      "url": "https://www.jobs.ac.uk/search/?activeFacet=subjectFacet&subjectFacet%5B0%5D=Computing+%26+IT",
+      "source": "faculty_jobs",
+      "summary": "UK & Ireland academic positions. Best source for British universities.",
+      "region": "🇬🇧 UK",
+      "origin": "Board",
+      "ts": 1771731192,
+      "matched_keyword": "🇬🇧 UK"
+    },
+    {
+      "title": "🔍 EuroScienceJobs — Computer Science",
+      "url": "https://www.eurosciencejobs.com/jobs/computer_science",
+      "source": "faculty_jobs",
+      "summary": "European academic positions across all countries.",
+      "region": "🇪🇺 Europe",
+      "origin": "Board",
+      "ts": 1771731192,
+      "matched_keyword": "🇪🇺 Europe"
+    },
+    {
+      "title": "🔍 CSRankings Open Positions",
+      "url": "https://drafty.cs.brown.edu/csopenpositions/",
+      "source": "faculty_jobs",
+      "summary": "Community-maintained list of CS open positions worldwide. Updated frequently by the community.",
+      "region": "🌐 Global",
+      "origin": "Board",
+      "ts": 1771731192,
+      "matched_keyword": "🌐 Global"
+    },
+    {
+      "title": "🔍 GitHub CS Faculty Jobs Wiki 2026",
+      "url": "https://github.com/academic-cs-jobs",
+      "source": "faculty_jobs",
+      "summary": "Community-maintained spreadsheet/wiki tracking CS faculty openings and their status.",
+      "region": "🌐 Global",
+      "origin": "Board",
+      "ts": 1771731192,
+      "matched_keyword": "🌐 Global"
+    }
   ]
 }
