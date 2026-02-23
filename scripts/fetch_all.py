@@ -143,6 +143,7 @@ def load_config():
     config["blogs"] = parse_link_table(extract_section("公司/实验室博客"))
     config["newsletters"] = parse_link_table(extract_section("Newsletter / 个人博客"))
     config["researchers"] = parse_link_table(extract_section("推荐关注"))
+    config["seminars"] = parse_link_table(extract_section("Seminars/Talks"))
     config["podcasts"] = parse_link_table(extract_section("播客"))
     config["conferences"] = parse_link_table(extract_section("会议/Workshop"))
     config["opportunities"] = parse_link_table(extract_section("Career/Grant Opportunities"))
@@ -486,6 +487,7 @@ def main():
         "blogs": CFG["blogs"],
         "newsletters": CFG["newsletters"],
         "researchers": CFG["researchers"],
+        "seminars": CFG.get("seminars", []),
         "podcasts": CFG["podcasts"],
         "conferences": CFG["conferences"],
         "opportunities": CFG.get("opportunities", []),

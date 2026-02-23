@@ -304,6 +304,25 @@ agent, human-AI, agentic, collaboration, qualitative
 | Q. Vera Liao | https://x.com/QVeraLiao | X | Explainable AI, responsible AI in HCI |
 | Xiang 'Anthony' Chen | https://x.com/_xiang_chen_ | X | Interactive AI systems |
 
+### Seminars/Talks
+
+| 名称 | 链接 | 机构 | 频率 | 说明 |
+|------|------|------|------|------|
+| Stanford HAI Seminar | https://hai.stanford.edu/events | Stanford | 每周 | Human-Centered AI 核心 seminar，覆盖 AI policy、education、human-AI interaction。YouTube 有录播 |
+| Stanford CS547 HCI Seminar | https://hci.stanford.edu/courses/cs547/ | Stanford CS | 每周 | HCI 方向专题 seminar，常有 human-AI interaction 相关 talk |
+| CMU HCII Seminar Series | https://www.hcii.cmu.edu/news/seminars/upcoming | CMU HCII | 每周五 | HCI 领域最活跃的 seminar 之一。Spring 2026: Sarah Preum, Haoqi Zhang 等 |
+| UMich HCI Seminar | https://cse.engin.umich.edu/events/all-seminars/hci/ | U Michigan | 不定期 | Q. Vera Liao 所在校，HCI + AI 方向 |
+| UMich AI Seminar | https://cse.engin.umich.edu/events/all-seminars/artificial-intelligence/ | U Michigan | 不定期 | NLP + AI 方向，self-supervised learning、LLM |
+| MIT AI for Society Seminar | https://ai4society.mit.edu/seminar/ | MIT | 不定期 | AI 与社会交叉，法律、政策、human-AI 角度 |
+| MSR People-Centric AI Events | https://www.microsoft.com/en-us/research/theme/people-centric-ai/events/ | Microsoft Research | 不定期 | Human-AI interaction、Copilot 生态、HAX Toolkit |
+| Berkeley NLP Seminar | https://www.ischool.berkeley.edu/events/nlp | UC Berkeley | 双周 | NLP 最新研究 invited talks |
+| Rice AI Seminar Series | https://kenkennedy.rice.edu/ai-seminar | Rice University | 不定期 | AI/ML、fairness 方向 |
+| Georgia Tech HCI Events | https://mshci.gatech.edu/events | Georgia Tech | 不定期 | People-centered tech approach |
+| UIUC CIRSS Speaker Series | https://cirss.ischool.illinois.edu/ | UIUC iSchool | 学期制 | Spring 2025 主题: Generative AI and the Future of Research |
+| Stanford HAI YouTube | https://www.youtube.com/@StanfordHAI | Stanford | 录播 | 所有 HAI seminar 录播，包括 AI+Education Summit |
+| ACM SIGCHI YouTube | https://www.youtube.com/@acmsigchi | ACM | 录播 | CHI/CSCW/UIST 等会议 talk 录播 |
+| Microsoft Research YouTube | https://www.youtube.com/@MicrosoftResearch | Microsoft | 录播 | MSR seminar 录播 |
+
 ### 播客
 
 | 名称 | 链接 | 说明 |
