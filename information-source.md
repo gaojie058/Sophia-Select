@@ -358,7 +358,7 @@ agent, human-AI, agentic, collaboration, qualitative
 | HCI International 2026 | https://2026.hci.international/ | HCI | C | 2026-02-28 | 2026-07-26 | Montreal, Canada. 28th International Conference on HCI |
 | ACL 2026 | https://www.aclweb.org | NLP | A | 2026-02-15 | 2026-08-01 | NLP顶会, human-LLM interaction相关 |
 | AIES 2026 | https://www.aies-conference.com | Ethics | C | 2026-02-18 | 2026-08-04 | AI, Ethics, and Society |
-| ASSETS 2026 | https://assets.acm.org | HCI | B | 2026-04-15 | 2026-10-25 | Accessible Computing, AI accessibility |
+| ASSETS 2026 | https://www.sigaccess.org/assets/ | HCI | B | 2026-04-15 | 2026-10-25 | Accessible Computing, AI accessibility |
 | UIST 2026 | https://uist.acm.org | HCI | A | 2026-04-02 | 2026-10-26 | User Interface Software and Technology. Lisbon, Portugal |
 | NeurIPS 2026 | https://neurips.cc | AI-ML | A | 2026-05-16 | 2026-12-06 | ML/AI最大顶会, agent/alignment/human-AI |
 | EMNLP 2026 | https://www.aclweb.org | NLP | A | 2026-06-01 | 2026-12-10 | NLP顶会, empirical methods |
@@ -368,17 +368,21 @@ agent, human-AI, agentic, collaboration, qualitative
 | SIGIR 2026 | https://sigir.org | AI-ML | A | TBD | TBD | Information Retrieval |
 | FSE 2026 | https://conf.researchr.org/home/fse-2026 | SE | A | TBD | TBD | Foundations of Software Engineering |
 | ASE 2026 | https://conf.researchr.org/home/ase-2026 | SE | A | TBD | TBD | Automated Software Engineering |
+| ISSTA 2026 | https://conf.researchr.org/home/issta-2026 | SE | A | TBD | TBD | International Symposium on Software Testing and Analysis |
+| OOPSLA 2026 | https://splashcon.org/ | SE | A | TBD | TBD | Object-Oriented Programming, Systems, Languages & Applications |
+| PLDI 2026 | https://conf.researchr.org/home/pldi-2026 | SE | A | TBD | TBD | Programming Language Design and Implementation |
+| ICPC 2026 | https://conf.researchr.org/home/icpc-2026 | SE | B | TBD | TBD | International Conference on Program Comprehension |
 | NAACL 2026 | https://www.aclweb.org | NLP | B | TBD | TBD | North American Chapter of ACL |
 | COLING 2026 | https://coling2026.org | NLP | B | TBD | TBD | International Conference on Computational Linguistics |
 | EACL 2026 | https://www.aclweb.org | NLP | B | TBD | TBD | European Chapter of ACL |
 | ECML-PKDD 2026 | https://ecmlpkdd.org | AI-ML | B | TBD | TBD | European Conference on Machine Learning |
 | WSDM 2026 | https://www.wsdm-conference.org | AI-ML | B | TBD | TBD | Web Search and Data Mining |
-| CIKM 2026 | https://www.cikm2026.org | AI-ML | B | TBD | TBD | Conference on Information and Knowledge Management |
+| CIKM 2026 | https://www.cikm.org/ | AI-ML | B | TBD | TBD | Conference on Information and Knowledge Management |
 | UbiComp 2026 | https://ubicomp.org | HCI | A | TBD | TBD | Ubiquitous Computing |
-| GROUP 2026 | https://group.acm.org | HCI | C | TBD | TBD | International Conference on Supporting Group Work |
-| INTERACT 2026 | https://interact2026.org | HCI | B | TBD | TBD | Human-Computer Interaction |
-| CHI GenAICHI Workshop | https://genai-chi.github.io | Workshop | 2026-02-20 | 2026-04-26 | Generative AI × HCI (co-located with CHI) |
-| CHI TREW Workshop | https://trew-workshop.github.io | Workshop | 2026-02-20 | 2026-04-26 | Trust & Reliance in Human-AI Workflows (co-located with CHI) |
+| GROUP 2026 | https://programs.sigchi.org/group | HCI | C | TBD | TBD | International Conference on Supporting Group Work |
+| INTERACT 2026 | https://ifip-tc13.org/interact/ | HCI | B | TBD | TBD | Human-Computer Interaction |
+| CHI GenAICHI Workshop | https://sites.google.com/view/genaichi2026 | Workshop | 2026-02-20 | 2026-04-26 | Generative AI × HCI (co-located with CHI) |
+| CHI TREW Workshop | https://sites.google.com/view/trew-chi2026 | Workshop | 2026-02-20 | 2026-04-26 | Trust & Reliance in Human-AI Workflows (co-located with CHI) |
 | ACL/EMNLP HCI+NLP Workshop | https://aclanthology.org | Workshop | TBD | TBD | HCI×NLP交叉 |
 | NeurIPS/ICML Agent Workshops | https://neurips.cc | Workshop | TBD | TBD | 系统/ML视角的agent研究 |
 
