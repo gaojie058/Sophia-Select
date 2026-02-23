@@ -2566,17 +2566,20 @@
     {
       "名称": "Latent Space Podcast",
       "链接": "https://latent.space",
-      "说明": "AI工程最前沿，agent相关讨论"
+      "说明": "AI工程最前沿，agent相关讨论",
+      "标签": "播客"
     },
     {
       "名称": "TWIML AI Podcast",
       "链接": "https://twimlai.com",
-      "说明": "学术+工业混合视角"
+      "说明": "学术+工业混合视角",
+      "标签": "播客"
     },
     {
       "名称": "NeurIPS/CHI 录播",
       "链接": "https://youtube.com",
-      "说明": "重要talk的录播"
+      "说明": "重要talk的录播",
+      "标签": "播客"
     }
   ],
   "conferences": [
@@ -2584,6 +2587,7 @@
       "名称": "TEI 2026",
       "链接": "https://tei.acm.org/2026/",
       "领域": "HCI",
+      "CCF": "C",
       "Deadline": "2025-09-19",
       "会议日期": "2026-03-08",
       "说明": "Tangible, Embedded, Embodied Interaction. Chicago, USA"
@@ -2592,6 +2596,7 @@
       "名称": "IUI 2026",
       "链接": "https://iui.acm.org",
       "领域": "HCI",
+      "CCF": "B",
       "Deadline": "2025-10-10",
       "会议日期": "2026-03-23",
       "说明": "Intelligent User Interfaces. Paphos, Cyprus"
@@ -2600,6 +2605,7 @@
       "名称": "CHI 2026",
       "链接": "https://chi2026.acm.org",
       "领域": "HCI",
+      "CCF": "A",
       "Deadline": "2025-09-12",
       "会议日期": "2026-04-26",
       "说明": "ACM顶会, Human-Computer Interaction核心会议. Yokohama, Japan"
@@ -2608,6 +2614,7 @@
       "名称": "ICLR 2026",
       "链接": "https://iclr.cc",
       "领域": "AI-ML",
+      "CCF": "A",
       "Deadline": "2025-10-01",
       "会议日期": "2026-04-24",
       "说明": "表示学习顶会, LLM/foundation model前沿. Singapore"
@@ -2616,6 +2623,7 @@
       "名称": "ICSE 2026",
       "链接": "https://conf.researchr.org/home/icse-2026",
       "领域": "SE",
+      "CCF": "A",
       "Deadline": "2025-08-01",
       "会议日期": "2026-04-27",
       "说明": "软件工程顶会, AI4SE/SE4AI方向. Milan, Italy"
@@ -2624,6 +2632,7 @@
       "名称": "FAccT 2026",
       "链接": "https://facctconference.org",
       "领域": "Ethics",
+      "CCF": "B",
       "Deadline": "2026-01-29",
       "会议日期": "2026-06-03",
       "说明": "Fairness, Accountability, Transparency in AI. Athens, Greece"
@@ -2632,6 +2641,7 @@
       "名称": "HHAI 2026",
       "链接": "https://hhai-conference.org",
       "领域": "HCI",
+      "CCF": "C",
       "Deadline": "2026-03-01",
       "会议日期": "2026-06-15",
       "说明": "Hybrid Human-AI Intelligence. Malmö, Sweden"
@@ -2648,6 +2658,7 @@
       "名称": "CSCW 2026",
       "链接": "https://cscw.acm.org",
       "领域": "HCI",
+      "CCF": "A",
       "Deadline": "2026-01-15",
       "会议日期": "2026-07-11",
       "说明": "Computer-Supported Cooperative Work. Bergen, Norway"
@@ -2656,6 +2667,7 @@
       "名称": "ICML 2026",
       "链接": "https://icml.cc",
       "领域": "AI-ML",
+      "CCF": "A",
       "Deadline": "2026-01-31",
       "会议日期": "2026-07-18",
       "说明": "机器学习顶会. San Francisco, USA"

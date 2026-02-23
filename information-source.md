@@ -342,26 +342,45 @@ agent, human-AI, agentic, collaboration, qualitative
 
 ### 会议/Workshop
 
-| 名称 | 链接 | 领域 | Deadline | 会议日期 | 说明 |
-|------|------|------|----------|----------|------|
-| TEI 2026 | https://tei.acm.org/2026/ | HCI | 2025-09-19 | 2026-03-08 | Tangible, Embedded, Embodied Interaction. Chicago, USA |
-| IUI 2026 | https://iui.acm.org | HCI | 2025-10-10 | 2026-03-23 | Intelligent User Interfaces. Paphos, Cyprus |
-| CHI 2026 | https://chi2026.acm.org | HCI | 2025-09-12 | 2026-04-26 | ACM顶会, Human-Computer Interaction核心会议. Yokohama, Japan |
-| ICLR 2026 | https://iclr.cc | AI-ML | 2025-10-01 | 2026-04-24 | 表示学习顶会, LLM/foundation model前沿. Singapore |
-| ICSE 2026 | https://conf.researchr.org/home/icse-2026 | SE | 2025-08-01 | 2026-04-27 | 软件工程顶会, AI4SE/SE4AI方向. Milan, Italy |
-| FAccT 2026 | https://facctconference.org | Ethics | 2026-01-29 | 2026-06-03 | Fairness, Accountability, Transparency in AI. Athens, Greece |
-| HHAI 2026 | https://hhai-conference.org | HCI | 2026-03-01 | 2026-06-15 | Hybrid Human-AI Intelligence. Malmö, Sweden |
-| DIS 2026 | https://dis.acm.org | HCI | 2026-02-07 | 2026-06-28 | Designing Interactive Systems |
-| CSCW 2026 | https://cscw.acm.org | HCI | 2026-01-15 | 2026-07-11 | Computer-Supported Cooperative Work. Bergen, Norway |
-| ICML 2026 | https://icml.cc | AI-ML | 2026-01-31 | 2026-07-18 | 机器学习顶会. San Francisco, USA |
-| HCI International 2026 | https://2026.hci.international/ | HCI | 2026-02-28 | 2026-07-26 | Montreal, Canada. 28th International Conference on HCI |
-| ACL 2026 | https://www.aclweb.org | NLP | 2026-02-15 | 2026-08-01 | NLP顶会, human-LLM interaction相关 |
-| AIES 2026 | https://www.aies-conference.com | Ethics | 2026-02-18 | 2026-08-04 | AI, Ethics, and Society |
-| ASSETS 2026 | https://assets.acm.org | HCI | 2026-04-15 | 2026-10-25 | Accessible Computing, AI accessibility |
-| UIST 2026 | https://uist.acm.org | HCI | 2026-04-02 | 2026-10-26 | User Interface Software and Technology. Lisbon, Portugal |
-| NeurIPS 2026 | https://neurips.cc | AI-ML | 2026-05-16 | 2026-12-06 | ML/AI最大顶会, agent/alignment/human-AI |
-| EMNLP 2026 | https://www.aclweb.org | NLP | 2026-06-01 | 2026-12-10 | NLP顶会, empirical methods |
-| AAAI 2026 | https://aaai.org | AI-ML | 2025-08-15 | 2026-02-20 | 综合AI顶会, human-AI collaboration track. Philadelphia, USA |
+| 名称 | 链接 | 领域 | CCF | Deadline | 会议日期 | 说明 |
+|------|------|------|-----|----------|----------|------|
+| AAAI 2026 | https://aaai.org | AI-ML | A | 2025-08-15 | 2026-02-20 | 综合AI顶会, human-AI collaboration track. Philadelphia, USA |
+| TEI 2026 | https://tei.acm.org/2026/ | HCI | C | 2025-09-19 | 2026-03-08 | Tangible, Embedded, Embodied Interaction. Chicago, USA |
+| IUI 2026 | https://iui.acm.org | HCI | B | 2025-10-10 | 2026-03-23 | Intelligent User Interfaces. Paphos, Cyprus |
+| CHI 2026 | https://chi2026.acm.org | HCI | A | 2025-09-12 | 2026-04-26 | ACM顶会, Human-Computer Interaction核心会议. Yokohama, Japan |
+| ICLR 2026 | https://iclr.cc | AI-ML | A | 2025-10-01 | 2026-04-24 | 表示学习顶会, LLM/foundation model前沿. Singapore |
+| ICSE 2026 | https://conf.researchr.org/home/icse-2026 | SE | A | 2025-08-01 | 2026-04-27 | 软件工程顶会, AI4SE/SE4AI方向. Milan, Italy |
+| FAccT 2026 | https://facctconference.org | Ethics | B | 2026-01-29 | 2026-06-03 | Fairness, Accountability, Transparency in AI. Athens, Greece |
+| HHAI 2026 | https://hhai-conference.org | HCI | C | 2026-03-01 | 2026-06-15 | Hybrid Human-AI Intelligence. Malmö, Sweden |
+| DIS 2026 | https://dis.acm.org | HCI | B | 2026-02-07 | 2026-06-28 | Designing Interactive Systems |
+| CSCW 2026 | https://cscw.acm.org | HCI | A | 2026-01-15 | 2026-07-11 | Computer-Supported Cooperative Work. Bergen, Norway |
+| ICML 2026 | https://icml.cc | AI-ML | A | 2026-01-31 | 2026-07-18 | 机器学习顶会. San Francisco, USA |
+| HCI International 2026 | https://2026.hci.international/ | HCI | C | 2026-02-28 | 2026-07-26 | Montreal, Canada. 28th International Conference on HCI |
+| ACL 2026 | https://www.aclweb.org | NLP | A | 2026-02-15 | 2026-08-01 | NLP顶会, human-LLM interaction相关 |
+| AIES 2026 | https://www.aies-conference.com | Ethics | C | 2026-02-18 | 2026-08-04 | AI, Ethics, and Society |
+| ASSETS 2026 | https://assets.acm.org | HCI | B | 2026-04-15 | 2026-10-25 | Accessible Computing, AI accessibility |
+| UIST 2026 | https://uist.acm.org | HCI | A | 2026-04-02 | 2026-10-26 | User Interface Software and Technology. Lisbon, Portugal |
+| NeurIPS 2026 | https://neurips.cc | AI-ML | A | 2026-05-16 | 2026-12-06 | ML/AI最大顶会, agent/alignment/human-AI |
+| EMNLP 2026 | https://www.aclweb.org | NLP | A | 2026-06-01 | 2026-12-10 | NLP顶会, empirical methods |
+| IJCAI 2026 | https://www.ijcai.org | AI-ML | A | TBD | TBD | International Joint Conference on Artificial Intelligence |
+| KDD 2026 | https://www.kdd.org | AI-ML | A | TBD | TBD | Knowledge Discovery and Data Mining |
+| WWW 2026 | https://www2026.thewebconf.org | AI-ML | A | TBD | TBD | The Web Conference |
+| SIGIR 2026 | https://sigir.org | AI-ML | A | TBD | TBD | Information Retrieval |
+| FSE 2026 | https://conf.researchr.org/home/fse-2026 | SE | A | TBD | TBD | Foundations of Software Engineering |
+| ASE 2026 | https://conf.researchr.org/home/ase-2026 | SE | A | TBD | TBD | Automated Software Engineering |
+| ISSTA 2026 | https://conf.researchr.org/home/issta-2026 | SE | A | TBD | TBD | International Symposium on Software Testing and Analysis |
+| NAACL 2026 | https://www.aclweb.org | NLP | B | TBD | TBD | North American Chapter of ACL |
+| COLING 2026 | https://coling2026.org | NLP | B | TBD | TBD | International Conference on Computational Linguistics |
+| EACL 2026 | https://www.aclweb.org | NLP | B | TBD | TBD | European Chapter of ACL |
+| ECML-PKDD 2026 | https://ecmlpkdd.org | AI-ML | B | TBD | TBD | European Conference on Machine Learning |
+| WSDM 2026 | https://www.wsdm-conference.org | AI-ML | B | TBD | TBD | Web Search and Data Mining |
+| CIKM 2026 | https://www.cikm2026.org | AI-ML | B | TBD | TBD | Conference on Information and Knowledge Management |
+| UbiComp 2026 | https://ubicomp.org | HCI | A | TBD | TBD | Ubiquitous Computing |
+| GROUP 2026 | https://group.acm.org | HCI | C | TBD | TBD | International Conference on Supporting Group Work |
+| INTERACT 2026 | https://interact2026.org | HCI | B | TBD | TBD | Human-Computer Interaction |
+| OOPSLA 2026 | https://conf.researchr.org/home/oopsla-2026 | SE | A | TBD | TBD | Object-Oriented Programming, Systems, Languages & Applications |
+| PLDI 2026 | https://conf.researchr.org/home/pldi-2026 | SE | A | TBD | TBD | Programming Language Design and Implementation |
+| ICPC 2026 | https://conf.researchr.org/home/icpc-2026 | SE | B | TBD | TBD | International Conference on Program Comprehension |
 | CHI GenAICHI Workshop | https://genai-chi.github.io | Workshop | 2026-02-20 | 2026-04-26 | Generative AI × HCI (co-located with CHI) |
 | CHI TREW Workshop | https://trew-workshop.github.io | Workshop | 2026-02-20 | 2026-04-26 | Trust & Reliance in Human-AI Workflows (co-located with CHI) |
 | ACL/EMNLP HCI+NLP Workshop | https://aclanthology.org | Workshop | TBD | TBD | HCI×NLP交叉 |
