@@ -235,12 +235,19 @@ cs.HC, cs.AI, cs.CL, cs.SE
 - AI collaboration
 - AI assistant
 - agentic
+- vibe coding
+- multi-agent
+- autonomous AI
+- AI workflow
+- copilot
+- future of work
+- AI replacing jobs
 
 ### Reddit 子版块
-r/MachineLearning, r/LocalLLaMA, r/artificial
+r/MachineLearning, r/LocalLLaMA, r/artificial, r/ChatGPT, r/singularity, r/ArtificialIntelligence, r/HCI, r/userexperience, r/LanguageTechnology
 
 ### Reddit 过滤关键词
-agent, human-AI, agentic, collaboration, qualitative
+agent, human-AI, agentic, collaboration, qualitative, vibe coding, multi-agent, autonomous, copilot, AI workflow, prompt engineering, AI UX, future of work, AI replacing
 
 ### Reddit 关注帖子
 
@@ -303,6 +310,15 @@ agent, human-AI, agentic, collaboration, qualitative
 | Saleema Amershi | https://x.com/SaleemaAmershi | X | Human-AI Interaction Guidelines |
 | Q. Vera Liao | https://x.com/QVeraLiao | X | Explainable AI, responsible AI in HCI |
 | Xiang 'Anthony' Chen | https://x.com/_xiang_chen_ | X | Interactive AI systems |
+| Lilian Weng | https://x.com/lilianweng | X | OpenAI, agent系统综述作者 |
+| Harrison Chase | https://x.com/hwchase17 | X | LangChain创始人, agent框架风向标 |
+| Yohei Nakajima | https://x.com/yaborned | X | BabyAGI作者, agent创业者 |
+| Kanjun Qiu | https://x.com/kaborned | X | Imbue CEO, AI agent研究 |
+| Deedy Das | https://x.com/deedydas | X | AI工程趋势, 年轻一代视角 |
+| Riley Goodside | https://x.com/goodaborned | X | Prompt engineering先驱 |
+| Ethan Mollick | https://x.com/emollick | X | Wharton, AI在教育和工作的应用 |
+| Matt Shumer | https://x.com/mattaborned | X | AI agent创业者, HyperWrite |
+| Alvaro Cintas | https://x.com/alvarocintas | X | AI产品设计, UX趋势 |
 
 ### Seminars/Talks
 
