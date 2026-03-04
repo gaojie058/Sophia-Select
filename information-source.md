@@ -98,8 +98,6 @@
 
 | 姓名 | X Handle | 机构 | 为什么关注 |
 |------|----------|------|-----------|
-| **Sherry Tongshuang Wu** | @tongshuangwu | CMU HCII | HCI×NLP交叉，human-AI interaction，与你研究最近 |
-| **Saleema Amershi** | @sabornershi | Microsoft Research | Human-AI Interaction Guidelines作者 |
 | **Gagan Bansal** | @gaaborned | Microsoft Research | Human-AI teaming，complementary AI |
 | **Q. Vera Liao** | @qaborned | U Michigan (前MSR) | Explainable AI, responsible AI in HCI |
 | **Zana Buçinca** | — | Harvard | AI decision support, cognitive forcing |
@@ -129,7 +127,6 @@
 
 | 姓名 | 为什么 |
 |------|--------|
-| **Saleema Amershi** | Human-AI interaction, industry research perspective |
 | **Eric Horvitz** | MSR Chief Scientist, 大趋势预判 |
 | **Ece Kamar** | MSR, human-AI complementarity |
 | **Thomas Malone** | 你的前advisor，collective intelligence |
@@ -202,6 +199,11 @@ cs.HC, cs.AI, cs.CL, cs.SE
 - LLM agent
 - AI agent
 - agentic AI
+- agent failure
+- agent error
+- AI system reliability
+- LLM reliability
+- agent debugging
 - human-centered AI
 - qualitative analysis LLM
 - human-LLM interaction
@@ -214,6 +216,9 @@ cs.HC, cs.AI, cs.CL, cs.SE
 ### Semantic Scholar 关键词
 - human-AI collaboration LLM
 - AI agent workflow
+- agent failure
+- agent error handling
+- LLM reliability
 - LLM qualitative analysis
 - human-centered AI systems
 
@@ -222,10 +227,8 @@ cs.HC, cs.AI, cs.CL, cs.SE
 | 姓名 | Semantic Scholar ID |
 |------|---------------------|
 | Shneiderman, Ben | 1740403 |
-| Amershi, Saleema | 2668412 |
 | Horvitz, Eric | 144901256 |
 | Bansal, Gagan | 46610912 |
-| Wu, Tongshuang | 47830705 |
 | Liang, Percy | 2630822 |
 
 ### HackerNews 关键词
@@ -292,7 +295,6 @@ agent, human-AI, agentic, collaboration, qualitative, vibe coding, multi-agent, 
 | Anthropic| https://x.com/AnthropicAI | X | AI safety and research company |
 | Claude | https://x.com/claudeai | X | safe, accurate, and secure |
 | OpenAI | https://x.com/OpenAI | X | artificial general intelligence benefits all of humanity |
-| Sherry Tongshuang Wu | https://x.com/tongshuangwu | X | HCI×NLP，human-AI interaction |
 | Diyi Yang | https://x.com/Diyi_Yang | X | Human-AI |
 | Ziang Xiao | https://x.com/ZiangXiao | X | AI4SocialScience, Model Evaluation, Information Seeking |
 | Mark Dredze | https://x.com/mdredze | X | NLP |
@@ -307,7 +309,6 @@ agent, human-AI, agentic, collaboration, qualitative, vibe coding, multi-agent, 
 | Joon Sung Park | https://x.com/joon_s_pk | X | Social Simulations |
 | Andrej Karpathy | https://x.com/karpathy | X | 深度技术解读 |
 | Swyx | https://x.com/swyx | X | AI工程/agent生态trend |
-| Saleema Amershi | https://x.com/SaleemaAmershi | X | Human-AI Interaction Guidelines |
 | Q. Vera Liao | https://x.com/QVeraLiao | X | Explainable AI, responsible AI in HCI |
 | Xiang 'Anthony' Chen | https://x.com/_xiang_chen_ | X | Interactive AI systems |
 | Lilian Weng | https://x.com/lilianweng | X | OpenAI, agent系统综述作者 |
