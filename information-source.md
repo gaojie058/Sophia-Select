@@ -98,6 +98,8 @@
 
 | 姓名 | X Handle | 机构 | 为什么关注 |
 |------|----------|------|-----------|
+| **Sherry Tongshuang Wu** | @tongshuangwu | CMU HCII | HCI×NLP交叉，human-AI interaction，与你研究最近 |
+| **Saleema Amershi** | @SaleemaAmershi | Microsoft Research | Human-AI Interaction Guidelines作者 |
 | **Gagan Bansal** | @gaaborned | Microsoft Research | Human-AI teaming，complementary AI |
 | **Q. Vera Liao** | @qaborned | U Michigan (前MSR) | Explainable AI, responsible AI in HCI |
 | **Zana Buçinca** | — | Harvard | AI decision support, cognitive forcing |
