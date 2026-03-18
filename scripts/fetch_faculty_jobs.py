@@ -190,12 +190,11 @@ def get_curated_job_boards():
     return [
         {
             "title": "🔍 CRA Career Center — CS Faculty Positions",
-            "link": "https://careercenter.cra.org/?s=&post_type=job_listing&search_category%5B%5D=faculty",
+            "link": "https://careercenter.cra.org/",
             "source": "faculty_jobs",
             "summary": "Computing Research Association job board. Largest source of CS academic positions in North America.",
             "region": "🇺🇸 US",
             "origin": "Board",
-            
             "ts": int(datetime.now().timestamp()),
         },
         {
@@ -219,13 +218,12 @@ def get_curated_job_boards():
             "ts": int(datetime.now().timestamp()),
         },
         {
-            "title": "🔍 Times Higher Education — CS Academic Jobs",
-            "link": "https://www.timeshighereducation.com/unijobs/en/listing/computer-science/",
+            "title": "🔍 Times Higher Education — Academic Jobs",
+            "link": "https://www.timeshighereducation.com/unijobs/listings/",
             "source": "faculty_jobs",
             "summary": "Global academic job listings, strong for UK/Europe/Asia/Australia.",
             "region": "🌐 Global",
             "origin": "Board",
-            
             "ts": int(datetime.now().timestamp()),
         },
         {
@@ -248,16 +246,7 @@ def get_curated_job_boards():
             
             "ts": int(datetime.now().timestamp()),
         },
-        {
-            "title": "🔍 CSRankings Open Positions",
-            "link": "https://drafty.cs.brown.edu/csopenpositions/",
-            "source": "faculty_jobs",
-            "summary": "Community-maintained list of CS open positions worldwide. Updated frequently by the community.",
-            "region": "🌐 Global",
-            "origin": "Board",
-            
-            "ts": int(datetime.now().timestamp()),
-        },
+
         {
             "title": "🔍 GitHub CS Faculty Jobs Wiki 2026",
             "link": "https://github.com/academic-cs-jobs",

@@ -441,5 +441,5 @@ agent, human-AI, agentic, collaboration, qualitative, vibe coding, multi-agent, 
 | A*STAR | https://www.a-star.edu.sg/careers | 🇸🇬 SG Gov | Research Scientist: ML, NLP, drug discovery等 |
 | GovTech Singapore | https://www.tech.gov.sg/careers/ | 🇸🇬 SG Gov | Data Scientist: 隐私保护技术, 政府数据共享 |
 | DSO National Laboratories | https://www.dso.org.sg/careers | 🇸🇬 SG Gov | AI Research Engineer: 国防/安全应用方向 |
-| ACM SIGCHI Open Positions | https://sigchi.org/resources/open-positions/ | 📋 Job Board | HCI academic positions |
-| CRA Job Board | https://cra.org/ads/ | 📋 Job Board | CS academic positions |
+| CRA Career Center | https://careercenter.cra.org/ | 📋 Job Board | CS faculty positions, largest North America academic CS job board |
+| Times Higher Education Jobs | https://www.timeshighereducation.com/unijobs/listings/ | 📋 Job Board | Global academic positions, strong for UK/Europe/Asia/Australia |
