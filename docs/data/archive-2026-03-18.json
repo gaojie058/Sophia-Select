@@ -3910,22 +3910,22 @@
       "说明": "AI Research Engineer: 国防/安全应用方向"
     },
     {
-      "名称": "CRA Career Center",
-      "链接": "https://careercenter.cra.org/",
+      "名称": "ACM SIGCHI Open Positions",
+      "链接": "https://sigchi.org/resources/open-positions/",
       "类型": "📋 Job Board",
-      "说明": "CS faculty positions, largest North America academic CS job board"
+      "说明": "HCI academic positions"
     },
     {
-      "名称": "Times Higher Education Jobs",
-      "链接": "https://www.timeshighereducation.com/unijobs/listings/",
+      "名称": "CRA Job Board",
+      "链接": "https://cra.org/ads/",
       "类型": "📋 Job Board",
-      "说明": "Global academic positions, strong for UK/Europe/Asia/Australia"
+      "说明": "CS academic positions"
     }
   ],
   "faculty_jobs": [
     {
       "title": "🔍 CRA Career Center — CS Faculty Positions",
-      "link": "https://careercenter.cra.org/",
+      "link": "https://careercenter.cra.org/?s=&post_type=job_listing&search_category%5B%5D=faculty",
       "source": "faculty_jobs",
       "summary": "Computing Research Association job board. Largest source of CS academic positions in North America.",
       "region": "🇺🇸 US",
@@ -3954,8 +3954,8 @@
       "matched_keyword": "🌐 Global"
     },
     {
-      "title": "🔍 Times Higher Education — Academic Jobs",
-      "link": "https://www.timeshighereducation.com/unijobs/listings/",
+      "title": "🔍 Times Higher Education — CS Academic Jobs",
+      "link": "https://www.timeshighereducation.com/unijobs/en/listing/computer-science/",
       "source": "faculty_jobs",
       "summary": "Global academic job listings, strong for UK/Europe/Asia/Australia.",
       "region": "🌐 Global",
@@ -3982,6 +3982,16 @@
       "origin": "Board",
       "ts": 1773857683,
       "matched_keyword": "🇪🇺 Europe"
+    },
+    {
+      "title": "🔍 CSRankings Open Positions",
+      "link": "https://drafty.cs.brown.edu/csopenpositions/",
+      "source": "faculty_jobs",
+      "summary": "Community-maintained list of CS open positions worldwide. Updated frequently by the community.",
+      "region": "🌐 Global",
+      "origin": "Board",
+      "ts": 1773857683,
+      "matched_keyword": "🌐 Global"
     },
     {
       "title": "🔍 GitHub CS Faculty Jobs Wiki 2026",
