@@ -37,29 +37,4 @@ jobs:
           git diff --staged --quiet || git commit -m "📡 Update research data $(date +%Y-%m-%d)"
           git push
 
-  deploy-pages:
-    needs: fetch-and-deploy
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          ref: main  # Get latest commit with data
-
-      - name: Pull latest
-        run: git pull
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+  # Pages deployment is handled by deploy.yml (triggers on every push to main)
