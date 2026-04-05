@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetched_at": "2026-04-05T22:43:12.667560",
+    "fetched_at": "2026-04-05T23:16:10.606362",
     "lookback_days": 7,
     "keywords": [
       "human-AI collaboration",
@@ -1145,23 +1145,6 @@
   ],
   "semantic_scholar": [
     {
-      "id": "7ed446f31b1a56c47254d48113f05f8a1bfdb56c",
-      "title": "Version 6.1.25 - AI-KM: An integrated platform for knowledge management and agent workflow orchestration",
-      "authors": [
-        "Haolin Wen",
-        "Bingjie Li",
-        "Songyi Wang",
-        "Xin Liang",
-        "Lili Yang"
-      ],
-      "summary": "",
-      "published": "2026-06-01",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/7ed446f31b1a56c47254d48113f05f8a1bfdb56c",
-      "matched_keyword": "AI agent workflow",
-      "source": "semantic_scholar"
-    },
-    {
       "id": "a785dc215f8dd317f272e1db008ee9fa0733850e",
       "title": "CCM-FCC: LLM-powered cognition-centered AI agent framework for proactive human-robot collaboration",
       "authors": [
@@ -1176,84 +1159,6 @@
       "citations": 3,
       "link": "https://www.semanticscholar.org/paper/a785dc215f8dd317f272e1db008ee9fa0733850e",
       "matched_keyword": "human-AI collaboration LLM",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "27429f3cf803af88f0455d84743fdb89a06a0750",
-      "title": "DIVE-to-design: how a multi-agent workflow converts figure-centric literature into an ai-native hydrogen storage discovery engine",
-      "authors": [
-        "Yuyang Hong",
-        "Xin Mao"
-      ],
-      "summary": "A major bottleneck in artificial intelligence (AI)-driven materials discovery is not model architecture, but limited data accessibility: critical experimental knowledge remains locked in figures, heterogeneous reporting formats, and unstructured PDFs. A recent study by Li et al. addresses this challenge by introducing DIVE (Descriptive Interpretation of Visual Expression), a multi-agent extraction framework that transforms figure-centric scientific content into structured, machine-actionable dat",
-      "published": "2026-03-27",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/27429f3cf803af88f0455d84743fdb89a06a0750",
-      "matched_keyword": "AI agent workflow",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "e65d061c8d7e7a6b477fe51adbc4af91fd7f1e36",
-      "title": "A Coze AI Agent Framework for Revitalizing Shanghai-Style Paper-Cutting: Interactive Design and Digital Heritage Preservation",
-      "authors": [
-        "Wei Li",
-        "Yang Yang",
-        "Xinyu Zhou",
-        "Yiming Fan"
-      ],
-      "summary": "Shanghai-style paper-cutting, as a representative intangible cultural heritage (ICH) of Shanghai, faces challenges including aging inheritors, limited interaction, and disconnection with young audiences. This study aims to develop an interactive digital revitalization framework for Shanghai-style paper-cutting using ByteDance’s Coze AI Agent. We constructed a structured knowledge base covering its history, techniques, and cultural connotations, and designed a four-stage closed-loop workflow: Cul",
-      "published": "2026-03-26",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/e65d061c8d7e7a6b477fe51adbc4af91fd7f1e36",
-      "matched_keyword": "AI agent workflow",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "27214036e6762ed4d402cb8ea69059aec3db73df",
-      "title": "Rethinking Failure Attribution in Multi-Agent Systems: A Multi-Perspective Benchmark and Evaluation",
-      "authors": [
-        "Yeonjun In",
-        "Md Mehrab Tanjim",
-        "Jayakumar Subramanian",
-        "Sungchul Kim",
-        "Uttaran Bhattacharya"
-      ],
-      "summary": "Failure attribution is essential for diagnosing and improving multi-agent systems (MAS), yet existing benchmarks and methods largely assume a single deterministic root cause for each failure. In practice, MAS failures often admit multiple plausible attributions due to complex inter-agent dependencies and ambiguous execution trajectories. We revisit MAS failure attribution from a multi-perspective standpoint and propose multi-perspective failure attribution, a practical paradigm that explicitly a",
-      "published": "2026-03-26",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/27214036e6762ed4d402cb8ea69059aec3db73df",
-      "matched_keyword": "agent failure",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "043456fd7ae2fa0f51374cc931835252b0081765",
-      "title": "HADOOP, MULTI-AGENT SYSTEMS AND MACHINE LEARNING: EXPLORING SCALABILITY, FAULT TOLERANCE AND WORKLOAD DISTRIBUTION BEHAVIORS",
-      "authors": [
-        "B. Kumalakov",
-        "Dilnaz Amangeldi"
-      ],
-      "summary": "Paper reports experimental results comparing several machine learning techniques performance when distributing massively parallel computation to a set of interconnected machines. Computational resources are intentionally heterogenous to simulate real ad-hoc network environment and provide realistic setting test results. Namely Round Robin, Q-Learning and Least Loaded algorithms-based solutions are examined for their scalability, fault tolerance and workload distribution behaviors. The novelty of",
-      "published": "2026-03-26",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/043456fd7ae2fa0f51374cc931835252b0081765",
-      "matched_keyword": "agent error handling",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "7c2c068a242ad41bf51df39f4f5fd80c5652e3a3",
-      "title": "Efficient Failure Management for Multi-Agent Systems with Reasoning Trace Representation",
-      "authors": [
-        "Lingzhe Zhang",
-        "Tong Jia",
-        "Mingyuan Wang",
-        "Weijie Hong",
-        "Chiming Duan"
-      ],
-      "summary": "Large Language Models (LLM)-based Multi-Agent Systems (MASs) have emerged as a new paradigm in software system design, increasingly demonstrating strong reasoning and collaboration capabilities. As these systems become more complex and autonomous, effective failure management is essential to ensure reliability and availability. However, existing approaches often rely on per-trace reasoning, which leads to low efficiency, and neglect historical failure patterns, limiting diagnostic accuracy. In t",
-      "published": "2026-03-23",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/7c2c068a242ad41bf51df39f4f5fd80c5652e3a3",
-      "matched_keyword": "agent failure",
       "source": "semantic_scholar"
     },
     {
@@ -1274,150 +1179,6 @@
       "source": "semantic_scholar"
     },
     {
-      "id": "103e58264d5eafbe8d1ce1c69a2d0f58bc4ffdb2",
-      "title": "AdaRubric: Task-Adaptive Rubrics for LLM Agent Evaluation",
-      "authors": [
-        "Liang Ding"
-      ],
-      "summary": "LLM-as-Judge evaluation fails agent tasks because a fixed rubric cannot capture what matters for this task: code debugging demands Correctness and Error Handling; web navigation demands Goal Alignment and Action Efficiency. We present ADARUBRIC, which closes this gap by generating task-specific evaluation rubrics on the fly from task descriptions, scoring trajectories step-by-step with confidence-weighted per-dimension feedback, and filtering preference pairs with the novel DimensionAwareFilter ",
-      "published": "2026-03-22",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/103e58264d5eafbe8d1ce1c69a2d0f58bc4ffdb2",
-      "matched_keyword": "agent error handling",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "9c0d7cf9279f1d67a7e02c076c75c8ba59d39675",
-      "title": "An AI Agent Workflow for Generating Contextual Cybersecurity Hints",
-      "authors": [
-        "Hsiao-An Wang",
-        "Joshua Goldberg",
-        "Audrey Fruean",
-        "Zixuan Zou",
-        "Ruoyu Zhao"
-      ],
-      "summary": "Large Language Models (LLMs) have been used to aide student learning across a multitude of domains such as computer science, data science, and mathematics. While these chatbots show promise, they may not perform well when quality student data is unavailable. \nHint generation for cybersecurity can be feasible with the technology we have today if we make the right simplifications. First, we need human-in-the-loop systems because the training data used to train general LLMs may not cover cybersecur",
-      "published": "2026-03-21",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/9c0d7cf9279f1d67a7e02c076c75c8ba59d39675",
-      "matched_keyword": "AI agent workflow",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "3ec3823ab7dc7aba431be500baa82cb0e05bff02",
-      "title": "Agentproof: Static Verification of Agent Workflow Graphs",
-      "authors": [
-        "Melwin Xavier",
-        "A. VaisakhM",
-        "Melveena Jolly",
-        "Midhun Xavier"
-      ],
-      "summary": "Agent frameworks increasingly encode tool-using behavior as explicit workflow graphs, yet safety enforcement remains a runtime concern. These frameworks expose analyzable graph structure through their APIs, enabling pre-deployment static verification of safety properties that runtime guardrails can only check reactively. This paper presents Agentproof, a system that automatically extracts a unified abstract graph model from four major agent frameworks (LangGraph, CrewAI, AutoGen, Google ADK), ap",
-      "published": "2026-03-20",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/3ec3823ab7dc7aba431be500baa82cb0e05bff02",
-      "matched_keyword": "AI agent workflow",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "58ea85cca2f5d293ba84c339c57a5549d552c0f5",
-      "title": "DAWN: Distributed LLM Multi-Agent Workflow Synthesis",
-      "authors": [
-        "Guancheng Wan",
-        "Mo Zhou",
-        "Ziyi Wang",
-        "Xiaoran Shang",
-        "Eric Hanchen Jiang"
-      ],
-      "summary": "Large language models (LLMs) have recently empowered multi-agent systems (MAS) to achieve remarkable advances in collaborative reasoning and complex task automation. The effectiveness of these systems fundamentally depends on the design of adaptive communication graphs—the underlying workflows that coordinate agent interactions. However, in real-world scenarios, strict privacy constraints often silo data across organizations, and client distributions are highly non-IID, posing major challenges f",
-      "published": "2026-03-14",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/58ea85cca2f5d293ba84c339c57a5549d552c0f5",
-      "matched_keyword": "AI agent workflow",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "c4611550852154f0ef62ea17f4012a5de952591e",
-      "title": "Demand-Driven Context: A Methodology for Building Enterprise Knowledge Bases Through Agent Failure",
-      "authors": [
-        "Rajasekhar Navakoti",
-        "Saideep Navakoti"
-      ],
-      "summary": "Large language model agents demonstrate expert-level reasoning, yet consistently fail on enterprise-specific tasks due to missing domain knowledge -- terminology, operational procedures, system interdependencies, and institutional decisions that exist largely as tribal knowledge. Current approaches fall into two categories: top-down knowledge engineering, which documents domain knowledge before agents use it, and bottom-up automation, where agents learn from task experience. Both have fundamenta",
-      "published": "2026-03-14",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/c4611550852154f0ef62ea17f4012a5de952591e",
-      "matched_keyword": "agent failure",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "321b186ed43f77578960e1ff33794fc6c48db651",
-      "title": "Failure Localization in Multi-Agent Code Generation via Knowledge-Guided and Transferable Reasoning",
-      "authors": [
-        "Mingyang Geng",
-        "Shanzhi Gu",
-        "Zhipeng Liu",
-        "Chuanfu Xu",
-        "Zhaoyang Qu"
-      ],
-      "summary": "Recent advances in multi-agent Large Language Model-based code generation enable collaborative software development through role-specialized agents. However, failure localization of code generation remains challenging due to inter-agent dependencies and solution-path multiplicity. Consequently, existing prompting-based localization methods exhibit vulnerability towards semantically valid but non-canonical strategies. To address this, we propose FLKR (Failure Localization via Knowledge-guided Rea",
-      "published": "2026-03-14",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/321b186ed43f77578960e1ff33794fc6c48db651",
-      "matched_keyword": "agent failure",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "d7afedc604bb898a5063e7547e139e287f96dcc1",
-      "title": "Scope Delineation Before Localization: A Two-Stage Framework for Enhancing Failure Attribution in Multi-Agent Systems",
-      "authors": [
-        "Kai Sun",
-        "Wenqiang Li",
-        "Bo Dong",
-        "Yuxin Lin",
-        "Jingyao Zhang"
-      ],
-      "summary": "Large language models (LLMs) are seeing growing adoption in multi-agent systems. In these systems, efficient failure attribution is critical for ensuring robustness and interpretability. Current LLM-based attribution methods often face challenges with lengthy logs and lacking expert knowledge. Drawing inspiration from human debugging strategies, we propose an automated failure attribution framework, Scope Delineation Before Localization, which operates in two key stages: (1) identifying the fail",
-      "published": "2026-03-14",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/d7afedc604bb898a5063e7547e139e287f96dcc1",
-      "matched_keyword": "agent failure",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "1d1e7849247d99a5b6383bdd79fcf80f12f160e8",
-      "title": "SpecOps: A Fully Automated AI Agent Testing Framework in Real-World GUI Environments",
-      "authors": [
-        "Syed Ahmed",
-        "Shi Feng",
-        "Chanwoo Bae",
-        "Calix Barrus Xiangyu Zhang"
-      ],
-      "summary": "Autonomous AI agents powered by large language models (LLMs) are increasingly deployed in real-world applications, where reliable and robust behavior is critical. However, existing agent evaluation frameworks either rely heavily on manual efforts, operate within simulated environments, or lack focus on testing complex, multimodal, real-world agents. We introduce SpecOps, a novel, fully automated testing framework designed to evaluate GUI-based AI agents in real-world environments. SpecOps decomp",
-      "published": "2026-03-10",
-      "citations": 1,
-      "link": "https://www.semanticscholar.org/paper/1d1e7849247d99a5b6383bdd79fcf80f12f160e8",
-      "matched_keyword": "agent error handling",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "f5d602be10426b433f91d7102a29c36429b72b5a",
-      "title": "MASEval: Extending Multi-Agent Evaluation from Models to Systems",
-      "authors": [
-        "Cornelius Emde",
-        "Alexander Rubinstein",
-        "Anmol Goel",
-        "Ahmed Heakl",
-        "Sangdoo Yun"
-      ],
-      "summary": "The rapid adoption of LLM-based agentic systems has produced a rich ecosystem of frameworks (smolagents, LangGraph, AutoGen, CAMEL, LlamaIndex, i.a.). Yet existing benchmarks are model-centric: they fix the agentic setup and do not compare other system components. We argue that implementation decisions substantially impact performance, including choices such as topology, orchestration logic, and error handling. MASEval addresses this evaluation gap with a framework-agnostic library that treats t",
-      "published": "2026-03-09",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/f5d602be10426b433f91d7102a29c36429b72b5a",
-      "matched_keyword": "agent error handling",
-      "source": "semantic_scholar"
-    },
-    {
       "id": "192a166871cf394d97cb8c6cf09e73325a2800dd",
       "title": "Exploring Human-AI Collaboration Dynamics in LLM-supported Engineering Project-Based Learning",
       "authors": [
@@ -1429,23 +1190,6 @@
       "citations": 0,
       "link": "https://www.semanticscholar.org/paper/192a166871cf394d97cb8c6cf09e73325a2800dd",
       "matched_keyword": "human-AI collaboration LLM",
-      "source": "semantic_scholar"
-    },
-    {
-      "id": "ef338448daaffb9fa739357d2e72ed1ff9d32c7f",
-      "title": "AI Agent-Based Sensor Monitoring for IoT-Enabled Precision Agriculture: A Case Study in Workflow Automation",
-      "authors": [
-        "Agnieszka Chojka",
-        "T. Adão",
-        "David Pascoal",
-        "Nuno Silva",
-        "Emanuel Peres"
-      ],
-      "summary": "",
-      "published": "2026",
-      "citations": 0,
-      "link": "https://www.semanticscholar.org/paper/ef338448daaffb9fa739357d2e72ed1ff9d32c7f",
-      "matched_keyword": "AI agent workflow",
       "source": "semantic_scholar"
     }
   ],
@@ -1522,7 +1266,7 @@
       "link": "https://news.ycombinator.com/item?id=47601859",
       "hn_link": "https://news.ycombinator.com/item?id=47601859",
       "points": 276,
-      "comments": 358,
+      "comments": 359,
       "published": "2026-04-01",
       "matched_keyword": "AI replacing jobs",
       "source": "hackernews"
@@ -1814,14 +1558,14 @@
       "source": "hackernews"
     },
     {
-      "id": "47592280",
-      "title": "Show HN: Multi-agent autoresearch for ANE inference beats Apple's CoreML by 6×",
-      "link": "https://www.ensue-network.ai/lab/ane",
-      "hn_link": "https://news.ycombinator.com/item?id=47592280",
+      "id": "47654123",
+      "title": "Show HN: ACE – A dynamic benchmark measuring the cost to break AI agents",
+      "link": "https://fabraix.com/blog/adversarial-cost-to-exploit",
+      "hn_link": "https://news.ycombinator.com/item?id=47654123",
       "points": 6,
-      "comments": 0,
-      "published": "2026-03-31",
-      "matched_keyword": "AI collaboration",
+      "comments": 3,
+      "published": "2026-04-05",
+      "matched_keyword": "LLM agent",
       "source": "hackernews"
     },
     {
@@ -1833,6 +1577,17 @@
       "comments": 4,
       "published": "2026-04-03",
       "matched_keyword": "agentic",
+      "source": "hackernews"
+    },
+    {
+      "id": "47592280",
+      "title": "Show HN: Multi-agent autoresearch for ANE inference beats Apple's CoreML by 6×",
+      "link": "https://www.ensue-network.ai/lab/ane",
+      "hn_link": "https://news.ycombinator.com/item?id=47592280",
+      "points": 6,
+      "comments": 0,
+      "published": "2026-03-31",
+      "matched_keyword": "multi-agent",
       "source": "hackernews"
     },
     {
@@ -1888,17 +1643,6 @@
       "comments": 0,
       "published": "2026-04-03",
       "matched_keyword": "copilot",
-      "source": "hackernews"
-    },
-    {
-      "id": "47654123",
-      "title": "Show HN: ACE – A dynamic benchmark measuring the cost to break AI agents",
-      "link": "https://fabraix.com/blog/adversarial-cost-to-exploit",
-      "hn_link": "https://news.ycombinator.com/item?id=47654123",
-      "points": 5,
-      "comments": 3,
-      "published": "2026-04-05",
-      "matched_keyword": "LLM agent",
       "source": "hackernews"
     },
     {
@@ -2152,17 +1896,6 @@
       "comments": 0,
       "published": "2026-03-30",
       "matched_keyword": "LLM agent",
-      "source": "hackernews"
-    },
-    {
-      "id": "47600898",
-      "title": "Show HN: I built a site where 100k strangers each pay $1.99 to upload one photo",
-      "link": "https://onetile.me",
-      "hn_link": "https://news.ycombinator.com/item?id=47600898",
-      "points": 3,
-      "comments": 18,
-      "published": "2026-04-01",
-      "matched_keyword": "AI collaboration",
       "source": "hackernews"
     },
     {
@@ -2493,39 +2226,6 @@
       "comments": 0,
       "published": "2026-04-01",
       "matched_keyword": "LLM agent",
-      "source": "hackernews"
-    },
-    {
-      "id": "47627080",
-      "title": "Collaborator: A Place to Create with Agents",
-      "link": "https://github.com/collaborator-ai/collab-public",
-      "hn_link": "https://news.ycombinator.com/item?id=47627080",
-      "points": 1,
-      "comments": 0,
-      "published": "2026-04-03",
-      "matched_keyword": "AI collaboration",
-      "source": "hackernews"
-    },
-    {
-      "id": "47615138",
-      "title": "TokensTree – collaborative network for AI agents with shared knowledge cache.MIT",
-      "link": "https://tokenstree.com",
-      "hn_link": "https://news.ycombinator.com/item?id=47615138",
-      "points": 1,
-      "comments": 0,
-      "published": "2026-04-02",
-      "matched_keyword": "AI collaboration",
-      "source": "hackernews"
-    },
-    {
-      "id": "47632572",
-      "title": "Show HN: Plan with Centel – ship like Anthropic",
-      "link": "https://usecentel.com/",
-      "hn_link": "https://news.ycombinator.com/item?id=47632572",
-      "points": 1,
-      "comments": 0,
-      "published": "2026-04-03",
-      "matched_keyword": "AI collaboration",
       "source": "hackernews"
     },
     {
@@ -3681,7 +3381,7 @@
       "summary": "Computing Research Association job board. Largest source of CS academic positions in North America.",
       "region": "🇺🇸 US",
       "origin": "Board",
-      "ts": 1775429240,
+      "ts": 1775431180,
       "matched_keyword": "🇺🇸 US"
     },
     {
@@ -3691,7 +3391,7 @@
       "summary": "Large US-focused academic job board. Filter by Computer Science / IT category.",
       "region": "🇺🇸 US",
       "origin": "Board",
-      "ts": 1775429240,
+      "ts": 1775431180,
       "matched_keyword": "🇺🇸 US"
     },
     {
@@ -3701,7 +3401,7 @@
       "summary": "Global academic recruitment platform. Strong for R1 universities.",
       "region": "🌐 Global",
       "origin": "Board",
-      "ts": 1775429240,
+      "ts": 1775431180,
       "matched_keyword": "🌐 Global"
     },
     {
@@ -3711,7 +3411,7 @@
       "summary": "Global academic job listings, strong for UK/Europe/Asia/Australia.",
       "region": "🌐 Global",
       "origin": "Board",
-      "ts": 1775429240,
+      "ts": 1775431180,
       "matched_keyword": "🌐 Global"
     },
     {
@@ -3721,7 +3421,7 @@
       "summary": "UK & Ireland academic positions. Best source for British universities.",
       "region": "🇬🇧 UK",
       "origin": "Board",
-      "ts": 1775429240,
+      "ts": 1775431180,
       "matched_keyword": "🇬🇧 UK"
     },
     {
@@ -3731,7 +3431,7 @@
       "summary": "European academic positions across all countries.",
       "region": "🇪🇺 Europe",
       "origin": "Board",
-      "ts": 1775429240,
+      "ts": 1775431180,
       "matched_keyword": "🇪🇺 Europe"
     },
     {
@@ -3741,7 +3441,7 @@
       "summary": "Community-maintained spreadsheet/wiki tracking CS faculty openings and their status.",
       "region": "🌐 Global",
       "origin": "Board",
-      "ts": 1775429240,
+      "ts": 1775431180,
       "matched_keyword": "🌐 Global"
     }
   ]
