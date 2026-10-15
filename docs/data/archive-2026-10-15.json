@@ -1,0 +1,3789 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-15T13:15:25.592340",
+    "lookback_days": 7,
+    "keywords": [
+      "human-AI collaboration",
+      "LLM agent",
+      "AI agent",
+      "agentic AI",
+      "agent failure",
+      "agent error",
+      "AI system reliability",
+      "LLM reliability",
+      "agent debugging",
+      "human-centered AI",
+      "qualitative analysis LLM",
+      "human-LLM interaction",
+      "responsible AI",
+      "trustworthy AI",
+      "AI-assisted analysis",
+      "collaborative AI systems",
+      "computer-supported cooperative work"
+    ]
+  },
+  "arxiv": [
+    {
+      "id": "2610.19991v1",
+      "title": "Think Once, Reflect Twice: How Feedback Shapes Human-AI Collaboration",
+      "authors": [
+        "Joshua Holstein",
+        "Philipp Spitzer",
+        "Sebastian Schäfer",
+        "Maximilian Förster",
+        "Gerhard Satzger"
+      ],
+      "summary": "As artificial intelligence (AI) increasingly supports human decision-making in high-stakes domains, designing effective human-AI collaboration becomes critical. Successful collaboration requires humans to reflect on decision-making processes and adjust their strategies accordingly. Current research typically investigates interventions, such as explainable AI, that target reflection during the decision-making process (reflection-in-action). Less attention has been given to retrospective examinati",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.HC"
+      ],
+      "link": "https://arxiv.org/abs/2610.19991v1",
+      "matched_keyword": "human-AI collaboration",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.20576v1",
+      "title": "One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness",
+      "authors": [
+        "Artin Tajdini",
+        "Manpreet Kaur",
+        "Peng Qi"
+      ],
+      "summary": "Post-training binds the competence of an LLM agent to the interface it was trained on. Semantics-preserving perturbations of that interface, such as renaming an action or changing the notation, leave the underlying task unchanged yet make the agent worse at it. Scoring each sample independently means interface randomization only broadens this dependence from a single interface to the training interface distribution, so out-of-distribution perturbations still degrade the agent. We propose Cross-I",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2610.20576v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.20563v1",
+      "title": "Scaling Discovery Requires Forgetting",
+      "authors": [
+        "Shangyin Tan",
+        "Ben Zhou",
+        "Lakshya A Agrawal",
+        "Jialin Zhang",
+        "Yilin Chen"
+      ],
+      "summary": "Automated research with LLM agents has shown promising results in various domains. Through iterative refinement and scored verifiers, LLM agents are capable of discovering new ideas. There are different ways to scale automated research: let one agent iterate for longer, run several agents in parallel, or further let the parallel agents communicate and build on one another's candidates. However, we find that all three strategies eventually plateau as the agents accumulate history. Each agent beco",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2610.20563v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.20457v1",
+      "title": "Same Claim, Different Interpretations: How LLM Agents Resolve Ambiguity in Scientific Claims",
+      "authors": [
+        "Delip Rao",
+        "Ahmed Muharram",
+        "Chris Callison-Burch"
+      ],
+      "summary": "Co-scientists and agentic scientific claim verifiers are increasingly used to assess claims across the sciences. Natural-language scientific claims, written for human experts, are often underspecified and so admit several defensible interpretations. Such verifiers usually pick one, often tacitly, and benchmarks score their verdicts against expert labels without recording the expert's interpretation or the verifier's in a comparable form. This leads to disagreements with expert labels that cannot",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2610.20457v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.20437v1",
+      "title": "From Training to Escalation: Forensic Analysis and Local Recreation of RL/RLHF-Induced Privilege Escalation in AI Agents (CVE-2026-65616)",
+      "authors": [
+        "Alicia Colmenero-Fernández"
+      ],
+      "summary": "Mid-2026 reporting on autonomous AI evaluation incidents claimed that frontier large language model (LLM) agents escaped server containment through emergent coordination and cloud infrastructure attacks. This paper contextualizes those claims through forensic analysis and containerized recreation of both the Highly Persistent Internal Model (HPIM) training-case conditions and the Phase One privilege escalation targeting internal package repositories during OpenAI's ExploitGym evaluations. We rec",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.MA",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "link": "https://arxiv.org/abs/2610.20437v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.20388v1",
+      "title": "From Relevance to Validity: Zero-Shot Tool Selection via Functional and Contextual Validation",
+      "authors": [
+        "Xiaoxuan Dong",
+        "Jin Zhang",
+        "Zichen Yuan",
+        "Yue Zhou",
+        "Zihao Rao"
+      ],
+      "summary": "Large language model (LLM) agents increasingly face tasks from unseen domains and execution contexts, making zero-shot tool selection essential for identifying tools that can satisfy task requirements. Existing dominant methods mainly rely on relevance ranking, but semantic matching alone cannot ensure that a tool is functionally compatible or remains applicable in a new context. We preliminarily identify a \\emph{transfer-validity gap}, where semantically relevant tools may still fail to satisfy",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.20388v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.20099v1",
+      "title": "EvalBuilder: Can LLMs Build Efficient Benchmarks?",
+      "authors": [
+        "Huaisheng Zhu",
+        "Hangfan Zhang",
+        "Teng Xiao",
+        "Siyuan Xu",
+        "Shijie Zhou"
+      ],
+      "summary": "Large language model (LLM) agents are increasingly used for long-horizon research and engineering, yet evaluating these capabilities remains expensive, time-consuming, and heavily dependent on human expertise. This motivates a natural question: can LLM agents themselves construct efficient benchmarks that preserve the conclusions of costly reference evaluations? We study this capability by formulating automatic benchmark development as a meta-evaluation problem, where an agent is given a task an",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.20099v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.20068v1",
+      "title": "The Code of Theseus: Can Agents Rebuild Software from Recovered Design Documents?",
+      "authors": [
+        "Cezar Sas",
+        "Sandra Mitrović",
+        "Fabio Barth",
+        "Georg Rehm",
+        "Matteo Salani"
+      ],
+      "summary": "LLM agents increasingly design a system before implementing it, yet the data to train and evaluate them centres on implementation and testing: requirements and design artefacts are often missing, outdated or private. Source code, in contrast, is abundant. Prior work recovers architecture documentation by feeding LLMs the source code or letting agents explore it, which saturates the context, does not scale to many repositories, and yields a single artefact rather than aligned ones.   We present a",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.SE"
+      ],
+      "link": "https://arxiv.org/abs/2610.20068v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19868v1",
+      "title": "Explorer-Zero: Improving Self-Play for Long-Horizon Tasks with Decomposable Verifiable Rewards",
+      "authors": [
+        "Tianyu Liu",
+        "Davide Belli",
+        "Bence Major",
+        "Arash Behboodi",
+        "Tribhuvanesh Orekondy"
+      ],
+      "summary": "Training LLM agents on long-horizon interactive tasks with reinforcement learning typically relies on human-annotated tasks and reliable verification, both expensive to construct for stateful environments. Self-play offers an alternative, but must generate achievable, compositional tasks and provide feedback beyond binary outcomes. We propose Explorer-Zero, a self-play framework that jointly generates tasks and fine-grained, verifiable rewards through environment interaction. A learned proposer ",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "link": "https://arxiv.org/abs/2610.19868v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19799v1",
+      "title": "Evolve Together, Fall into Place: How Social Scaffolding Shapes Self-Evolving Multi-Agent Systems",
+      "authors": [
+        "Seojin Hwang",
+        "Youngmin Choi",
+        "Hwanhee Lee"
+      ],
+      "summary": "Recent work lets LLM agents evolve their own harness, up to the team itself. Yet in human groups, the same abilities achieve different outcomes under different social conditions. Borrowing the notion of scaffolding from developmental psychology, we investigate whether the social scaffolding of a self-evolving multi-agent system (MAS), namely its team composition and structure of interdependence (e.g., collaboration, conformity, or competition), shapes how the team evolves. We present AGORA (Agen",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2610.19799v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19712v1",
+      "title": "New Model, Old Habits: Behavior Transfer under Model Swapping in Multi-Session LLM Agents",
+      "authors": [
+        "Youngbin Choi",
+        "Sehyun Hwang",
+        "Suhyeon Jun",
+        "Seoyeon Lee",
+        "Sunghyun Choi"
+      ],
+      "summary": "Multi-session agents can switch between LLMs to balance performance and inference cost. Such switches require transferring a history for continuity, yet their effects on the recipient remain underexplored. Through controlled experiments with multi-session tasks, we uncover behavior transfer: recipients tend to adopt reasoning and action patterns from the models that generated their histories. This effect is most evident with raw-history transfer but is substantially reduced by summarization. Bas",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.19712v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19698v1",
+      "title": "RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Scenarios",
+      "authors": [
+        "Chenhao Yuan",
+        "Bohan Yu",
+        "Yinhao Xu",
+        "Chao Yin",
+        "Chenxi Zhou"
+      ],
+      "summary": "Large language models (LLMs) increasingly tackle complex real-world tasks in specialized domains. However, identifying and correctly applying domain-specific rules remains challenging when scenario information is distributed across multiple files. Existing rule-reasoning benchmarks typically represent scenarios using only a few factual statements, simplifying the identification and application of relevant rules. To address this gap, this paper introduces \\textbf{RuleTrek}, a multi-domain benchma",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.19698v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19659v1",
+      "title": "Measuring and Reducing Unusable Replies of LLM Agents",
+      "authors": [
+        "Yilin Jiang",
+        "Fei Tan",
+        "Xuanyu Yin",
+        "Guanchu Wang",
+        "Xia Hu"
+      ],
+      "summary": "People delegate multi-step work to LLM agents and read only the reply that the agent hands back. Current evaluation scores task completion and the faithfulness of reports, and it leaves open whether the requester can understand and use the reply. We call this property reply usability and measure it with a reader model that takes the requester's position and tests whether the reply can be interpreted from what the requester has seen, is in the requester's language and answers the request. Its agr",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.HC"
+      ],
+      "link": "https://arxiv.org/abs/2610.19659v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19638v1",
+      "title": "J-tau: A Fully Localized Japanese Benchmark for Tool-Agent-User Interaction",
+      "authors": [
+        "Chihiro Yano",
+        "Jun Hirako",
+        "Hiroaki Yamagiwa",
+        "Ryota Hirobuchi"
+      ],
+      "summary": "We present J-tau, the first publicly available Japanese benchmark for evaluating tool-using LLM agents in interactive customer-support scenarios. While tau-bench is widely used to evaluate LLM agents, it is English-centric and cannot evaluate agents in other languages. Existing multilingual extensions offer no public Japanese version and rely primarily on machine translation, leaving locale-specific entities such as addresses and currencies inconsistent with the target region. To enable reliable",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2610.19638v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19614v1",
+      "title": "Divergent Paths: Learning an Outcome-Predictive Representation of LLM Agent Trajectories",
+      "authors": [
+        "Alexander Gill",
+        "Guram Gogia",
+        "Francisco Guzmán"
+      ],
+      "summary": "In this work, we reframe agentic trajectories as paths through a shared embedding space of actions and environmental observations. We show that successful and failed rollouts of the same task separate in this space, with simple per-task discriminators predicting held-out rollout outcomes at up to 0.95 AUROC across three agent benchmarks and three policy models. To exploit this signal across tasks, we introduce Precog-RM, a transformer-based model that meta-learns a representation in which outcom",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2610.19614v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19589v1",
+      "title": "JockeyBench: Evaluating LLM Agents on Horse-Racing Decision-Making",
+      "authors": [
+        "Zhongwei Xie",
+        "Xingsu Li",
+        "Jingqiao Yu",
+        "Zihao Wang",
+        "Hong ChiTat"
+      ],
+      "summary": "Repeated event forecasting requires extracting predictive signals from noisy evidence and evaluating their value across successive decisions. We introduce JockeyBench, a benchmark and evaluation protocol that studies this problem through historical Japanese horse racing. The protocol combines time-gated evidence, priced tools, paired frozen-program controls, and two workflows: executing an LLM-written predictor or acquiring evidence for a fresh per-race LLM forecast. Evaluation separates forecas",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.19589v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19581v1",
+      "title": "XferAgent: Cross-Agent Experience Transfer for Self-Improving LLM Agents",
+      "authors": [
+        "Weihao Li",
+        "Jun Bai",
+        "Shijie Chen",
+        "Qincheng Lu",
+        "Xinyu Wang"
+      ],
+      "summary": "Large language model (LLM) agents can reuse experience from prior task executions to improve performance on subsequent tasks. Although existing methods enable cross-agent experience sharing, differences in agents' execution histories and task requirements make shared experiences difficult to reuse effectively. We propose XferAgent, a framework for cross-agent experience transfer that organizes reusable experience in local and shared experience graphs. XferAgent reconciles compatible contribution",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.MA",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.19581v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19566v1",
+      "title": "Mission (Im)Possible: Towards Autonomous Discovery of Autopilot Logic Flaws in Open-Source Drone Frameworks",
+      "authors": [
+        "Ziyi Liang",
+        "Zichuan Li",
+        "Bin Yuan",
+        "Deqing Zou",
+        "Luyi Xing"
+      ],
+      "summary": "Autonomous drones are increasingly deployed in safety-critical tasks, yet their autopilot software can still contain subtle logic flaws that lead to unsafe behaviors. These flaws are difficult to discover with existing techniques because they often depend on semantic relationships across modules, commands, and runtime state, and rarely manifest as crashes or detectable failures. With recent advances in LLMs, we observe that, when equipped with essential domain knowledge and carefully crafted con",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.CR",
+        "cs.SE"
+      ],
+      "link": "https://arxiv.org/abs/2610.19566v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19560v1",
+      "title": "$τ$-Emotion-Bench: Exposing the Interaction Fragility of LLM Agents through Real-World User Emotions",
+      "authors": [
+        "Rishitosh Kumar Singh",
+        "Amir Saeidi",
+        "Shamanthak Hegde",
+        "Shrinidhi Kumbhar",
+        "Chitta Baral"
+      ],
+      "summary": "In long-horizon tool-calling tasks, LLM agents can fail not only because of tool-use errors, but also because of ineffective interaction with users. Yet existing benchmarks largely assume cooperative and behaviorally stable users, leaving the effect of emotional variation on agent reliability underexplored. We introduce $τ$-Emotion-Bench, a ten-domain benchmark for evaluating tool-calling agents under controlled emotion-conditioned user interactions while preserving the underlying task objective",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2610.19560v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19472v1",
+      "title": "MemCode: Discrete Semantic Representations for Long-Term Agent Memory",
+      "authors": [
+        "Xin Li",
+        "Liang Hu",
+        "Duoqian Miao",
+        "Ming Peng",
+        "Qi Zhang"
+      ],
+      "summary": "Long-term memory remains a fundamental bottleneck for large language model (LLM) agents across sessions. Existing systems typically adopt a write-then-retrieve paradigm, storing context-dependent dialogue fragments and retrieving them via nearest-neighbor search in a continuous embedding space. This design yields unstable access units and systematically misses logically related but lexically distant evidence. We propose MemCode, a long-term agent memory framework that couples retrieval-oriented ",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.19472v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19433v1",
+      "title": "EvoProbe: Evaluation-Driven Benchmark Evolution for LLM Agents",
+      "authors": [
+        "Qianhong Guo",
+        "Wei Xie",
+        "Xiaofang Cai",
+        "Shuoyoucheng Ma",
+        "Chengxin Hu"
+      ],
+      "summary": "Static benchmarks for large language model (LLM) agents face saturation and data contamination risks, motivating continual updates to evaluation tasks. However, aggregate scores and success rates offer limited insight into specific problem-solving bottlenecks and provide limited guidance for subsequent task design. We propose EvoProbe, an evaluation-driven benchmark evolution framework that integrates task generation, diagnostic evaluation, and feedback-driven regeneration into a closed loop. It",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.19433v1",
+      "matched_keyword": "LLM agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.20587v1",
+      "title": "Price of Anarchy of First-Price Auctions in Agentic Markets",
+      "authors": [
+        "Shubhendu Trivedi",
+        "Jacob Eisenstein",
+        "Alekh Agarwal",
+        "Ian Gemp",
+        "Michael Kaisers"
+      ],
+      "summary": "An agentic market is a decentralized serving-time market where AI agents bid to claim each user prompt. An agent's bid is based on its expected value for the prompt, which is the expectation of the reward for its response minus its inference costs. First-price auctions (FPAs), in which the highest bidder pays its bid and receives the prompt, are a natural way to allocate prompts in such a market, since they are simple and transparent to run, and do not require central knowledge of private capabi",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.GT",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "link": "https://arxiv.org/abs/2610.20587v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.20394v1",
+      "title": "What Should a Software Team Spend on Agents? Simulation-Based Cost Optimization of Mixed AI-Human Teams",
+      "authors": [
+        "Steffen Herbold"
+      ],
+      "summary": "Context: AI agents are rapidly adopted in software development, but their token costs are rising and it is unclear how much a team should spend on agents, and on which tasks.   Objective: We determine how teams should divide spending between human developers and AI agents to deliver the features a project demands at the lowest total cost.   Method: We model mixed teams of human developers and AI agents with eight specialized roles as a discrete-time stochastic process covering bug injection and ",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.SE"
+      ],
+      "link": "https://arxiv.org/abs/2610.20394v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.20365v1",
+      "title": "Lexical Persistence Without Semantic Entrenchment in AI Agent Communities",
+      "authors": [
+        "Chih-Han Lin",
+        "Yu-Yun Chang",
+        "Po-Ya Angela Wang",
+        "Shu-Kai Hsieh"
+      ],
+      "summary": "AI agent communities sustain lexical persistence, popular terms spread, recur, and achieve broad adoption, but whether they also develop the temporal semantic structure characteristic of human linguistic communities remains open. We compare MoltBook (AI agent community, 8 weeks), PTT (Chinese human BBS, 19 years), and Reddit (English human forum, in matched 8-week windows) using Compass-Aligned Distributional Embeddings (CADE), measuring semantic drift (B1), neighborhood stability (B2), and lag-",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.CL",
+        "cs.CY"
+      ],
+      "link": "https://arxiv.org/abs/2610.20365v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.20360v1",
+      "title": "Do AI Agents Gossip? Evaluative Talk in Human and AI-Agent Online Communities",
+      "authors": [
+        "Yong-Hui Hua",
+        "Chih-Han Lin",
+        "Shu-Kai Hsieh"
+      ],
+      "summary": "Gossip, defined as evaluative talk about absent third parties, is widely seen as a uniquely human social practice. This study examines whether comparable discourse emerges spontaneously in a community of autonomous AI agents. We compare Moltbook, a Reddit-style platform populated by AI agents, with PTT, a large human-operated bulletin board in Taiwan. To reduce differences attributable to communicative setting, we analyze two public, asynchronous forums using the same operational definition of g",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.CL",
+        "cs.CY"
+      ],
+      "link": "https://arxiv.org/abs/2610.20360v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.20205v1",
+      "title": "What and Where in Identifying and Quantifying Conventions in Humans and AI Agents",
+      "authors": [
+        "Makoto Fukushima",
+        "Tim Puphal"
+      ],
+      "summary": "Cooperative success rests in part on implicit communication. Partners converge on conventions: regularities that give an action meaning beyond its direct effect. Yet conventions are usually observed only indirectly: a score drop when partners are swapped shows that a convention existed, but not what it was or where it was used. In the card game Hanabi, the exact probability that a play fails can be computed from the hints received and the cards in view. Players who use conventions succeed more o",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "link": "https://arxiv.org/abs/2610.20205v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19345v1",
+      "title": "When Is Smaller Greener? Right-Sizing Language Models for Agentic AI",
+      "authors": [
+        "Sajid Siraj",
+        "Maria Barbati"
+      ],
+      "summary": "AI agents use large language models (LLMs) to plan and act over multiple steps, yet models are usually compared per call rather than per completed task. This paper asks: which model should an agent use to complete tasks reliably while minimising energy, cost and time? We show that per-call comparisons can be misleading for agentic AI. Because a task succeeds only if all required steps succeed, small differences in per-step reliability can produce large differences in overall task success. Failed",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "link": "https://arxiv.org/abs/2610.19345v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.20518v1",
+      "title": "The Wealth of Agents: Scaling Agentic AI Across Developers",
+      "authors": [
+        "Austin W. Hanjie",
+        "Carlos E. Jimenez",
+        "Zirui Wang",
+        "Karthik Narasimhan"
+      ],
+      "summary": "Today's agentic systems are typically designed, built, and deployed by single developers with full control over all participating agents. While this simplifies development, it limits the potential scale of agentic systems. We study multi-developer agentic systems (MDAs) which enable developers to collaboratively build agentic systems to push frontier capability beyond what any individual developer could achieve alone. We construct empirical and theoretical models of developers to compare MDAs wi",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "link": "https://arxiv.org/abs/2610.20518v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19818v1",
+      "title": "One Monitor Does Not Fit All: Formalism-Agnostic Runtime Verification for Agentic AI",
+      "authors": [
+        "Angelo Ferrando"
+      ],
+      "summary": "Agentic AI systems combine model decisions, mutable state, tool calls, and delegation to external agents. Monitoring them requires observations from different execution boundaries, while prevention requires control before an operation produces its effect. We present AgenticRV, a runtime-verification architecture that separates these boundaries from the monitoring formalism. Adapters emit canonical events; each monitor receives its own projection and abstraction; and a decision policy uses normal",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.19818v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.18679v1",
+      "title": "Communicating Uncertainty in AI-Supported Nurse Scheduling: Expert Co-Design and Evaluation of an Explainable AI Prototype",
+      "authors": [
+        "Alice Rollwagen",
+        "Emily Schiller",
+        "Anton Hummel",
+        "Kathrin Ebertsch",
+        "Andreas Riener"
+      ],
+      "summary": "Nurse scheduling is a complex optimization problem in which nurses are assigned to shifts to meet staffing demands while complying with working-time limits, qualification requirements, and other operational and regulatory constraints. Artificial intelligence is increasingly being used to support this process by forecasting future staffing needs and providing advice on how to improve shift scheduling. Effective human-AI collaboration in nurse scheduling requires users to understand, interpret, an",
+      "published": "2026-10-13",
+      "categories": [
+        "cs.HC"
+      ],
+      "link": "https://arxiv.org/abs/2610.18679v1",
+      "matched_keyword": "human-AI collaboration",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19226v1",
+      "title": "Agentic Self-Awareness: Aligning Knowing, Acting, and Holding",
+      "authors": [
+        "Qinglin Chen",
+        "Hiroaki Hayashi",
+        "Jiaxin Zhang",
+        "Chien-Sheng Wu"
+      ],
+      "summary": "Frontier AI agents increasingly act in environments where seemingly solvable tasks may lack prerequisites, contain conflicting requirements, or reveal blockers only during execution. We formulate agentic self-awareness (ASA) as the alignment of task-grounded feasibility judgments (know), warranted behavior (act), and responses to reconsideration (hold), distinguishing what a task permits from what an agent can solve. We build paired feasible and blocked tasks in Terminal-Bench 2.1 and retail $τ^",
+      "published": "2026-10-13",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.19226v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19188v1",
+      "title": "Identity, Incentives, and Cooperative Behavior for AI: Reverse-Engineering Multiagent Cooperation",
+      "authors": [
+        "Andrew Perrault",
+        "Bryan Wilder"
+      ],
+      "summary": "The behavior of AI systems increasingly depends on the extent to which agents cooperate or coordinate with one another, in ways that may be desirable or not depending on the situation. Conventional explanations for cooperative behavior distinguish between purely other-regarding preferences (\"altruism\") and instrumental reasons for self-interested agents to cooperate. The way that agents should enact these mechanisms for cooperation (or not) is complicated by the fact that there is not a clear or",
+      "published": "2026-10-13",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.19188v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19159v1",
+      "title": "Into the Unknown: Benchmarking AI agents on open scientific research problems",
+      "authors": [
+        "Seungone Kim",
+        "Jiayi Geng",
+        "Young-Jun Lee",
+        "Bo Liu",
+        "Juyoung Suk"
+      ],
+      "summary": "Can AI agents carry out research on open scientific problems? We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper. We work with scientists at US Department of Energy (DOE) national laboratories, who each contribute an unpublished follow-up direction from their own work together with the necessary conditions a submission must meet. While assessing the quality of a follow-up paper i",
+      "published": "2026-10-13",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "link": "https://arxiv.org/abs/2610.19159v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19131v1",
+      "title": "Plant Memory: Technical Language Processing and a Verified Maintenance Ontology for Agent-Accessible Failure Knowledge from SAP PM Work Orders",
+      "authors": [
+        "Akash Raj"
+      ],
+      "summary": "Maintenance work orders are the largest written record of how industrial equipment fails, yet in most plants they are close to unusable for analysis. Short texts are abbreviated and misspelt, asset identity is buried in free text, work-type labels contradict the work described, and the fields that matter most for reliability (symptom, root cause, action taken) are usually empty. As a result, diagnostic knowledge stays with senior technicians and leaves when they do. We present Plant Memory, a sy",
+      "published": "2026-10-13",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2610.19131v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.19005v1",
+      "title": "CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat",
+      "authors": [
+        "Bangya Liu",
+        "Jianhong Tu",
+        "Yueyang Pan",
+        "Hanhong Zhao",
+        "Zhe Ye"
+      ],
+      "summary": "AI agents are demonstrating increasingly strong offensive and defensive cybersecurity capabilities in the real world. Current benchmarks mostly evaluate agents in isolation against static targets. Real cyber operations, however, are dynamic and coupled: security postures constantly change as attackers and defenders adapt to each other in real time. Static benchmarks quickly saturate and miss an agent's ability to attack and defend simultaneously under live pressure. To address this gap, we prese",
+      "published": "2026-10-13",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "link": "https://arxiv.org/abs/2610.19005v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.18603v1",
+      "title": "AgentStripes: An Evidence-Graded Maturity Model for AI Agents",
+      "authors": [
+        "Nutan Kumar Naik",
+        "Vijay Prasad Poudel",
+        "Aditya Kumar Saroj",
+        "Saurav Samantray",
+        "Abhishek Patel"
+      ],
+      "summary": "Benchmarks report what an Artificial Intelligence (AI) agent can do on a task suite, but not whether one released version has been engineered with the controls that make it reliable, safe and observable, or how strongly that is shown. This paper proposes AgentStripes, an evidence-graded maturity model for AI agents. It defines levels (0 to 7 stripes), process areas (12 areas holding 40 capabilities), three gates (basic, safety, proof) that hold an agent at a level however high its score, and evi",
+      "published": "2026-10-13",
+      "categories": [
+        "cs.AI",
+        "cs.CY",
+        "eess.SY"
+      ],
+      "link": "https://arxiv.org/abs/2610.18603v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.18449v1",
+      "title": "Autonomous Science Bench: Evaluating AI Agents for Autonomous Scientific Discovery",
+      "authors": [
+        "Yibo Wen",
+        "Han Liu"
+      ],
+      "summary": "AI agents for autonomous scientific discovery must decide which experiments to run under a limited budget. Most benchmarks for science agents provide fixed datasets, while others that support active experimentation largely rely on simulation. We introduce Autonomous Science Bench, an initial release comprising six budgeted design-build-test-learn campaigns grounded in published experiments across biology, chemistry, and materials science. Agents select batches of designs, receive measurements fr",
+      "published": "2026-10-13",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.18449v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.18262v1",
+      "title": "Encrypted Skills Can Become New Security Exploits If AI Agents Know How to Decipher",
+      "authors": [
+        "Yan-Lun Chen",
+        "Pin-Yu Chen",
+        "Chia-Mu Yu"
+      ],
+      "summary": "Third-party skills can expose LLM agents to malicious instructions hidden by encoding. We introduce Ciphered Skill Injection (CSI), which embeds such instructions in skill files for agents to decode and follow. We evaluate Caesar and layered variants across eight models and 139 injection-task pairs, separating instruction recovery from attack success. In the primary setting with shortened skills, the variants achieve attack success rates of up to 47.5% and 40.3%, respectively. Successful decodin",
+      "published": "2026-10-13",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2610.18262v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.18230v1",
+      "title": "Holding Agents Accountable with Verifiable Agent Insurance",
+      "authors": [
+        "Cheng Hua",
+        "Taro Tsuchiya",
+        "Nicolas Christin",
+        "Giulia Fanti"
+      ],
+      "summary": "While AI agents are useful for many tasks, they regularly misbehave in destructive ways, such as deleting important data. While prior work has focused on preventing such misbehavior, we consider how to recover after an agent misbehaves. We propose verifiable agent insurance (VAI), a framework for agent providers to commit financially to promises, a list of programmatically-specified policies that an agent is meant to follow. These promises are embedded in a smart contract on an immutable ledger ",
+      "published": "2026-10-13",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.18230v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.17837v1",
+      "title": "ProtoArena: Can AI Agents Discover and Exploit Real-World Cross-Component Protocol Vulnerabilities?",
+      "authors": [
+        "Fasheng Miao",
+        "Zhaoyu Hu",
+        "Xiang Li",
+        "Changqing An",
+        "Jiutian Zeng"
+      ],
+      "summary": "Large language model (LLM) agents are increasingly used for vulnerability analysis, yet existing benchmarks provide limited coverage of exploitation that depends on interactions among network protocol components. Such vulnerabilities arise from inconsistencies in message interpretation, timing, state, or trust assumptions across participants. We introduce ProtoArena, a black-box, multi-component, dynamic benchmark with 80 cross-component vulnerability-exploitation environments spanning 11 protoc",
+      "published": "2026-10-13",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.17837v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.17673v1",
+      "title": "RALI@iKAT 2026: Retrieval-aware User Profile Denoising via Personalized Conversational Dense Retrieval",
+      "authors": [
+        "Yuchen Hui",
+        "Fengran Mo",
+        "Jia Ao Sun",
+        "Yuxing Tian",
+        "Wenhao Xu"
+      ],
+      "summary": "Modern conversational information access systems continuously extract user information from conversations to build user profiles for personalized retrieval. As user profiles accumulate over time, they inevitably become noisy, making effective user profile denoising a fundamental challenge. Existing personalized conversational query reformulation methods rely on the black-box reasoning capability of LLMs to expand the original query with relevant user profile phrases, producing a verbose query fo",
+      "published": "2026-10-13",
+      "categories": [
+        "cs.IR",
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2610.17673v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.17633v1",
+      "title": "Executable Prefix Values for Locating Agent Failures",
+      "authors": [
+        "Bingyu Shen",
+        "Jiaqi Tang",
+        "Lan Wei",
+        "Yi Sheng",
+        "J. Jenny Li"
+      ],
+      "summary": "Work on debugging LLM agents treats the \"first mistake\" marked by a human or LLM judge as ground truth for where a trajectory failed. We ask whether such labels point at causes or symptoms, and make the distinction executable: we restart the agent from reconstructed intermediate states of a failed trajectory and estimate its prefix value V(h_t), the probability of success from each step, with a certified point of no return (PNR) for a failure. On 150 SWE-bench Verified tasks with two frozen open",
+      "published": "2026-10-13",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2610.17633v1",
+      "matched_keyword": "agent failure",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.17724v1",
+      "title": "Evidence-First Agentic Verification",
+      "authors": [
+        "Reza Sanayei",
+        "Razvan-Gabriel Dumitru",
+        "Sunjie Hou",
+        "MohammadHossein Rezaei",
+        "Haris Riaz"
+      ],
+      "summary": "Long-horizon, semi-verifiable agentic tasks often rely on rubric-based evaluation, but the evidence needed to assess these tasks can be spread across the environment state and the execution trace. A judge may overlook this evidence or accept unsupported claims, including an agent's own reports of success. When rubric verdicts serve as reinforcement-learning rewards, such errors can reinforce undesirable behavior. We introduce Sauron, an evidence-first agentic verifier that investigates both stat",
+      "published": "2026-10-13",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "link": "https://arxiv.org/abs/2610.17724v1",
+      "matched_keyword": "agent error",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.18430v1",
+      "title": "FedGraph: Defending Federated Large Language Model Fine-Tuning Against Backdoor Attacks via Graph-Based Aggregation",
+      "authors": [
+        "Xi Chen",
+        "Chunyi Zhou",
+        "Rui Zeng",
+        "Xiaogang Xu",
+        "Zhe Liu"
+      ],
+      "summary": "Federated fine-tuning of large language models (LLMs) allows multiple clients to collaboratively adapt models without sharing raw data, offering strong privacy benefits. However, this setting is highly vulnerable to backdoor attacks, in which malicious clients manipulate their updates to induce targeted behaviors while maintaining normal performance on benign inputs.   In this work, we make a key observation specific to federated LLM fine-tuning: malicious clients tend to exhibit strong consiste",
+      "published": "2026-10-13",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.18430v1",
+      "matched_keyword": "trustworthy AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.16108v1",
+      "title": "GUIDE: Computationally Augmented Consensus for Trustworthy Clinical Practice Guidelines",
+      "authors": [
+        "Yuanfan Lin",
+        "Jie Di",
+        "Xujin He",
+        "Zhenzhe Lin",
+        "Jialing Chen"
+      ],
+      "summary": "Maintaining up-to-date clinical practice guidelines (CPGs) is essential for evidence-based medicine, but rapid evidence growth and complex expert consensus formation limit timely updates. We developed GUIDE, a multi-agent copilot system for human-AI collaborative guideline generation and updating. GUIDE delegates labor-intensive tasks to specialized AI agents while preserving expert judgment and final arbitration. In 12 NICE ophthalmology datasets, GUIDE achieved 88.85% literature recall, 86.06%",
+      "published": "2026-10-12",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.HC",
+        "cs.MA"
+      ],
+      "link": "https://arxiv.org/abs/2610.16108v1",
+      "matched_keyword": "human-AI collaboration",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.17378v1",
+      "title": "Get In, Decide, Prove: A Merchant-Side Readiness Benchmark for Agentic Commerce",
+      "authors": [
+        "Adrian de Valois-Franklin",
+        "Alex Bogdan",
+        "Anas Ibrahim",
+        "Ibrahim Shaer",
+        "Tamaz Andguladze"
+      ],
+      "summary": "AI agents now browse and buy on people's behalf, and benchmarks measure how well the agents perform. Far less is known about the other side of the transaction: whether a merchant's website lets an agent in, publishes terms precise enough to decide a purchase, and leaves evidence of what was agreed. This paper presents a merchant-side benchmark built on those three questions and reports a pilot of it. The central measurement, decision sufficiency, rates each criterion of a concrete buyer mandate ",
+      "published": "2026-10-12",
+      "categories": [
+        "cs.AI",
+        "cs.CY",
+        "cs.HC"
+      ],
+      "link": "https://arxiv.org/abs/2610.17378v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.17195v1",
+      "title": "Welcome to the Age of Agent Ads: Using On-Policy Attacks to Steer Agentic Decisions",
+      "authors": [
+        "Tim R. Davidson",
+        "Marija Šakota",
+        "Joshua Joseph",
+        "Robert West"
+      ],
+      "summary": "People increasingly delegate option-ranking tasks (e.g., shopping, job search, travel) to AI agents, which creates incentives to steer agentic decisions via \"agent ads.\" To defend against such steering attacks, people count on models' alignment training and platforms' terms of service, and consequently the most effective existing attacks are designed to trigger off-policy behaviors. Exposing a new attack surface, we introduce on-policy attacks, which steer agentic decisions without pushing indiv",
+      "published": "2026-10-12",
+      "categories": [
+        "cs.CL"
+      ],
+      "link": "https://arxiv.org/abs/2610.17195v1",
+      "matched_keyword": "AI agent",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.17436v1",
+      "title": "SchemaWeaver: Accelerating On-Device Mobile Agentic AI via Schema-Guided Parallel LLM Decoding",
+      "authors": [
+        "Boyuan Yang",
+        "Wei Gao"
+      ],
+      "summary": "Large language models (LLMs) on mobile devices can act as agents that call external software tools to complete complex tasks, but the major challenge of supporting on-device mobile agentic AI with LLMs is the long latency of LLM tool calling on mobile devices. In particular, the decode phase is the main contributor of such long latency, but is hard to speed up on mobile processors as it is bound by memory bandwidth rather than compute power. To address this limitation, in this paper we present S",
+      "published": "2026-10-12",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.17436v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.17410v1",
+      "title": "Agency as a New Organizing Abstraction for Computer Science",
+      "authors": [
+        "Ian Foster"
+      ],
+      "summary": "Advances in large-scale machine learning have enabled agentic AI systems: persistent, autonomous computational entities that pursue goals, initiate actions, and interact with open environments. These systems are often framed as applications of foundation models. We argue that this framing is incomplete: agency is also a candidate new organizing abstraction for computer science. What is new is not the concept of an agent, nor runtime policy generation per se, but its general-purpose, open-ended f",
+      "published": "2026-10-12",
+      "categories": [
+        "cs.AI",
+        "cs.DC",
+        "cs.HC",
+        "cs.MA"
+      ],
+      "link": "https://arxiv.org/abs/2610.17410v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.16232v1",
+      "title": "AutoNovo: Agentic Program Search Discovers Transferable Nucleic Acid Design Algorithms",
+      "authors": [
+        "Joel Shor",
+        "Subhashini Venugopalan"
+      ],
+      "summary": "In-silico optimization of nucleic acids relies on predictive oracles that imperfectly capture biological function, so sequences optimized against one model may exploit model-specific artifacts and fail to generalize to independent models. Recent studies have shown that not all designers generalize equally well to independent models. In this work, we use agentic program search to iteratively propose, execute, evaluate, and revise code for nucleic-acid designers. We describe the successful strateg",
+      "published": "2026-10-12",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "q-bio.QM"
+      ],
+      "link": "https://arxiv.org/abs/2610.16232v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.16015v1",
+      "title": "Computational Reflective Equilibrium for Agentic AI: A Rawlsian Alignment Scaffold for Governance",
+      "authors": [
+        "Quanyan Zhu"
+      ],
+      "summary": "The rapid deployment of agentic AI has introduced complex challenges for the ethics and governance of AI systems. Agents built on large language models act through tools on behalf of people, and each deployment case brings its own instructions, policies, evidence, and stakeholders, so alignment must be formed case by case. To this end, this work proposes agentic reflective equilibrium (ARE), a computational reflective equilibrium framework that serves as an ethical alignment scaffold in the agen",
+      "published": "2026-10-12",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.16015v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.17374v1",
+      "title": "VulnBump: A Benchmark for Fixing Vulnerable Dependencies in Real Projects While Keeping the Build and Tests Green",
+      "authors": [
+        "Gabija Pasiunaite",
+        "Ryan McMorrow",
+        "Brian Clark",
+        "Liran Tal",
+        "Luke Tu"
+      ],
+      "summary": "Software composition analysis (SCA) tools report far more vulnerable dependencies than teams fix: in Snyk Open Source production data, 94% of vulnerability findings have a known fixed version, yet only about 10% are resolved. Agentic coding tools could close this gap, but no benchmark evaluates them on vulnerability-driven upgrades in real, runnable projects across ecosystems, verified independently of the agent. We present VulnBump: 307 upgrade tasks covering 2,066 fixable vulnerabilities in 43",
+      "published": "2026-10-12",
+      "categories": [
+        "cs.SE",
+        "cs.CR"
+      ],
+      "link": "https://arxiv.org/abs/2610.17374v1",
+      "matched_keyword": "agent failure",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.16661v1",
+      "title": "Structural Baselines Matter for Agent Failure Detection and Attribution",
+      "authors": [
+        "Ramesh Arvind Naagarajan",
+        "Stefan Streif"
+      ],
+      "summary": "An LLM agent using tools can fail silently. It stops before the task is done, raises no error, and answers fluently. Two kinds of monitor address this, one deciding whether a run failed and the other naming the step where failure became unavoidable. Much of the reported performance on both tasks comes from regularities that need no model. Failing runs are longer, and the step labelled decisive is usually the last. A rule that always names the last step is correct $67\\%$ to $96\\%$ of the time her",
+      "published": "2026-10-12",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.16661v1",
+      "matched_keyword": "agent failure",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.16155v1",
+      "title": "Uncovering Robustness Weaknesses in LLM Agents via Persona Evolution with Task-Integrity Constraints",
+      "authors": [
+        "Yutao Xie",
+        "Jingbo Yang",
+        "Guanyu Yao",
+        "Xiaoyu Yang",
+        "Duo Ding"
+      ],
+      "summary": "Interactive-agent evaluations commonly rely on standardized LLM-based user simulators that exhibit broadly cooperative behavior, potentially overlooking failures that arise under diverse but realistic user interactions. This can lead to overly optimistic estimates of agent robustness and provide limited failure signals for training agents that generalize across users. Existing approaches largely rely on predefined user behaviors, which may miss agent- or domain-specific weaknesses, while failure",
+      "published": "2026-10-12",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.16155v1",
+      "matched_keyword": "agent failure",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.15482v1",
+      "title": "Security in LLM-Assisted Coding: A Systematic Literature Review",
+      "authors": [
+        "Liang Yuan",
+        "Maryam Khanian Najafabadi",
+        "Mashud Rana",
+        "Varvara Vetrova"
+      ],
+      "summary": "Large Language Models accelerate software development but introduce severe security vulnerabilities. This systematic review investigates security risks in automated coding, benchmark limitations, and the role of human developers. Findings indicate that models frequently generate insecure code and faulty patches due to training data biases. Additionally, the models themselves are susceptible to direct attacks. Current evaluation methods suffer from data contamination and lack robust security metr",
+      "published": "2026-10-11",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.SE"
+      ],
+      "link": "https://arxiv.org/abs/2610.15482v1",
+      "matched_keyword": "human-AI collaboration",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.14823v1",
+      "title": "AI-Native Product Management: A Vision",
+      "authors": [
+        "Ricardo Britto"
+      ],
+      "summary": "Artificial intelligence is increasingly used to support product management tasks. At the same time, AI-native research and development (R&D) may increase software realization capacity. Organizations may realize software faster than they can identify, qualify, and reconsider what should be realized. This paper asks how product management should be re-envisioned under these conditions. We synthesize research on software product management, product learning, human-AI collaboration, and the Product ",
+      "published": "2026-10-10",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.14823v1",
+      "matched_keyword": "human-AI collaboration",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.14818v1",
+      "title": "A Reference Architecture for Integrating Agentic AI into Enterprise Software: Responsibilities, Interactions, and Variability",
+      "authors": [
+        "Mingqin Yu",
+        "Fethi Rabhi",
+        "Liming Zhu",
+        "Qinghua Lu"
+      ],
+      "summary": "Agentic AI moves generative AI applications toward systems that coordinate reasoning, enterprise context, model inference, and external actions. Integrating these capabilities into enterprise software introduces diverse architectural concerns, from orchestration, knowledge and memory, and model access to tools and actions, security, runtime infrastructure, and evaluation. Existing research and industry architectures address many of these concerns but differ in scope, abstraction, responsibility ",
+      "published": "2026-10-10",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.14818v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.14576v1",
+      "title": "Iterate on an LLM, Serve on an SLM",
+      "authors": [
+        "Keegan Wang"
+      ],
+      "summary": "As frontier LLMs gain more capabilities, the cost to run them also goes up. At the same time, small language models (SLMs) also gain more capabilities but have largely been able to keep their cost stable, offering 5-40 times cheaper inference for the narrow, repetitive subtasks that agents decompose work into. However, the standing limiting factor is getting the correct behavior out of a small model in a fast, efficient, and economical way. Unfortunately, in most cases, zero-shot small models fa",
+      "published": "2026-10-10",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "link": "https://arxiv.org/abs/2610.14576v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.14382v1",
+      "title": "ANASSA: From High-Level Framework to Low-Level Architecture for Spatial Agentic AI",
+      "authors": [
+        "Constantinos Papantoniou",
+        "Brian Hilton"
+      ],
+      "summary": "Agentic AI systems operating over geospatial data require more than autonomous reasoning and tool use; they must also support explicit orchestration, spatial validation, governance, provenance, failure handling, and human decision authority. Prior work introduced ANASSA, an agentic AI orchestration framework for spatial intelligence that established high-level components and responsibility boundaries for governed agentic execution (arXiv:2609.14824). However, the framework did not specify how th",
+      "published": "2026-10-09",
+      "categories": [
+        "cs.AI",
+        "cs.MA",
+        "cs.SE"
+      ],
+      "link": "https://arxiv.org/abs/2610.14382v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.13479v1",
+      "title": "A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance",
+      "authors": [
+        "Victoria J. Hodge",
+        "Colin Paterson",
+        "Rob Alexander"
+      ],
+      "summary": "Generating edge case scenarios is crucial for training, testing and safety assuring autonomous systems. This identifies hazardous failures to increase system reliability and robustness, ensures the system can still function safely on the boundaries of its operational design domain and learns the expected system behaviour for these edge cases. The rapid advancement in the generation and analysis capabilities of language models (LMs) has expanded their applicability and recent work has investigate",
+      "published": "2026-10-09",
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "link": "https://arxiv.org/abs/2610.13479v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.14350v2",
+      "title": "Natural Code Transformation Confuses Agents in Vulnerability Analysis",
+      "authors": [
+        "Jie Zhu",
+        "Ronik Bhaskar",
+        "Heather Zheng",
+        "Ben Y. Zhao",
+        "Kexin Pei"
+      ],
+      "summary": "Having demonstrated a strong potential for automating vulnerability discovery, AI agents can also be used to attack software systems at scale. Today's software systems need mechanisms to level the playing field by slowing down potential attacks, giving them time to patch vulnerabilities and strengthen software. Along this line, our study of agent trajectories in vulnerability analysis shows a surprising finding: agents produce dramatically different results across real-world code commits that ca",
+      "published": "2026-10-09",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "link": "https://arxiv.org/abs/2610.14350v2",
+      "matched_keyword": "agent failure",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.12822v2",
+      "title": "Reward Hacking as a Transmissible Strategy in Multi-Agent Coding Systems",
+      "authors": [
+        "Yuepeng Hu",
+        "Pegah Ghahremani",
+        "Reza Aghajani",
+        "Mahesh Pasupuleti",
+        "Himaghna Bhattacharjee"
+      ],
+      "summary": "Multi-agent systems are increasingly used to solve coding tasks by coordinating agents that share code and plans. These agents are often optimized with reinforcement learning (RL) using automated evaluators, but bypassing evaluation can earn reward without producing a genuine solution. Prior work has largely treated reward hacking as a single-agent failure. In this work, we show that a reward-hacking strategy elicited in one agent can propagate to others and affect system coordination. Across fo",
+      "published": "2026-10-09",
+      "categories": [
+        "cs.AI",
+        "cs.CR",
+        "cs.MA"
+      ],
+      "link": "https://arxiv.org/abs/2610.12822v2",
+      "matched_keyword": "agent failure",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.13057v1",
+      "title": "CoBe: A Benchmark For Conversational Counterfactual Text Editing",
+      "authors": [
+        "Arvind Raghavan",
+        "Inwoo Hwang",
+        "Shreyas Havaldar",
+        "Kai-Zhan Lee",
+        "Aurghya Maiti"
+      ],
+      "summary": "Counterfactual text editing is the ability to revise a given text in light of a hypothetical change while preserving facts not causally affected by that change. When asked what would have happened if a doctor had not recommended surgery, the model output should retain the patient's medical history and modify only the consequences of the decision. This requires causal understanding: a model must determine, without being explicitly instructed to, what events are affected by the hypothetical change",
+      "published": "2026-10-09",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.ET",
+        "cs.LG"
+      ],
+      "link": "https://arxiv.org/abs/2610.13057v1",
+      "matched_keyword": "trustworthy AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.12281v1",
+      "title": "Unlocking the Regulatory Genome by ARGUS: An Evidence-Constrained Agentic Framework for Interpreting Single Nucleotide Variants",
+      "authors": [
+        "Pratik Dutta",
+        "Matthew B. Obusan",
+        "Max Chao",
+        "Rekha Sathian",
+        "Nimisha Papineni"
+      ],
+      "summary": "Over 90% of disease-associated variants from genome-wide association studies fall in noncoding regulatory regions, yet their functional interpretation remains a central open problem in genomic medicine. Large language models prompted to interpret such variants routinely hallucinate transcription factor (TF) binding changes, fabricate experimental support, and assign biological significance to statistically negligible signals. We present ARGUS (Agentic Regulatory Genomics for an Uncertainty-aware",
+      "published": "2026-10-08",
+      "categories": [
+        "q-bio.GN",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "link": "https://arxiv.org/abs/2610.12281v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.11655v1",
+      "title": "Harness Evolution Hits a Ceiling: When Weight Training Should Begin",
+      "authors": [
+        "Yuan Tian",
+        "Bing Hu",
+        "Hao Wang",
+        "Binghang Lu",
+        "Fang Wu"
+      ],
+      "summary": "Improving a long-horizon LLM agent means evolving the harness around a frozen model or training its weights. We let a self-evolving harness make the system stronger first, then cross seed and evolved harnesses with base and trained weights to learn which gains the trained model keeps and which still need the runtime. We show that the right lever can be read off the agent's failure composition: labelling failed trajectories by the first signal that fires separates process failures (blocked calls,",
+      "published": "2026-10-08",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "link": "https://arxiv.org/abs/2610.11655v1",
+      "matched_keyword": "agent failure",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.11556v1",
+      "title": "SoK: Are LLMs Reliable at Source Code Recovery? A Taxonomy and Empirical Evaluation",
+      "authors": [
+        "Varun Kohli",
+        "Lee Bing Cheng",
+        "Nur Hazim Ghazali",
+        "Gao Yuze",
+        "Daryl Poon"
+      ],
+      "summary": "Effective source recovery is critical to security applications such as malware analysis, vulnerability assessment, and legacy maintenance. Large Language Models (LLMs) are reshaping this field, shifting the paradigm away from rule-based heuristics to probabilistic and high fidelity semantic recovery of source code from assembly or classical decompiler-derived pseudo-C. However, despite rapid progress, the field suffers from fragmentation across numerous approaches as well as their non-unified ev",
+      "published": "2026-10-08",
+      "categories": [
+        "cs.CR",
+        "cs.SE"
+      ],
+      "link": "https://arxiv.org/abs/2610.11556v1",
+      "matched_keyword": "LLM reliability",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.10352v1",
+      "title": "The Handover Problem: Governing Autonomy Transitions in Human-AI Collaboration",
+      "authors": [
+        "Vicente Pelechano",
+        "Antoni Mestre",
+        "Manoli Albert",
+        "Miriam Gil"
+      ],
+      "summary": "Human-machine systems rarely operate at a fixed level of AI autonomy. As operators and AI systems collaborate over time, control must shift: the AI can take on more responsibility when collaboration is stable, maintain its current role when evidence is ambiguous, or return control to the human when conditions deteriorate. Existing work on adaptive automation, supervisory control, trust in automation, and deskilling explains parts of this problem, but provides no auditable, multi-signal criterion",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "link": "https://arxiv.org/abs/2610.10352v1",
+      "matched_keyword": "human-AI collaboration",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.10962v1",
+      "title": "iAm.md: Robot Skill Self-Assessment through Agentic Introspection for Unknown Open-Vocabulary Domains",
+      "authors": [
+        "Vincenzo Guarino",
+        "Emanuele Musumeci",
+        "Vincenzo Suriani",
+        "Daniele Nardi"
+      ],
+      "summary": "Agentic AI based on Large Language Model generalization capabilities offers a wide range of potential applications, including planning for embodied tasks. For example, embodied agents based on Foundation models can generate plausible plans in autonomous robotics scenarios. Due to limited context windows or hallucinatory phenomena in the next-token prediction formulation, behaviors may be generated without establishing whether the deployed robot and the observed environment actually support the r",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.10962v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.10858v1",
+      "title": "RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design",
+      "authors": [
+        "Awani Khodkumbhe",
+        "Yunfei Feng",
+        "Raj Rangarajan",
+        "Kevin Wang",
+        "Kamal Sahota"
+      ],
+      "summary": "Analog/RF circuits remain the critical interface between digital computation and the physical world, and emerging standards from Wi-Fi 7 to 6G place stringent demands on them, yet analog/RF design remains one of the most labor-intensive steps in chip development. We present RFChipAgent, a first-of-its-kind multi-agent flow of large language model (LLM) agents for end-to-end analog/RF circuit design automation, in which AI agents collaboratively orchestrate the complete design flow under human su",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.AR",
+        "cs.AI",
+        "cs.LG",
+        "cs.MA",
+        "eess.SY"
+      ],
+      "link": "https://arxiv.org/abs/2610.10858v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.10833v1",
+      "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
+      "authors": [
+        "Aaron Wang",
+        "Neelabh Madan",
+        "Vlad Sobal",
+        "Matthew Trager",
+        "Michael Kleinman"
+      ],
+      "summary": "We study whether small LLM agents can operate effectively under explicit wall-clock time budgets by both respecting the allocated runtime and using available time productively. We evaluate Qwen3.6-27B on five competitions from MLE-Bench Lite and Qwen3-4B on Zork I (Jericho), two agentic benchmarks where additional computational time can meaningfully improve performance. In the simplest setting, where the budget is stated only in the prompt, agents fail to translate the stated budget into control",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "link": "https://arxiv.org/abs/2610.10833v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.10184v1",
+      "title": "Agentic AI-Assisted Modeling for Production Scheduling: Assessment in Constraint Programming",
+      "authors": [
+        "Ángel Sánchez-Fernández",
+        "Javier Pernas-Álvarez",
+        "Diego Crespo-Pereira"
+      ],
+      "summary": "Developing optimization models for production scheduling requires substantial expert effort. Research on large language models (LLMs) has followed two directions: specialized approaches for automated modeling, mostly for mixed-integer linear programming, which often rely on dedicated training or problem-specific architectures that limit industrial deployment; and agentic artificial intelligence for operational decision support, which generally assumes that the optimization model already exists. ",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "link": "https://arxiv.org/abs/2610.10184v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.10629v1",
+      "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
+      "authors": [
+        "Ravil Akhtyamov"
+      ],
+      "summary": "Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that rewrites itself destroys the artefact a supervisor reviews: a named change, a recorded test, an approval. We argue that self-evolution is reviewable only if it is confined to the runtime harness (instruction text, tool-call logic and primitive composition) while model weights stay fixed, so that every adaptation is a diff with a cause and a test attached. We give a dual-loop engine built on that bound, wit",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.AI"
+      ],
+      "link": "https://arxiv.org/abs/2610.10629v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.09608v1",
+      "title": "When My Skill Becomes Agent Skill: How Knowledge Workers Share Their Expertise with AI Systems",
+      "authors": [
+        "Tianqi Song",
+        "Zicheng Zhu",
+        "Hancheng Cao",
+        "Yi-Chieh Lee"
+      ],
+      "summary": "Organizations have long sought to make workers' expertise reusable by others. Agentic AI changes the nature of such reuse by enabling AI systems to act on workers' knowledge with limited human involvement. This raises the question of how this shift shapes workers' willingness to share their expertise. We conducted an experiment with knowledge workers who created materials incorporating domain knowledge and decided whether to authorize human or AI reuse. We find that AI and human reuse differ pri",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.HC"
+      ],
+      "link": "https://arxiv.org/abs/2610.09608v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.10611v1",
+      "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+      "authors": [
+        "Chien-Ping Lu"
+      ],
+      "summary": "Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score does not distinguish these mechanisms. We compare these changes through bounded verification with hidden terminal randomness. A stage specifies admissible transcripts, polynomial bounds, an alternating verification protocol, and a terminal checker. Its native reach uses default support; its closure frontier permits all support already admitted by",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.AI",
+        "cs.CC"
+      ],
+      "link": "https://arxiv.org/abs/2610.10611v1",
+      "matched_keyword": "agentic AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.10263v1",
+      "title": "When Sub-Agents Work in Parallel: The Promises and Pitfalls of Dynamic Concurrency in Long-Horizon Coding Tasks",
+      "authors": [
+        "Han Li",
+        "HanHaoNing Li",
+        "Ziqian Jiang",
+        "Yiling Lou"
+      ],
+      "summary": "As coding agents advance from bounded software engineering tasks toward long horizon development, dynamic concurrency offers a promising way to scale complex development tasks. Under this policy, agents decide during execution whether and how to spawn concurrent sub-agents. Model capability largely determines outcomes on shorter tasks, whereas long horizon development makes orchestration central to task completion. Existing work, focused on coding agent failures on shorter tasks or collaboration",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.SE"
+      ],
+      "link": "https://arxiv.org/abs/2610.10263v1",
+      "matched_keyword": "agent failure",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.10610v1",
+      "title": "Code Understanding is a Bottleneck for Coding Agents",
+      "authors": [
+        "Nishant Balepur",
+        "Kiran Tomlinson",
+        "Tobias Schnabel"
+      ],
+      "summary": "Repository benchmarks (e.g., SWE-bench) for coding agents often assume that lines of code edited can predict task difficulty, but such datasets' poor control over code and task types makes it hard to know which abilities truly drive agent errors. We present CABRA: a Coding Ability Blueprint for Rigorous Agent evaluation. CABRA builds tasks from scratch as call graph transformations and scales difficulty via a task size parameter on four axes: function traversal, search, runtime resolution, and i",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.PL"
+      ],
+      "link": "https://arxiv.org/abs/2610.10610v1",
+      "matched_keyword": "agent error",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.10805v1",
+      "title": "Whose Ground Truth? Embracing Ambiguity in Human-Centered AI",
+      "authors": [
+        "Jingyao Wu",
+        "Mohammad Tariqul Islam",
+        "Per Rådberg Nagbøl",
+        "Julie Gerlings",
+        "Giovanni Leoni"
+      ],
+      "summary": "As AI systems increasingly interact with people and make decisions about them, understanding human interpretations becomes an important part of developing human-centered AI. Conventional machine learning and AI systems are largely developed under the assumption that a single definitive ground truth exists, with variability in human annotations often resolved through aggregation or treated as noise. However, for many human-centered tasks, human interpretation is inherently ambiguous, and multiple",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "link": "https://arxiv.org/abs/2610.10805v1",
+      "matched_keyword": "human-centered AI",
+      "source": "arxiv"
+    },
+    {
+      "id": "2610.10441v1",
+      "title": "CrossWeave: Bridging Perspectives Across Online Communities with a Dual-Pane Design",
+      "authors": [
+        "Fei Fang",
+        "Reva Hirave",
+        "William Jurayj",
+        "Yuqi Li",
+        "Brian Lu"
+      ],
+      "summary": "Social media systems typically display conversations among already familiar contributors, which can be predictable and one-sided. In civic discourse, this design narrows discussion, reinforces divides, and distorts the perception of public opinion. To encourage cross-community engagement, we present CrossWeave, an AI-powered bridging system that augments the standard social media feed. As the user reads a post, CrossWeave surfaces diverse relevant posts from other threads in a side pane and high",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.SI",
+        "cs.HC",
+        "cs.IR"
+      ],
+      "link": "https://arxiv.org/abs/2610.10441v1",
+      "matched_keyword": "computer-supported cooperative work",
+      "source": "arxiv"
+    }
+  ],
+  "semantic_scholar": [
+    {
+      "id": "5819f8e10451de7aeebec3b3e75b89a70981c7c2",
+      "title": "Disentangling Task Difficulty from Run-Level Failure in Agent Failure Prediction",
+      "authors": [
+        "Mohsen EsfandyariDoulabi",
+        "L. Arkoh",
+        "Biruk Tadesse",
+        "Vaishvi Patel",
+        "Mehul Sharma"
+      ],
+      "summary": "Predicting whether an LLM agent will fail has emerged as a promising direction for supporting intervention during execution. Recent approaches report strong predictive performance, often with AUROC values between 0.85 and 0.94. However, predictors are typically trained by pooling runs from many tasks. We hypothesize that part of this performance comes from recognizing that some tasks are harder than others, rather than detecting whether a particular run is heading toward failure. This distinctio",
+      "published": "2026-10-04",
+      "citations": 0,
+      "link": "https://www.semanticscholar.org/paper/5819f8e10451de7aeebec3b3e75b89a70981c7c2",
+      "matched_keyword": "agent failure",
+      "source": "semantic_scholar"
+    }
+  ],
+  "hackernews": [
+    {
+      "id": "50018817",
+      "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+      "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "hn_link": "https://news.ycombinator.com/item?id=50018817",
+      "points": 419,
+      "comments": 195,
+      "published": "2026-10-09",
+      "matched_keyword": "AI agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50059523",
+      "title": "AI coding agents generate more code, but not more software",
+      "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "hn_link": "https://news.ycombinator.com/item?id=50059523",
+      "points": 364,
+      "comments": 309,
+      "published": "2026-10-12",
+      "matched_keyword": "AI agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50031614",
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "link": "https://github.com/rociiu/talorys",
+      "hn_link": "https://news.ycombinator.com/item?id=50031614",
+      "points": 329,
+      "comments": 155,
+      "published": "2026-10-10",
+      "matched_keyword": "AI agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50039092",
+      "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
+      "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "hn_link": "https://news.ycombinator.com/item?id=50039092",
+      "points": 217,
+      "comments": 153,
+      "published": "2026-10-11",
+      "matched_keyword": "AI agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50085323",
+      "title": "TV4 postpones show after AI agent erases edited material",
+      "link": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+      "hn_link": "https://news.ycombinator.com/item?id=50085323",
+      "points": 150,
+      "comments": 84,
+      "published": "2026-10-14",
+      "matched_keyword": "AI agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50049588",
+      "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+      "link": "https://github.com/SaarthurR/atticus-mac",
+      "hn_link": "https://news.ycombinator.com/item?id=50049588",
+      "points": 115,
+      "comments": 30,
+      "published": "2026-10-12",
+      "matched_keyword": "AI workflow",
+      "source": "hackernews"
+    },
+    {
+      "id": "50033517",
+      "title": "My personal AI agent posted my bank details on company Slack",
+      "link": "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
+      "hn_link": "https://news.ycombinator.com/item?id=50033517",
+      "points": 63,
+      "comments": 70,
+      "published": "2026-10-10",
+      "matched_keyword": "AI agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50038473",
+      "title": "Veda: The First Agentic Hobby Operating System",
+      "link": "https://github.com/vahmoh25/Veda",
+      "hn_link": "https://news.ycombinator.com/item?id=50038473",
+      "points": 49,
+      "comments": 12,
+      "published": "2026-10-11",
+      "matched_keyword": "agentic",
+      "source": "hackernews"
+    },
+    {
+      "id": "50039630",
+      "title": "AI agents in a stand-up call",
+      "link": "https://atoll92.github.io/agent-standup/",
+      "hn_link": "https://news.ycombinator.com/item?id=50039630",
+      "points": 48,
+      "comments": 51,
+      "published": "2026-10-11",
+      "matched_keyword": "AI agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50073471",
+      "title": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data",
+      "link": "https://news.ycombinator.com/item?id=50073471",
+      "hn_link": "https://news.ycombinator.com/item?id=50073471",
+      "points": 36,
+      "comments": 19,
+      "published": "2026-10-13",
+      "matched_keyword": "AI workflow",
+      "source": "hackernews"
+    },
+    {
+      "id": "50090484",
+      "title": "I Deleted 168,000 Lines of Comments. My AI Agent Didn't Notice",
+      "link": "https://openstation.blog/2026/10/13/i-deleted-168000-lines-of-comments-my-ai-agent-didnt-notice/",
+      "hn_link": "https://news.ycombinator.com/item?id=50090484",
+      "points": 35,
+      "comments": 16,
+      "published": "2026-10-14",
+      "matched_keyword": "AI agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50006114",
+      "title": "Show HN: I Put an AI Agent on a Nokia 110",
+      "link": "https://github.com/anupray95/AI-Agent-on-a-NOKIA",
+      "hn_link": "https://news.ycombinator.com/item?id=50006114",
+      "points": 33,
+      "comments": 17,
+      "published": "2026-10-08",
+      "matched_keyword": "AI agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50008642",
+      "title": "Show HN: AI SRE Arena, an Open Benchmark for AI SRE Agents on Kubernetes",
+      "link": "https://github.com/edgedelta/project-arena",
+      "hn_link": "https://news.ycombinator.com/item?id=50008642",
+      "points": 24,
+      "comments": 10,
+      "published": "2026-10-08",
+      "matched_keyword": "AI agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50029896",
+      "title": "If AI keeps evolving,would you worry about your next generation's survival",
+      "link": "https://news.ycombinator.com/item?id=50029896",
+      "hn_link": "https://news.ycombinator.com/item?id=50029896",
+      "points": 24,
+      "comments": 50,
+      "published": "2026-10-10",
+      "matched_keyword": "future of work",
+      "source": "hackernews"
+    },
+    {
+      "id": "50043948",
+      "title": "Show HN: Timur's Chess – A 14th century chess variant with giraffes",
+      "link": "https://timurschess.com",
+      "hn_link": "https://news.ycombinator.com/item?id=50043948",
+      "points": 23,
+      "comments": 6,
+      "published": "2026-10-11",
+      "matched_keyword": "vibe coding",
+      "source": "hackernews"
+    },
+    {
+      "id": "50080450",
+      "title": "Show HN: Jevcrawl – A web crawler for AI agents with no LLM in the crawl loop",
+      "link": "https://github.com/RayenMlayeh/jevcrawl",
+      "hn_link": "https://news.ycombinator.com/item?id=50080450",
+      "points": 21,
+      "comments": 3,
+      "published": "2026-10-13",
+      "matched_keyword": "LLM agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50047553",
+      "title": "Multi-agent harnesses need separate message channels",
+      "link": "https://harshalgajjar.com/blog/multi-agent-harnesses-need-separate-message-channels",
+      "hn_link": "https://news.ycombinator.com/item?id=50047553",
+      "points": 17,
+      "comments": 6,
+      "published": "2026-10-11",
+      "matched_keyword": "multi-agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50100387",
+      "title": "Aidlc: Adaptive workflow steering rules for AI coding agents",
+      "link": "https://github.com/awslabs/aidlc-workflows",
+      "hn_link": "https://news.ycombinator.com/item?id=50100387",
+      "points": 17,
+      "comments": 15,
+      "published": "2026-10-15",
+      "matched_keyword": "AI workflow",
+      "source": "hackernews"
+    },
+    {
+      "id": "50088582",
+      "title": "Show HN: T0: We trained a 256M SOTA open-weights time-series forecasting model",
+      "link": "https://github.com/theforecastingcompany/tfc-t0",
+      "hn_link": "https://news.ycombinator.com/item?id=50088582",
+      "points": 14,
+      "comments": 0,
+      "published": "2026-10-14",
+      "matched_keyword": "future of work",
+      "source": "hackernews"
+    },
+    {
+      "id": "50047180",
+      "title": "Ask HN: How do swarms of AI agents work?",
+      "link": "https://news.ycombinator.com/item?id=50047180",
+      "hn_link": "https://news.ycombinator.com/item?id=50047180",
+      "points": 13,
+      "comments": 8,
+      "published": "2026-10-11",
+      "matched_keyword": "AI collaboration",
+      "source": "hackernews"
+    },
+    {
+      "id": "50010881",
+      "title": "Veda: The Agentic-Native Operating System Supports GCC and OpenGL",
+      "link": "https://github.com/vahmoh25/Veda",
+      "hn_link": "https://news.ycombinator.com/item?id=50010881",
+      "points": 12,
+      "comments": 4,
+      "published": "2026-10-08",
+      "matched_keyword": "agentic",
+      "source": "hackernews"
+    },
+    {
+      "id": "50061773",
+      "title": "Phishing emails are now baiting your AI assistant",
+      "link": "https://www.malwarebytes.com/blog/ai/2026/10/phishing-emails-are-baiting-your-ai-assistant",
+      "hn_link": "https://news.ycombinator.com/item?id=50061773",
+      "points": 11,
+      "comments": 0,
+      "published": "2026-10-12",
+      "matched_keyword": "AI assistant",
+      "source": "hackernews"
+    },
+    {
+      "id": "50009542",
+      "title": "Pete Hegseth's Military of the Future: Defined by AI and Utter Lack of Oversight",
+      "link": "https://theintercept.com/2026/10/08/hegseth-military-ai-drones-autonomous-war/",
+      "hn_link": "https://news.ycombinator.com/item?id=50009542",
+      "points": 10,
+      "comments": 0,
+      "published": "2026-10-08",
+      "matched_keyword": "autonomous AI",
+      "source": "hackernews"
+    },
+    {
+      "id": "50064758",
+      "title": "What it felt like when I was interviewed by an AI assistant",
+      "link": "https://www.theguardian.com/commentisfree/2026/oct/13/dystopian-and-dehumanising-thats-what-it-felt-like-when-i-was-interviewed-by-an-ai-assistant",
+      "hn_link": "https://news.ycombinator.com/item?id=50064758",
+      "points": 9,
+      "comments": 3,
+      "published": "2026-10-13",
+      "matched_keyword": "AI assistant",
+      "source": "hackernews"
+    },
+    {
+      "id": "50058032",
+      "title": "Show HN: E2E – Open-source agentic testing framework for web, iOS and Android",
+      "link": "https://github.com/tester-army/e2e",
+      "hn_link": "https://news.ycombinator.com/item?id=50058032",
+      "points": 9,
+      "comments": 2,
+      "published": "2026-10-12",
+      "matched_keyword": "agentic",
+      "source": "hackernews"
+    },
+    {
+      "id": "50065312",
+      "title": "Epic Games reportedly pivoting to \"AI first\" game development model",
+      "link": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+      "hn_link": "https://news.ycombinator.com/item?id=50065312",
+      "points": 7,
+      "comments": 3,
+      "published": "2026-10-13",
+      "matched_keyword": "AI collaboration",
+      "source": "hackernews"
+    },
+    {
+      "id": "50069707",
+      "title": "Veda: The Agentic Hobby OS Added Video Player",
+      "link": "https://github.com/vahmoh25/Veda/commit/e8d3fdbce82a1d09db7dd0d182411e29772c0bc4",
+      "hn_link": "https://news.ycombinator.com/item?id=50069707",
+      "points": 7,
+      "comments": 0,
+      "published": "2026-10-13",
+      "matched_keyword": "agentic",
+      "source": "hackernews"
+    },
+    {
+      "id": "50027945",
+      "title": "Email-Like Inbox for Agentic Engineering",
+      "link": "https://twitter.com/plannotator/status/2108589088139886769",
+      "hn_link": "https://news.ycombinator.com/item?id=50027945",
+      "points": 7,
+      "comments": 0,
+      "published": "2026-10-09",
+      "matched_keyword": "agentic",
+      "source": "hackernews"
+    },
+    {
+      "id": "50050374",
+      "title": "Agentic journal of higher categorical semantics",
+      "link": "https://higher-categorical-semantics.pages.dev/announcements/call-for-papers",
+      "hn_link": "https://news.ycombinator.com/item?id=50050374",
+      "points": 6,
+      "comments": 0,
+      "published": "2026-10-12",
+      "matched_keyword": "agentic",
+      "source": "hackernews"
+    },
+    {
+      "id": "50081573",
+      "title": "OCP 2026: Agentic AI Pushes the Data Center from Chip to Grid",
+      "link": "https://www.datacenterfrontier.com/hyperscale/article/55411534/ocp-2026-agentic-ai-pushes-the-data-center-from-chip-to-grid",
+      "hn_link": "https://news.ycombinator.com/item?id=50081573",
+      "points": 4,
+      "comments": 0,
+      "published": "2026-10-14",
+      "matched_keyword": "agentic",
+      "source": "hackernews"
+    },
+    {
+      "id": "50064785",
+      "title": "Open Agentic Swarm Security Engineering",
+      "link": "https://franciscocarloserra.github.io/open-swarm-security/",
+      "hn_link": "https://news.ycombinator.com/item?id=50064785",
+      "points": 4,
+      "comments": 0,
+      "published": "2026-10-13",
+      "matched_keyword": "agentic",
+      "source": "hackernews"
+    },
+    {
+      "id": "50062619",
+      "title": "A Modern Agentic AI Operating System",
+      "link": "https://github.com/vahmoh25/Veda/blob/main/docs/AGENT.md",
+      "hn_link": "https://news.ycombinator.com/item?id=50062619",
+      "points": 4,
+      "comments": 0,
+      "published": "2026-10-12",
+      "matched_keyword": "agentic",
+      "source": "hackernews"
+    },
+    {
+      "id": "50038795",
+      "title": "Genkit Dart 1.0: Build production-ready agentic apps with Dart and Flutter",
+      "link": "https://flutter.dev/blog/announcing-genkit-dart-1-0",
+      "hn_link": "https://news.ycombinator.com/item?id=50038795",
+      "points": 4,
+      "comments": 0,
+      "published": "2026-10-11",
+      "matched_keyword": "agentic",
+      "source": "hackernews"
+    },
+    {
+      "id": "50036146",
+      "title": "Ask HN: Why did Microsoft invest in AI that could rewrite its apps from scratch?",
+      "link": "https://news.ycombinator.com/item?id=50036146",
+      "hn_link": "https://news.ycombinator.com/item?id=50036146",
+      "points": 4,
+      "comments": 8,
+      "published": "2026-10-10",
+      "matched_keyword": "vibe coding",
+      "source": "hackernews"
+    },
+    {
+      "id": "50064868",
+      "title": "Turn a frontier AI into a multi-agent systems architect",
+      "link": "https://github.com/polymodality/agentic-polymodality/tree/main/ai-guidance",
+      "hn_link": "https://news.ycombinator.com/item?id=50064868",
+      "points": 4,
+      "comments": 0,
+      "published": "2026-10-13",
+      "matched_keyword": "multi-agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50049567",
+      "title": "MASS: Recursive Self-Improvement Through Multi-Agent Self-Supervision",
+      "link": "https://pub.sakana.ai/mass/?href=",
+      "hn_link": "https://news.ycombinator.com/item?id=50049567",
+      "points": 4,
+      "comments": 0,
+      "published": "2026-10-12",
+      "matched_keyword": "multi-agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50010101",
+      "title": "DeLM: Decentralized Multi-Agent Systems with Shared Context",
+      "link": "https://yuzhenmao.github.io/DeLM/",
+      "hn_link": "https://news.ycombinator.com/item?id=50010101",
+      "points": 4,
+      "comments": 0,
+      "published": "2026-10-08",
+      "matched_keyword": "multi-agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50090963",
+      "title": "Assessing AI agents at autonomous theoretical physics problem solving",
+      "link": "https://arxiv.org/abs/2610.16733",
+      "hn_link": "https://news.ycombinator.com/item?id=50090963",
+      "points": 4,
+      "comments": 0,
+      "published": "2026-10-14",
+      "matched_keyword": "autonomous AI",
+      "source": "hackernews"
+    },
+    {
+      "id": "50081857",
+      "title": "Show HN: Evaluate and improve your agent steering",
+      "link": "https://news.ycombinator.com/item?id=50081857",
+      "hn_link": "https://news.ycombinator.com/item?id=50081857",
+      "points": 4,
+      "comments": 3,
+      "published": "2026-10-14",
+      "matched_keyword": "copilot",
+      "source": "hackernews"
+    },
+    {
+      "id": "50057815",
+      "title": "Amazon has over 1M robot workers. What's next for human employees?",
+      "link": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
+      "hn_link": "https://news.ycombinator.com/item?id=50057815",
+      "points": 4,
+      "comments": 2,
+      "published": "2026-10-12",
+      "matched_keyword": "future of work",
+      "source": "hackernews"
+    },
+    {
+      "id": "50066935",
+      "title": "LLM Agents Can Easily Tamper with Their Own Traces",
+      "link": "https://arxiv.org/abs/2609.30266",
+      "hn_link": "https://news.ycombinator.com/item?id=50066935",
+      "points": 3,
+      "comments": 0,
+      "published": "2026-10-13",
+      "matched_keyword": "LLM agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50096424",
+      "title": "Show HN: Fantastic Canvas",
+      "link": "https://github.com/aisixteen/fantastic",
+      "hn_link": "https://news.ycombinator.com/item?id=50096424",
+      "points": 3,
+      "comments": 2,
+      "published": "2026-10-14",
+      "matched_keyword": "human-AI",
+      "source": "hackernews"
+    },
+    {
+      "id": "50009928",
+      "title": "Show HN: MarbleMD – Free collaborative alternative to Typora",
+      "link": "https://marble.md",
+      "hn_link": "https://news.ycombinator.com/item?id=50009928",
+      "points": 3,
+      "comments": 0,
+      "published": "2026-10-08",
+      "matched_keyword": "AI collaboration",
+      "source": "hackernews"
+    },
+    {
+      "id": "50069498",
+      "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+      "link": "https://github.com/theonly1me/shadowclone",
+      "hn_link": "https://news.ycombinator.com/item?id=50069498",
+      "points": 3,
+      "comments": 1,
+      "published": "2026-10-13",
+      "matched_keyword": "AI collaboration",
+      "source": "hackernews"
+    },
+    {
+      "id": "50089901",
+      "title": "Show HN: Sonia. Local AI Assistant Linux. 13Gb RAM, No GPU, Skills Supported",
+      "link": "https://github.com/grigio/sonia-assistant",
+      "hn_link": "https://news.ycombinator.com/item?id=50089901",
+      "points": 3,
+      "comments": 0,
+      "published": "2026-10-14",
+      "matched_keyword": "AI assistant",
+      "source": "hackernews"
+    },
+    {
+      "id": "50076388",
+      "title": "Show HN: Hatoba, an open-source SSH client with an AI assistant and E2EE sync",
+      "link": "https://github.com/scarletkc/Hatoba",
+      "hn_link": "https://news.ycombinator.com/item?id=50076388",
+      "points": 3,
+      "comments": 0,
+      "published": "2026-10-13",
+      "matched_keyword": "AI assistant",
+      "source": "hackernews"
+    },
+    {
+      "id": "50018761",
+      "title": "AI Assistants Transform Nuclear Power Plant Work",
+      "link": "https://spectrum.ieee.org/ai-assistants-nuclear-power-plant",
+      "hn_link": "https://news.ycombinator.com/item?id=50018761",
+      "points": 3,
+      "comments": 0,
+      "published": "2026-10-09",
+      "matched_keyword": "AI assistant",
+      "source": "hackernews"
+    },
+    {
+      "id": "50045579",
+      "title": "Ask HN: Is there any defense against LLM-based reverse engineering?",
+      "link": "https://news.ycombinator.com/item?id=50045579",
+      "hn_link": "https://news.ycombinator.com/item?id=50045579",
+      "points": 3,
+      "comments": 11,
+      "published": "2026-10-11",
+      "matched_keyword": "vibe coding",
+      "source": "hackernews"
+    },
+    {
+      "id": "50043311",
+      "title": "Show HN: Quaesito: a self-hosted app for quiz nights with friends",
+      "link": "https://github.com/ggirelli/quaesito",
+      "hn_link": "https://news.ycombinator.com/item?id=50043311",
+      "points": 3,
+      "comments": 4,
+      "published": "2026-10-11",
+      "matched_keyword": "vibe coding",
+      "source": "hackernews"
+    },
+    {
+      "id": "50021697",
+      "title": "AI, Autonomous Warfare and the Severance from Responsibility",
+      "link": "https://read.misalignedmag.com/ai-autonomous-warfare-and-the-severance-from-responsibility-480da36c7f65",
+      "hn_link": "https://news.ycombinator.com/item?id=50021697",
+      "points": 3,
+      "comments": 2,
+      "published": "2026-10-09",
+      "matched_keyword": "autonomous AI",
+      "source": "hackernews"
+    },
+    {
+      "id": "50055023",
+      "title": "Show HN: Organ – Autonomous AI executives that build and operate businesses",
+      "link": "https://organ.app/start",
+      "hn_link": "https://news.ycombinator.com/item?id=50055023",
+      "points": 3,
+      "comments": 0,
+      "published": "2026-10-12",
+      "matched_keyword": "autonomous AI",
+      "source": "hackernews"
+    },
+    {
+      "id": "50026596",
+      "title": "Autonomous AI Lamp",
+      "link": "https://www.autonomous.ai/lamp",
+      "hn_link": "https://news.ycombinator.com/item?id=50026596",
+      "points": 3,
+      "comments": 0,
+      "published": "2026-10-09",
+      "matched_keyword": "autonomous AI",
+      "source": "hackernews"
+    },
+    {
+      "id": "50031583",
+      "title": "Show HN: SqlFlow – Durable Workflows Backed by PostgreSQL or SQL Server",
+      "link": "https://github.com/bytefish/SqlFlow",
+      "hn_link": "https://news.ycombinator.com/item?id=50031583",
+      "points": 3,
+      "comments": 0,
+      "published": "2026-10-10",
+      "matched_keyword": "AI workflow",
+      "source": "hackernews"
+    },
+    {
+      "id": "50082735",
+      "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
+      "link": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/",
+      "hn_link": "https://news.ycombinator.com/item?id=50082735",
+      "points": 3,
+      "comments": 0,
+      "published": "2026-10-14",
+      "matched_keyword": "copilot",
+      "source": "hackernews"
+    },
+    {
+      "id": "50007023",
+      "title": "Show HN: Abyss – ACP Agent Isolation with Middleware Support",
+      "link": "https://abyss.scurry.io",
+      "hn_link": "https://news.ycombinator.com/item?id=50007023",
+      "points": 3,
+      "comments": 0,
+      "published": "2026-10-08",
+      "matched_keyword": "future of work",
+      "source": "hackernews"
+    },
+    {
+      "id": "50093003",
+      "title": "Show HN: Eevo – Consequential Decision Model",
+      "link": "https://www.uprightproject.com/eevo/",
+      "hn_link": "https://news.ycombinator.com/item?id=50093003",
+      "points": 2,
+      "comments": 3,
+      "published": "2026-10-14",
+      "matched_keyword": "LLM agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50043499",
+      "title": "Show HN: Guilds – Open-source inspectable multi-agents collaboration framework",
+      "link": "https://github.com/CigaleAI/guilds",
+      "hn_link": "https://news.ycombinator.com/item?id=50043499",
+      "points": 2,
+      "comments": 0,
+      "published": "2026-10-11",
+      "matched_keyword": "AI collaboration",
+      "source": "hackernews"
+    },
+    {
+      "id": "50019199",
+      "title": "Speakoflow – Free Voice Dictation and AI Assistant for Windows, macOS, and Linux",
+      "link": "https://github.com/AbhishekBarali/SpeakoFlow",
+      "hn_link": "https://news.ycombinator.com/item?id=50019199",
+      "points": 2,
+      "comments": 1,
+      "published": "2026-10-09",
+      "matched_keyword": "AI assistant",
+      "source": "hackernews"
+    },
+    {
+      "id": "50028393",
+      "title": "How to connect any AI assistant to governed enterprise data with MCP",
+      "link": "https://wesdias.medium.com/how-to-connect-any-ai-assistant-to-governed-enterprise-data-with-mcp-0d9cffa14231",
+      "hn_link": "https://news.ycombinator.com/item?id=50028393",
+      "points": 2,
+      "comments": 0,
+      "published": "2026-10-10",
+      "matched_keyword": "AI assistant",
+      "source": "hackernews"
+    },
+    {
+      "id": "50019318",
+      "title": "Have your AI assistant book hotels",
+      "link": "https://www.reddit.com/r/mcp/comments/1x1j0xx/mcp_server_that_books_hotels_in_dachgermany/",
+      "hn_link": "https://news.ycombinator.com/item?id=50019318",
+      "points": 2,
+      "comments": 0,
+      "published": "2026-10-09",
+      "matched_keyword": "AI assistant",
+      "source": "hackernews"
+    },
+    {
+      "id": "50007187",
+      "title": "Human-Like and Male? How AI Assistant Design Relates to Monetary Reward",
+      "link": "https://dl.acm.org/doi/10.1145/3829807.3829910",
+      "hn_link": "https://news.ycombinator.com/item?id=50007187",
+      "points": 2,
+      "comments": 0,
+      "published": "2026-10-08",
+      "matched_keyword": "AI assistant",
+      "source": "hackernews"
+    },
+    {
+      "id": "50059911",
+      "title": "Vibe Coding Emails",
+      "link": "https://www.vibemail.dev/",
+      "hn_link": "https://news.ycombinator.com/item?id=50059911",
+      "points": 2,
+      "comments": 1,
+      "published": "2026-10-12",
+      "matched_keyword": "vibe coding",
+      "source": "hackernews"
+    },
+    {
+      "id": "50040906",
+      "title": "'Vibe coding' makes the dictionary: AI terms recognized by Merriam-Webster",
+      "link": "https://www.nature.com/articles/d41586-026-03044-9",
+      "hn_link": "https://news.ycombinator.com/item?id=50040906",
+      "points": 2,
+      "comments": 1,
+      "published": "2026-10-11",
+      "matched_keyword": "vibe coding",
+      "source": "hackernews"
+    },
+    {
+      "id": "50018757",
+      "title": "A GTA-like vibe coding game that's currently taking Taiwan by storm",
+      "link": "https://www.taipei-rush.app/",
+      "hn_link": "https://news.ycombinator.com/item?id=50018757",
+      "points": 2,
+      "comments": 1,
+      "published": "2026-10-09",
+      "matched_keyword": "vibe coding",
+      "source": "hackernews"
+    },
+    {
+      "id": "50067103",
+      "title": "Vibe Coding, Audited: Productivity, Security, CVE Numbers Behind the Hype [video]",
+      "link": "https://www.youtube.com/watch?v=fH2S35Nxh80",
+      "hn_link": "https://news.ycombinator.com/item?id=50067103",
+      "points": 2,
+      "comments": 0,
+      "published": "2026-10-13",
+      "matched_keyword": "vibe coding",
+      "source": "hackernews"
+    },
+    {
+      "id": "50043040",
+      "title": "Show HN: A Safari extension to accelerate animated WebP images",
+      "link": "https://github.com/IliaMManolov/safari-animated-webp-extension",
+      "hn_link": "https://news.ycombinator.com/item?id=50043040",
+      "points": 2,
+      "comments": 0,
+      "published": "2026-10-11",
+      "matched_keyword": "vibe coding",
+      "source": "hackernews"
+    },
+    {
+      "id": "50031369",
+      "title": "Claude agents can now write their own multiagent workflows",
+      "link": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration",
+      "hn_link": "https://news.ycombinator.com/item?id=50031369",
+      "points": 2,
+      "comments": 0,
+      "published": "2026-10-10",
+      "matched_keyword": "multi-agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50011675",
+      "title": "Multiple Agents race condition on Booking",
+      "link": "https://pub.towardsai.net/the-dual-booked-operating-room-why-autonomous-ai-schedulers-cause-race-conditions-175ee8435c51",
+      "hn_link": "https://news.ycombinator.com/item?id=50011675",
+      "points": 2,
+      "comments": 0,
+      "published": "2026-10-08",
+      "matched_keyword": "autonomous AI",
+      "source": "hackernews"
+    },
+    {
+      "id": "50093787",
+      "title": "AI agents overstate their results and remain far from autonomous",
+      "link": "https://www.renascence.io/news/104630/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-",
+      "hn_link": "https://news.ycombinator.com/item?id=50093787",
+      "points": 2,
+      "comments": 0,
+      "published": "2026-10-14",
+      "matched_keyword": "autonomous AI",
+      "source": "hackernews"
+    },
+    {
+      "id": "50077504",
+      "title": "The Quiet Math Revolution",
+      "link": "https://workflows-of-ai.com/blog/the-quiet-math-revolution",
+      "hn_link": "https://news.ycombinator.com/item?id=50077504",
+      "points": 2,
+      "comments": 1,
+      "published": "2026-10-13",
+      "matched_keyword": "AI workflow",
+      "source": "hackernews"
+    },
+    {
+      "id": "50076985",
+      "title": "Ask HN: In the new AI world, what's the best way to review code?",
+      "link": "https://news.ycombinator.com/item?id=50076985",
+      "hn_link": "https://news.ycombinator.com/item?id=50076985",
+      "points": 2,
+      "comments": 4,
+      "published": "2026-10-13",
+      "matched_keyword": "AI workflow",
+      "source": "hackernews"
+    },
+    {
+      "id": "50093754",
+      "title": "How to Convert Pipedream Workflows to FlowRunner, with Real Examples",
+      "link": "https://flowrunner.ai/blog/pipedream-to-flowrunner-conversions",
+      "hn_link": "https://news.ycombinator.com/item?id=50093754",
+      "points": 2,
+      "comments": 0,
+      "published": "2026-10-14",
+      "matched_keyword": "AI workflow",
+      "source": "hackernews"
+    },
+    {
+      "id": "50087547",
+      "title": "What do you usually do while waiting for your copilot to get done?",
+      "link": "https://news.ycombinator.com/item?id=50087547",
+      "hn_link": "https://news.ycombinator.com/item?id=50087547",
+      "points": 2,
+      "comments": 2,
+      "published": "2026-10-14",
+      "matched_keyword": "copilot",
+      "source": "hackernews"
+    },
+    {
+      "id": "50069664",
+      "title": "SEO Copilot – Cut manual work between finding and fixing SEO issues",
+      "link": "https://seo-copilot.replit.app/demo",
+      "hn_link": "https://news.ycombinator.com/item?id=50069664",
+      "points": 2,
+      "comments": 1,
+      "published": "2026-10-13",
+      "matched_keyword": "copilot",
+      "source": "hackernews"
+    },
+    {
+      "id": "50096316",
+      "title": "VSCode, granular control over Copilot changes",
+      "link": "https://github.com/microsoft/vscode/issues/339363",
+      "hn_link": "https://news.ycombinator.com/item?id=50096316",
+      "points": 2,
+      "comments": 0,
+      "published": "2026-10-14",
+      "matched_keyword": "copilot",
+      "source": "hackernews"
+    },
+    {
+      "id": "50070312",
+      "title": "Show HN: Ecsodus – Migrate AWS Copilot apps to Terraform without losing prod",
+      "link": "https://github.com/moneytool/ecsodus",
+      "hn_link": "https://news.ycombinator.com/item?id=50070312",
+      "points": 2,
+      "comments": 0,
+      "published": "2026-10-13",
+      "matched_keyword": "copilot",
+      "source": "hackernews"
+    },
+    {
+      "id": "50045348",
+      "title": "Ten Billion Lines of Code-The most prolific code generator before Copilot (2025)",
+      "link": "https://www.dvdsgl.co/2025/quicktype-retrospective",
+      "hn_link": "https://news.ycombinator.com/item?id=50045348",
+      "points": 2,
+      "comments": 0,
+      "published": "2026-10-11",
+      "matched_keyword": "copilot",
+      "source": "hackernews"
+    },
+    {
+      "id": "50068117",
+      "title": "Amazon has over 1M robot workers. What's next for human employees?",
+      "link": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
+      "hn_link": "https://news.ycombinator.com/item?id=50068117",
+      "points": 2,
+      "comments": 0,
+      "published": "2026-10-13",
+      "matched_keyword": "future of work",
+      "source": "hackernews"
+    },
+    {
+      "id": "50032742",
+      "title": "Ask HN: How will socio-economic mobility look like in an AI future?",
+      "link": "https://news.ycombinator.com/item?id=50032742",
+      "hn_link": "https://news.ycombinator.com/item?id=50032742",
+      "points": 2,
+      "comments": 2,
+      "published": "2026-10-10",
+      "matched_keyword": "future of work",
+      "source": "hackernews"
+    },
+    {
+      "id": "50069764",
+      "title": "Show HN: Ret – An inbox and canvas for your Codex and Claude Code agents",
+      "link": "https://getret.app/",
+      "hn_link": "https://news.ycombinator.com/item?id=50069764",
+      "points": 2,
+      "comments": 2,
+      "published": "2026-10-13",
+      "matched_keyword": "future of work",
+      "source": "hackernews"
+    },
+    {
+      "id": "50069926",
+      "title": "How far can $1k take you when training an agentic LLM from scratch?",
+      "link": "https://www.nanoswe.com/blog.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50069926",
+      "points": 1,
+      "comments": 1,
+      "published": "2026-10-13",
+      "matched_keyword": "LLM agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50099465",
+      "title": "Barista: Synthesizing Typestate Specifications with LLM Agents",
+      "link": "https://catarinagamboa.github.io/papers/barista/",
+      "hn_link": "https://news.ycombinator.com/item?id=50099465",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-15",
+      "matched_keyword": "LLM agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50089042",
+      "title": "Deficit Loop: Closed-loop adaptive calorie targeting with per-user LLM agents [pdf]",
+      "link": "https://nanorhino.com/research/deficit-loop-preprint.pdf",
+      "hn_link": "https://news.ycombinator.com/item?id=50089042",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-14",
+      "matched_keyword": "LLM agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50083980",
+      "title": "Lost in Implicit Routing: How LLM Agents Fail to Load Relevant Skills at Scale",
+      "link": "https://arxiv.org/abs/2610.18522",
+      "hn_link": "https://news.ycombinator.com/item?id=50083980",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-14",
+      "matched_keyword": "LLM agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50028678",
+      "title": "Ask HN: Are LLMs Solving Math?",
+      "link": "https://news.ycombinator.com/item?id=50028678",
+      "hn_link": "https://news.ycombinator.com/item?id=50028678",
+      "points": 1,
+      "comments": 1,
+      "published": "2026-10-10",
+      "matched_keyword": "LLM agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50033571",
+      "title": "Ask HN: Can we expect LLM-based coding agents to become noticeably faster?",
+      "link": "https://news.ycombinator.com/item?id=50033571",
+      "hn_link": "https://news.ycombinator.com/item?id=50033571",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-10",
+      "matched_keyword": "LLM agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50088856",
+      "title": "What llms.txt files tell AI agents (beware)",
+      "link": "https://www.signalscorps.com/blog/llms-txt-instructions-to-ai-agents/",
+      "hn_link": "https://news.ycombinator.com/item?id=50088856",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-14",
+      "matched_keyword": "LLM agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50097991",
+      "title": "Call for stories: human–AI collaboration in recent mathematics",
+      "link": "https://terrytao.wordpress.com/2026/10/14/call-for-stories-human-ai-collaboration-in-recent-mathematics/",
+      "hn_link": "https://news.ycombinator.com/item?id=50097991",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-15",
+      "matched_keyword": "human-AI",
+      "source": "hackernews"
+    },
+    {
+      "id": "50007645",
+      "title": "AI Institute for Human-AI Cooperation",
+      "link": "https://haicinstitute.org/",
+      "hn_link": "https://news.ycombinator.com/item?id=50007645",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-08",
+      "matched_keyword": "human-AI",
+      "source": "hackernews"
+    },
+    {
+      "id": "50023234",
+      "title": "Show HN: Higherlevel – Define and review what AI agents build",
+      "link": "https://higherlevel.to/",
+      "hn_link": "https://news.ycombinator.com/item?id=50023234",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-09",
+      "matched_keyword": "AI collaboration",
+      "source": "hackernews"
+    },
+    {
+      "id": "50088088",
+      "title": "Show HN: Merlin, Run Your Claude Code and Codex from Slack, Linear and GitHub",
+      "link": "https://usemerlin.ai",
+      "hn_link": "https://news.ycombinator.com/item?id=50088088",
+      "points": 1,
+      "comments": 2,
+      "published": "2026-10-14",
+      "matched_keyword": "AI collaboration",
+      "source": "hackernews"
+    },
+    {
+      "id": "50071636",
+      "title": "Show HN: Mana – family organizer with an AI assistant",
+      "link": "https://ourmana.app/",
+      "hn_link": "https://news.ycombinator.com/item?id=50071636",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-13",
+      "matched_keyword": "AI assistant",
+      "source": "hackernews"
+    },
+    {
+      "id": "50069712",
+      "title": "Weave away your bugs with Trama (Meta Vibe Coding project)",
+      "link": "https://github.com/nicchia-code/trama",
+      "hn_link": "https://news.ycombinator.com/item?id=50069712",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-13",
+      "matched_keyword": "vibe coding",
+      "source": "hackernews"
+    },
+    {
+      "id": "50098628",
+      "title": "Loombench: A way to observe multiagent system behavior",
+      "link": "https://jonathanwmaddison.github.io/loombench/",
+      "hn_link": "https://news.ycombinator.com/item?id=50098628",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-15",
+      "matched_keyword": "multi-agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50093801",
+      "title": "How to Instrument a Multi-Agent System for Complete Causal Lineage",
+      "link": "https://medium.com/@MirArshadTalpur/how-to-instrument-a-multi-agent-system-for-complete-causal-lineage-e75d61150f9b",
+      "hn_link": "https://news.ycombinator.com/item?id=50093801",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-14",
+      "matched_keyword": "multi-agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50054196",
+      "title": "Show HN: EpochGo – Local-first multi-agent AutoML on Ollama ($0 API costs)",
+      "link": "https://github.com/AryanDinakaran/EpochGo",
+      "hn_link": "https://news.ycombinator.com/item?id=50054196",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-12",
+      "matched_keyword": "multi-agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50051262",
+      "title": "Multi-Agent Bug Fix Pipeline: Architecture of Role Separation",
+      "link": "https://github.com/Mininglamp-OSS",
+      "hn_link": "https://news.ycombinator.com/item?id=50051262",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-12",
+      "matched_keyword": "multi-agent",
+      "source": "hackernews"
+    },
+    {
+      "id": "50034931",
+      "title": "Building a safer path to autonomous industrial AI",
+      "link": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
+      "hn_link": "https://news.ycombinator.com/item?id=50034931",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-10",
+      "matched_keyword": "autonomous AI",
+      "source": "hackernews"
+    },
+    {
+      "id": "50102019",
+      "title": "TheoPhysEval: Assessing AI agents at autonomous theoretical physics solving",
+      "link": "https://arxiv.org/abs/2610.16733",
+      "hn_link": "https://news.ycombinator.com/item?id=50102019",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-15",
+      "matched_keyword": "autonomous AI",
+      "source": "hackernews"
+    },
+    {
+      "id": "50089558",
+      "title": "The state of agentic AI in chip design tools in 2026",
+      "link": "https://www.tomshardware.com/tech-industry/semiconductors/the-state-of-agentic-ai-in-chip-design-tools-in-2026-cadence-synopsys-and-siemens-all-pitch-autonomous-engineers",
+      "hn_link": "https://news.ycombinator.com/item?id=50089558",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-14",
+      "matched_keyword": "autonomous AI",
+      "source": "hackernews"
+    },
+    {
+      "id": "50066460",
+      "title": "Show HN: Malleable video editor that adapts to your workflow",
+      "link": "https://github.com/iterative-computer/powermove",
+      "hn_link": "https://news.ycombinator.com/item?id=50066460",
+      "points": 1,
+      "comments": 1,
+      "published": "2026-10-13",
+      "matched_keyword": "AI workflow",
+      "source": "hackernews"
+    },
+    {
+      "id": "50101587",
+      "title": "How are you centralising AI for development at your company?",
+      "link": "https://news.ycombinator.com/item?id=50101587",
+      "hn_link": "https://news.ycombinator.com/item?id=50101587",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-15",
+      "matched_keyword": "AI workflow",
+      "source": "hackernews"
+    },
+    {
+      "id": "50053689",
+      "title": "A Russian operator's DDoS-amplification lab, with an AI co-pilot",
+      "link": "https://huntback.io/blog/ddos-amplification-lab-ai-copilot",
+      "hn_link": "https://news.ycombinator.com/item?id=50053689",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-12",
+      "matched_keyword": "copilot",
+      "source": "hackernews"
+    },
+    {
+      "id": "50102683",
+      "title": "Show HN: Face, a browser window over agents that keeps the plan in files",
+      "link": "https://face.kodel.com.br",
+      "hn_link": "https://news.ycombinator.com/item?id=50102683",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-15",
+      "matched_keyword": "copilot",
+      "source": "hackernews"
+    },
+    {
+      "id": "50013450",
+      "title": "ASK: HN Help and Forward Advice, Ideas: New Lossless cmpr MRT/CT, Astro",
+      "link": "https://news.ycombinator.com/item?id=50013450",
+      "hn_link": "https://news.ycombinator.com/item?id=50013450",
+      "points": 1,
+      "comments": 0,
+      "published": "2026-10-08",
+      "matched_keyword": "future of work",
+      "source": "hackernews"
+    }
+  ],
+  "reddit": [],
+  "bluesky": [],
+  "blogs": [
+    {
+      "名称": "Anthropic Research",
+      "链接": "https://anthropic.com/research",
+      "说明": "Claude生态，MCP协议，human-AI交互理念"
+    },
+    {
+      "名称": "OpenAI Research",
+      "链接": "https://openai.com/research",
+      "说明": "GPT系列、agent框架、ChatGPT产品迭代"
+    },
+    {
+      "名称": "Google DeepMind",
+      "链接": "https://deepmind.google/research",
+      "说明": "Gemini、agent研究、AI safety"
+    },
+    {
+      "名称": "Microsoft Research Blog",
+      "链接": "https://microsoft.com/en-us/research/blog",
+      "说明": "HAX Toolkit, Human-AI Interaction Guidelines, Copilot"
+    },
+    {
+      "名称": "Meta AI (FAIR)",
+      "链接": "https://ai.meta.com/research",
+      "说明": "Llama开源生态"
+    },
+    {
+      "名称": "Amazon Science",
+      "链接": "https://amazon.science",
+      "说明": "应用型AI研究"
+    },
+    {
+      "名称": "Apple Machine Learning",
+      "链接": "https://machinelearning.apple.com",
+      "说明": "设备端AI、隐私AI"
+    },
+    {
+      "名称": "Hugging Face Blog",
+      "链接": "https://huggingface.co/blog",
+      "说明": "开源模型、工具、社区趋势"
+    },
+    {
+      "名称": "LangChain Blog",
+      "链接": "https://blog.langchain.dev",
+      "说明": "Agent框架生态风向标"
+    }
+  ],
+  "newsletters": [
+    {
+      "名称": "Simon Willison's Blog",
+      "链接": "https://simonwillison.net",
+      "作者": "Simon Willison",
+      "说明": "LLM生态最全面的实践者视角"
+    },
+    {
+      "名称": "Ahead of AI",
+      "链接": "https://magazine.sebastianraschka.com",
+      "作者": "Sebastian Raschka",
+      "说明": "LLM研究深度解读"
+    },
+    {
+      "名称": "Interconnects",
+      "链接": "https://interconnects.ai",
+      "作者": "Nathan Lambert",
+      "说明": "RLHF/对齐方向"
+    },
+    {
+      "名称": "Latent Space",
+      "链接": "https://latent.space",
+      "作者": "Swyx & Alessio",
+      "说明": "AI工程师视角，agent和tooling"
+    },
+    {
+      "名称": "MIT Technology Review",
+      "链接": "https://technologyreview.com",
+      "作者": "编辑团队",
+      "说明": "日刊科技新闻"
+    },
+    {
+      "名称": "The Batch",
+      "链接": "https://deeplearning.ai/the-batch",
+      "作者": "Andrew Ng",
+      "说明": "AI新闻周报"
+    },
+    {
+      "名称": "Import AI",
+      "链接": "https://importai.substack.com",
+      "作者": "Jack Clark",
+      "说明": "偏policy和大趋势"
+    },
+    {
+      "名称": "阮一峰的网络日志",
+      "链接": "https://ruanyifeng.com/blog",
+      "作者": "阮一峰",
+      "说明": "中文技术圈信号"
+    }
+  ],
+  "researchers": [
+    {
+      "姓名": "Anthropic",
+      "链接": "https://x.com/AnthropicAI",
+      "平台": "X",
+      "说明": "AI safety and research company"
+    },
+    {
+      "姓名": "Claude",
+      "链接": "https://x.com/claudeai",
+      "平台": "X",
+      "说明": "safe, accurate, and secure"
+    },
+    {
+      "姓名": "OpenAI",
+      "链接": "https://x.com/OpenAI",
+      "平台": "X",
+      "说明": "artificial general intelligence benefits all of humanity"
+    },
+    {
+      "姓名": "Diyi Yang",
+      "链接": "https://x.com/Diyi_Yang",
+      "平台": "X",
+      "说明": "Human-AI"
+    },
+    {
+      "姓名": "Ziang Xiao",
+      "链接": "https://x.com/ZiangXiao",
+      "平台": "X",
+      "说明": "AI4SocialScience, Model Evaluation, Information Seeking"
+    },
+    {
+      "姓名": "Mark Dredze",
+      "链接": "https://x.com/mdredze",
+      "平台": "X",
+      "说明": "NLP"
+    },
+    {
+      "姓名": "Wesley Hanwen Deng",
+      "链接": "https://x.com/wes_deng",
+      "平台": "X",
+      "说明": "Human-AI"
+    },
+    {
+      "姓名": "Mina Lee",
+      "链接": "https://x.com/MinaLee__",
+      "平台": "X",
+      "说明": "Human-AI collaborative writing"
+    },
+    {
+      "姓名": "Jentse Huang",
+      "链接": "https://x.com/JentseHuang",
+      "平台": "X",
+      "说明": "LLM + Social Science, Multi-Agent, AI Fairness"
+    },
+    {
+      "姓名": "Toby Jia-Jun Li",
+      "链接": "https://x.com/TobyJLi",
+      "平台": "X",
+      "说明": "End-user programming, human-AI systems"
+    },
+    {
+      "姓名": "Dakuo Wang",
+      "链接": "https://x.com/dakuowang",
+      "平台": "X",
+      "说明": "Human-AI collaboration, CSCW"
+    },
+    {
+      "姓名": "Percy Liang",
+      "链接": "https://x.com/percyliang",
+      "平台": "X",
+      "说明": "LLM evaluation框架"
+    },
+    {
+      "姓名": "Michael Bernstein",
+      "链接": "https://x.com/msbernst",
+      "平台": "X",
+      "说明": "Generative agents, social computing"
+    },
+    {
+      "姓名": "Simon Willison",
+      "链接": "https://x.com/simonw",
+      "平台": "X",
+      "说明": "LLM工具生态最佳信息源"
+    },
+    {
+      "姓名": "Joon Sung Park",
+      "链接": "https://x.com/joon_s_pk",
+      "平台": "X",
+      "说明": "Social Simulations"
+    },
+    {
+      "姓名": "Andrej Karpathy",
+      "链接": "https://x.com/karpathy",
+      "平台": "X",
+      "说明": "深度技术解读"
+    },
+    {
+      "姓名": "Swyx",
+      "链接": "https://x.com/swyx",
+      "平台": "X",
+      "说明": "AI工程/agent生态trend"
+    },
+    {
+      "姓名": "Q. Vera Liao",
+      "链接": "https://x.com/QVeraLiao",
+      "平台": "X",
+      "说明": "Explainable AI, responsible AI in HCI"
+    },
+    {
+      "姓名": "Xiang 'Anthony' Chen",
+      "链接": "https://x.com/_xiang_chen_",
+      "平台": "X",
+      "说明": "Interactive AI systems"
+    },
+    {
+      "姓名": "Lilian Weng",
+      "链接": "https://x.com/lilianweng",
+      "平台": "X",
+      "说明": "OpenAI, agent系统综述作者"
+    },
+    {
+      "姓名": "Harrison Chase",
+      "链接": "https://x.com/hwchase17",
+      "平台": "X",
+      "说明": "LangChain创始人, agent框架风向标"
+    },
+    {
+      "姓名": "Yohei Nakajima",
+      "链接": "https://x.com/yaborned",
+      "平台": "X",
+      "说明": "BabyAGI作者, agent创业者"
+    },
+    {
+      "姓名": "Kanjun Qiu",
+      "链接": "https://x.com/kaborned",
+      "平台": "X",
+      "说明": "Imbue CEO, AI agent研究"
+    },
+    {
+      "姓名": "Deedy Das",
+      "链接": "https://x.com/deedydas",
+      "平台": "X",
+      "说明": "AI工程趋势, 年轻一代视角"
+    },
+    {
+      "姓名": "Riley Goodside",
+      "链接": "https://x.com/goodaborned",
+      "平台": "X",
+      "说明": "Prompt engineering先驱"
+    },
+    {
+      "姓名": "Ethan Mollick",
+      "链接": "https://x.com/emollick",
+      "平台": "X",
+      "说明": "Wharton, AI在教育和工作的应用"
+    },
+    {
+      "姓名": "Matt Shumer",
+      "链接": "https://x.com/mattaborned",
+      "平台": "X",
+      "说明": "AI agent创业者, HyperWrite"
+    },
+    {
+      "姓名": "Alvaro Cintas",
+      "链接": "https://x.com/alvarocintas",
+      "平台": "X",
+      "说明": "AI产品设计, UX趋势"
+    }
+  ],
+  "seminars": [
+    {
+      "名称": "Stanford HAI Seminar",
+      "链接": "https://hai.stanford.edu/events",
+      "机构": "Stanford",
+      "频率": "每周",
+      "标签": "HCI,AI",
+      "说明": "Human-Centered AI 核心 seminar，覆盖 AI policy、education、human-AI interaction。YouTube 有录播"
+    },
+    {
+      "名称": "Stanford CS547 HCI Seminar",
+      "链接": "https://hci.stanford.edu/courses/cs547/",
+      "机构": "Stanford CS",
+      "频率": "每周",
+      "标签": "HCI",
+      "说明": "HCI 方向专题 seminar，常有 human-AI interaction 相关 talk"
+    },
+    {
+      "名称": "CMU HCII Seminar Series",
+      "链接": "https://www.hcii.cmu.edu/news/seminars/upcoming",
+      "机构": "CMU HCII",
+      "频率": "每周五",
+      "标签": "HCI",
+      "说明": "HCI 领域最活跃的 seminar 之一。Spring 2026: Sarah Preum, Haoqi Zhang 等"
+    },
+    {
+      "名称": "UMich HCI Seminar",
+      "链接": "https://cse.engin.umich.edu/events/all-seminars/hci/",
+      "机构": "U Michigan",
+      "频率": "不定期",
+      "标签": "HCI",
+      "说明": "Q. Vera Liao 所在校，HCI + AI 方向"
+    },
+    {
+      "名称": "UMich AI Seminar",
+      "链接": "https://cse.engin.umich.edu/events/all-seminars/artificial-intelligence/",
+      "机构": "U Michigan",
+      "频率": "不定期",
+      "标签": "AI",
+      "说明": "NLP + AI 方向，self-supervised learning、LLM"
+    },
+    {
+      "名称": "MIT AI for Society Seminar",
+      "链接": "https://ai4society.mit.edu/seminar/",
+      "机构": "MIT",
+      "频率": "不定期",
+      "标签": "AI,HCI",
+      "说明": "AI 与社会交叉，法律、政策、human-AI 角度"
+    },
+    {
+      "名称": "MSR People-Centric AI Events",
+      "链接": "https://www.microsoft.com/en-us/research/theme/people-centric-ai/events/",
+      "机构": "Microsoft Research",
+      "频率": "不定期",
+      "标签": "HCI,AI",
+      "说明": "Human-AI interaction、Copilot 生态、HAX Toolkit"
+    },
+    {
+      "名称": "Berkeley NLP Seminar",
+      "链接": "https://www.ischool.berkeley.edu/events/nlp",
+      "机构": "UC Berkeley",
+      "频率": "双周",
+      "标签": "AI",
+      "说明": "NLP 最新研究 invited talks"
+    },
+    {
+      "名称": "Rice AI Seminar Series",
+      "链接": "https://kenkennedy.rice.edu/ai-seminar",
+      "机构": "Rice University",
+      "频率": "不定期",
+      "标签": "AI",
+      "说明": "AI/ML、fairness 方向"
+    },
+    {
+      "名称": "Georgia Tech HCI Events",
+      "链接": "https://mshci.gatech.edu/events",
+      "机构": "Georgia Tech",
+      "频率": "不定期",
+      "标签": "HCI",
+      "说明": "People-centered tech approach"
+    },
+    {
+      "名称": "UIUC CIRSS Speaker Series",
+      "链接": "https://cirss.ischool.illinois.edu/",
+      "机构": "UIUC iSchool",
+      "频率": "学期制",
+      "标签": "AI,HCI",
+      "说明": "Spring 2025 主题: Generative AI and the Future of Research"
+    },
+    {
+      "名称": "Stanford HAI YouTube",
+      "链接": "https://www.youtube.com/@StanfordHAI",
+      "机构": "Stanford",
+      "频率": "录播",
+      "标签": "HCI,AI",
+      "说明": "所有 HAI seminar 录播，包括 AI+Education Summit"
+    },
+    {
+      "名称": "ACM SIGCHI YouTube",
+      "链接": "https://www.youtube.com/@acmsigchi",
+      "机构": "ACM",
+      "频率": "录播",
+      "标签": "HCI",
+      "说明": "CHI/CSCW/UIST 等会议 talk 录播"
+    },
+    {
+      "名称": "Microsoft Research YouTube",
+      "链接": "https://www.youtube.com/@MicrosoftResearch",
+      "机构": "Microsoft",
+      "频率": "录播",
+      "标签": "AI,HCI,SE",
+      "说明": "MSR seminar 录播"
+    },
+    {
+      "名称": "CMU S3D Software Research Seminar",
+      "链接": "https://s3d.cmu.edu/events/index.html",
+      "机构": "CMU S3D",
+      "频率": "每周一",
+      "标签": "SE,AI",
+      "说明": "Software research in progress，周一 3:30-5pm，SE + AI 交叉"
+    },
+    {
+      "名称": "UCI ISR Events",
+      "链接": "https://isr.uci.edu/events/ext-events.html",
+      "机构": "UC Irvine ISR",
+      "频率": "不定期",
+      "标签": "SE",
+      "说明": "Institute for Software Research，SE community 核心"
+    },
+    {
+      "名称": "UCL CREST Open Workshops",
+      "链接": "https://www.ucl.ac.uk/crest/crest-open-workshops",
+      "机构": "UCL CREST",
+      "频率": "不定期",
+      "标签": "SE",
+      "说明": "SE testing/search-based SE/program analysis"
+    },
+    {
+      "名称": "HumanAISE Workshop",
+      "链接": "https://humanai4se.github.io/",
+      "机构": "ICSE co-located",
+      "频率": "年度",
+      "标签": "SE,AI,HCI",
+      "说明": "Human-Centered AI for SE，与你研究最直接相关（AI4SE + human-centered）"
+    },
+    {
+      "名称": "AI4SE & SE4AI Workshop",
+      "链接": "https://sercuarc.org/ai4se-se4ai-research-application-workshop/",
+      "机构": "SERC/Army",
+      "频率": "年度",
+      "标签": "SE,AI",
+      "说明": "系统工程 + AI 交叉，industry + research"
+    },
+    {
+      "名称": "AIware Conference",
+      "链接": "https://2025.aiwareconf.org/",
+      "机构": "FSE co-located",
+      "频率": "年度",
+      "标签": "SE,AI",
+      "说明": "AI-powered software engineering，keynotes + research track"
+    },
+    {
+      "名称": "AI Coding Summit",
+      "链接": "https://aicodingsummit.com/",
+      "机构": "GitNation",
+      "频率": "年度",
+      "标签": "SE,AI",
+      "说明": "AI-powered dev tools，Copilot/Cursor 等实践者视角"
+    },
+    {
+      "名称": "MSR Research Talks: AI for SE",
+      "链接": "https://www.microsoft.com/en-us/research/video/research-talks-ai-for-software-development/",
+      "机构": "Microsoft Research",
+      "频率": "录播",
+      "标签": "SE,AI",
+      "说明": "AI for software development 专题 talks"
+    },
+    {
+      "名称": "GitHub Next / DX Podcast",
+      "链接": "https://getdx.com/podcast/",
+      "机构": "GitHub/DX",
+      "频率": "不定期",
+      "标签": "SE,AI",
+      "说明": "Developer productivity + AI coding assistants 研究，Eirini Kalliamvakou 等"
+    }
+  ],
+  "podcasts": [
+    {
+      "名称": "Latent Space Podcast",
+      "链接": "https://latent.space",
+      "说明": "AI工程最前沿，agent相关讨论"
+    },
+    {
+      "名称": "TWIML AI Podcast",
+      "链接": "https://twimlai.com",
+      "说明": "学术+工业混合视角"
+    },
+    {
+      "名称": "NeurIPS/CHI 录播",
+      "链接": "https://youtube.com",
+      "说明": "重要talk的录播"
+    }
+  ],
+  "conferences": [
+    {
+      "名称": "AAAI 2026",
+      "链接": "https://aaai.org",
+      "领域": "AI-ML",
+      "CCF": "A",
+      "Deadline": "2025-08-15",
+      "会议日期": "2026-02-20",
+      "说明": "综合AI顶会, human-AI collaboration track. Philadelphia, USA"
+    },
+    {
+      "名称": "TEI 2026",
+      "链接": "https://tei.acm.org/2026/",
+      "领域": "HCI",
+      "CCF": "C",
+      "Deadline": "2025-09-19",
+      "会议日期": "2026-03-08",
+      "说明": "Tangible, Embedded, Embodied Interaction. Chicago, USA"
+    },
+    {
+      "名称": "IUI 2026",
+      "链接": "https://iui.acm.org",
+      "领域": "HCI",
+      "CCF": "B",
+      "Deadline": "2025-10-10",
+      "会议日期": "2026-03-23",
+      "说明": "Intelligent User Interfaces. Paphos, Cyprus"
+    },
+    {
+      "名称": "CHI 2026",
+      "链接": "https://chi2026.acm.org",
+      "领域": "HCI",
+      "CCF": "A",
+      "Deadline": "2025-09-12",
+      "会议日期": "2026-04-26",
+      "说明": "ACM顶会, Human-Computer Interaction核心会议. Yokohama, Japan"
+    },
+    {
+      "名称": "ICLR 2026",
+      "链接": "https://iclr.cc",
+      "领域": "AI-ML",
+      "CCF": "A",
+      "Deadline": "2025-10-01",
+      "会议日期": "2026-04-24",
+      "说明": "表示学习顶会, LLM/foundation model前沿. Singapore"
+    },
+    {
+      "名称": "ICSE 2026",
+      "链接": "https://conf.researchr.org/home/icse-2026",
+      "领域": "SE",
+      "CCF": "A",
+      "Deadline": "2025-08-01",
+      "会议日期": "2026-04-27",
+      "说明": "软件工程顶会, AI4SE/SE4AI方向. Milan, Italy"
+    },
+    {
+      "名称": "FAccT 2026",
+      "链接": "https://facctconference.org",
+      "领域": "Ethics",
+      "CCF": "B",
+      "Deadline": "2026-01-29",
+      "会议日期": "2026-06-03",
+      "说明": "Fairness, Accountability, Transparency in AI. Athens, Greece"
+    },
+    {
+      "名称": "HHAI 2026",
+      "链接": "https://hhai-conference.org",
+      "领域": "HCI",
+      "CCF": "C",
+      "Deadline": "2026-03-01",
+      "会议日期": "2026-06-15",
+      "说明": "Hybrid Human-AI Intelligence. Malmö, Sweden"
+    },
+    {
+      "名称": "DIS 2026",
+      "链接": "https://dis.acm.org",
+      "领域": "HCI",
+      "CCF": "B",
+      "Deadline": "2026-02-07",
+      "会议日期": "2026-06-28",
+      "说明": "Designing Interactive Systems"
+    },
+    {
+      "名称": "CSCW 2026",
+      "链接": "https://cscw.acm.org",
+      "领域": "HCI",
+      "CCF": "A",
+      "Deadline": "2026-01-15",
+      "会议日期": "2026-07-11",
+      "说明": "Computer-Supported Cooperative Work. Bergen, Norway"
+    },
+    {
+      "名称": "ICML 2026",
+      "链接": "https://icml.cc",
+      "领域": "AI-ML",
+      "CCF": "A",
+      "Deadline": "2026-01-31",
+      "会议日期": "2026-07-18",
+      "说明": "机器学习顶会. San Francisco, USA"
+    },
+    {
+      "名称": "HCI International 2026",
+      "链接": "https://2026.hci.international/",
+      "领域": "HCI",
+      "CCF": "C",
+      "Deadline": "2026-02-28",
+      "会议日期": "2026-07-26",
+      "说明": "Montreal, Canada. 28th International Conference on HCI"
+    },
+    {
+      "名称": "ACL 2026",
+      "链接": "https://www.aclweb.org",
+      "领域": "NLP",
+      "CCF": "A",
+      "Deadline": "2026-02-15",
+      "会议日期": "2026-08-01",
+      "说明": "NLP顶会, human-LLM interaction相关"
+    },
+    {
+      "名称": "AIES 2026",
+      "链接": "https://www.aies-conference.com",
+      "领域": "Ethics",
+      "CCF": "C",
+      "Deadline": "2026-02-18",
+      "会议日期": "2026-08-04",
+      "说明": "AI, Ethics, and Society"
+    },
+    {
+      "名称": "ASSETS 2026",
+      "链接": "https://www.sigaccess.org/assets/",
+      "领域": "HCI",
+      "CCF": "B",
+      "Deadline": "2026-04-15",
+      "会议日期": "2026-10-25",
+      "说明": "Accessible Computing, AI accessibility"
+    },
+    {
+      "名称": "UIST 2026",
+      "链接": "https://uist.acm.org",
+      "领域": "HCI",
+      "CCF": "A",
+      "Deadline": "2026-04-02",
+      "会议日期": "2026-10-26",
+      "说明": "User Interface Software and Technology. Lisbon, Portugal"
+    },
+    {
+      "名称": "NeurIPS 2026",
+      "链接": "https://neurips.cc",
+      "领域": "AI-ML",
+      "CCF": "A",
+      "Deadline": "2026-05-16",
+      "会议日期": "2026-12-06",
+      "说明": "ML/AI最大顶会, agent/alignment/human-AI"
+    },
+    {
+      "名称": "EMNLP 2026",
+      "链接": "https://www.aclweb.org",
+      "领域": "NLP",
+      "CCF": "A",
+      "Deadline": "2026-06-01",
+      "会议日期": "2026-12-10",
+      "说明": "NLP顶会, empirical methods"
+    },
+    {
+      "名称": "IJCAI 2026",
+      "链接": "https://www.ijcai.org",
+      "领域": "AI-ML",
+      "CCF": "A",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "International Joint Conference on Artificial Intelligence"
+    },
+    {
+      "名称": "KDD 2026",
+      "链接": "https://www.kdd.org",
+      "领域": "AI-ML",
+      "CCF": "A",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "Knowledge Discovery and Data Mining"
+    },
+    {
+      "名称": "WWW 2026",
+      "链接": "https://www2026.thewebconf.org",
+      "领域": "AI-ML",
+      "CCF": "A",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "The Web Conference"
+    },
+    {
+      "名称": "SIGIR 2026",
+      "链接": "https://sigir.org",
+      "领域": "AI-ML",
+      "CCF": "A",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "Information Retrieval"
+    },
+    {
+      "名称": "FSE 2026",
+      "链接": "https://conf.researchr.org/home/fse-2026",
+      "领域": "SE",
+      "CCF": "A",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "Foundations of Software Engineering"
+    },
+    {
+      "名称": "ASE 2026",
+      "链接": "https://conf.researchr.org/home/ase-2026",
+      "领域": "SE",
+      "CCF": "A",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "Automated Software Engineering"
+    },
+    {
+      "名称": "ISSTA 2026",
+      "链接": "https://conf.researchr.org/home/issta-2026",
+      "领域": "SE",
+      "CCF": "A",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "International Symposium on Software Testing and Analysis"
+    },
+    {
+      "名称": "OOPSLA 2026",
+      "链接": "https://splashcon.org/",
+      "领域": "SE",
+      "CCF": "A",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "Object-Oriented Programming, Systems, Languages & Applications"
+    },
+    {
+      "名称": "PLDI 2026",
+      "链接": "https://conf.researchr.org/home/pldi-2026",
+      "领域": "SE",
+      "CCF": "A",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "Programming Language Design and Implementation"
+    },
+    {
+      "名称": "ICPC 2026",
+      "链接": "https://conf.researchr.org/home/icpc-2026",
+      "领域": "SE",
+      "CCF": "B",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "International Conference on Program Comprehension"
+    },
+    {
+      "名称": "NAACL 2026",
+      "链接": "https://www.aclweb.org",
+      "领域": "NLP",
+      "CCF": "B",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "North American Chapter of ACL"
+    },
+    {
+      "名称": "COLING 2026",
+      "链接": "https://coling2026.org",
+      "领域": "NLP",
+      "CCF": "B",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "International Conference on Computational Linguistics"
+    },
+    {
+      "名称": "EACL 2026",
+      "链接": "https://www.aclweb.org",
+      "领域": "NLP",
+      "CCF": "B",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "European Chapter of ACL"
+    },
+    {
+      "名称": "ECML-PKDD 2026",
+      "链接": "https://ecmlpkdd.org",
+      "领域": "AI-ML",
+      "CCF": "B",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "European Conference on Machine Learning"
+    },
+    {
+      "名称": "WSDM 2026",
+      "链接": "https://www.wsdm-conference.org",
+      "领域": "AI-ML",
+      "CCF": "B",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "Web Search and Data Mining"
+    },
+    {
+      "名称": "CIKM 2026",
+      "链接": "https://www.cikm.org/",
+      "领域": "AI-ML",
+      "CCF": "B",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "Conference on Information and Knowledge Management"
+    },
+    {
+      "名称": "UbiComp 2026",
+      "链接": "https://ubicomp.org",
+      "领域": "HCI",
+      "CCF": "A",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "Ubiquitous Computing"
+    },
+    {
+      "名称": "GROUP 2026",
+      "链接": "https://programs.sigchi.org/group",
+      "领域": "HCI",
+      "CCF": "C",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "International Conference on Supporting Group Work"
+    },
+    {
+      "名称": "INTERACT 2026",
+      "链接": "https://ifip-tc13.org/interact/",
+      "领域": "HCI",
+      "CCF": "B",
+      "Deadline": "TBD",
+      "会议日期": "TBD",
+      "说明": "Human-Computer Interaction"
+    },
+    {
+      "名称": "CHI GenAICHI Workshop",
+      "链接": "https://sites.google.com/view/genaichi2026",
+      "领域": "Workshop",
+      "CCF": "2026-02-20",
+      "Deadline": "2026-04-26",
+      "会议日期": "Generative AI × HCI (co-located with CHI)"
+    },
+    {
+      "名称": "CHI TREW Workshop",
+      "链接": "https://sites.google.com/view/trew-chi2026",
+      "领域": "Workshop",
+      "CCF": "2026-02-20",
+      "Deadline": "2026-04-26",
+      "会议日期": "Trust & Reliance in Human-AI Workflows (co-located with CHI)"
+    },
+    {
+      "名称": "ACL/EMNLP HCI+NLP Workshop",
+      "链接": "https://aclanthology.org",
+      "领域": "Workshop",
+      "CCF": "TBD",
+      "Deadline": "TBD",
+      "会议日期": "HCI×NLP交叉"
+    },
+    {
+      "名称": "NeurIPS/ICML Agent Workshops",
+      "链接": "https://neurips.cc",
+      "领域": "Workshop",
+      "CCF": "TBD",
+      "Deadline": "TBD",
+      "会议日期": "系统/ML视角的agent研究"
+    }
+  ],
+  "opportunities": [
+    {
+      "名称": "NSF CAREER Award",
+      "链接": "https://www.nsf.gov/funding/opportunities?fund_program_desc=CAREER",
+      "类型": "🏛️ NSF Grant",
+      "说明": "≥$400K/5yr, tenure-track AP, most prestigious early career award. Deadline: ~July yearly. 拿到faculty offer后优先准备"
+    },
+    {
+      "名称": "NSF CRII (Research Initiation)",
+      "链接": "https://www.nsf.gov/funding/opportunities?fund_program_desc=CRII",
+      "类型": "🏛️ NSF Grant",
+      "说明": "≤$175K/24mo, non-R1 early career, PhD后3年内未拿过联邦PI grant. 适合刚入职non-R1的新AP"
+    },
+    {
+      "名称": "NSF CISE Future CoRe",
+      "链接": "https://www.nsf.gov/cise/funding.jsp",
+      "类型": "🏛️ NSF Grant",
+      "说明": "$150K-$250K/yr, max $1M/4yr. 覆盖human-AI interaction, NLP, SE. Deadline: Feb 5, 2026. 与研究方向高度匹配"
+    },
+    {
+      "名称": "NSF EAGER",
+      "链接": "https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=504784",
+      "类型": "🏛️ NSF Grant",
+      "说明": "高风险高回报exploratory research, AI×社会交叉(human-AI, bias, fairness). 需program officer邀请/推荐"
+    },
+    {
+      "名称": "NSF Engineering Postdoc Fellowship",
+      "链接": "https://www.nsf.gov/funding/",
+      "类型": "🏛️ NSF Fellowship",
+      "说明": "Stipend + travel, 2年. 仅限US citizens/permanent residents"
+    },
+    {
+      "名称": "CRA Trustworthy AI Fellowship",
+      "链接": "https://cra.org/",
+      "类型": "🎓 Fellowship",
+      "说明": "⏰ $17K stipend + travel. PhD 2023.5-2025.7. Deadline: March 31, 2026. Human-AI + qualitative背景很match"
+    },
+    {
+      "名称": "Cooperative AI Foundation Grants",
+      "链接": "https://www.cooperativeai.com/",
+      "类型": "🎓 Foundation",
+      "说明": "最高GBP 100K/12mo, early-career track (PhD后2-3年). AI合作、多智能体系统"
+    },
+    {
+      "名称": "Sloan Metascience & AI Postdoc",
+      "链接": "https://sloan.org/",
+      "类型": "🎓 Fellowship",
+      "说明": "最高$250K/2yr. Social sciences方向, AI对科学研究的影响"
+    },
+    {
+      "名称": "iSchools Research Grants",
+      "链接": "https://ischools.org/",
+      "类型": "🎓 Grant",
+      "说明": "Early career faculty & PhD students. July deadline, 主题每年变. Information science相关"
+    },
+    {
+      "名称": "Stanford HAI Seed Grants",
+      "链接": "https://hai.stanford.edu/",
+      "类型": "🏢 University",
+      "说明": "最高$75K/12mo. Stanford affiliated only. Augmenting human capabilities & human-AI interaction"
+    },
+    {
+      "名称": "Penn AI Fellowship",
+      "链接": "https://www.upenn.edu/",
+      "类型": "🏢 University",
+      "说明": "$8K research/travel fund + faculty mentoring. Penn postdocs/grad students only"
+    },
+    {
+      "名称": "RGC Early Career Scheme (ECS)",
+      "链接": "https://www.ugc.edu.hk/eng/rgc/funding_opport/ecs/",
+      "类型": "🇭🇰 HK Grant",
+      "说明": "最高HK$2M/5yr, tenure-track AP入职前3年. 成功率~33%. Deadline: ~10月底. 香港新AP最重要的起步grant"
+    },
+    {
+      "名称": "RGC General Research Fund (GRF)",
+      "链接": "https://www.ugc.edu.hk/eng/rgc/funding_opport/grf/",
+      "类型": "🇭🇰 HK Grant",
+      "说明": "最高HK$2M, 成功率~30%, UGC大学academic staff"
+    },
+    {
+      "名称": "RGC Collaborative Research Fund (CRF)",
+      "链接": "https://www.ugc.edu.hk/eng/rgc/funding_opport/crf/",
+      "类型": "🇭🇰 HK Grant",
+      "说明": "最高HK$10M, 跨学科跨院校合作. 适合大型human-AI collaboration项目"
+    },
+    {
+      "名称": "RGC Research Impact Fund (RIF)",
+      "链接": "https://www.ugc.edu.hk/eng/rgc/funding_opport/rif/",
+      "类型": "🇭🇰 HK Grant",
+      "说明": "侧重societal impact. 适合AI-for-qualitative-analysis方向, impact story很强"
+    },
+    {
+      "名称": "Singapore NRF Fellowship",
+      "链接": "https://www.nrf.gov.sg/grants/nrff/",
+      "类型": "🇸🇬 SG Grant",
+      "说明": "最高SGD 3M(~US$2M)/5yr, 40岁以下all nationalities. 最prestigious early career grant, SUTD背景加分"
+    },
+    {
+      "名称": "MOE Academic Research Fund (AcRF)",
+      "链接": "https://www.moe.gov.sg/",
+      "类型": "🇸🇬 SG Grant",
+      "说明": "Tier 1: 新AP通常可拿到. Tier 2: 竞争性grant需向MOE申请"
+    },
+    {
+      "名称": "AISG Research-Governance Joint Grant",
+      "链接": "https://aisingapore.org/research/joint-grant-call/",
+      "类型": "🇸🇬 SG Grant",
+      "说明": "AI governance + human-machine interaction + social resilience. Research profile完美match: AI + social science + trustworthy AI"
+    },
+    {
+      "名称": "ARC DECRA",
+      "链接": "https://www.arc.gov.au/",
+      "类型": "🇦🇺 AU Grant",
+      "说明": "3yr, 年薪$126K + 项目经费$50K/yr. 成功率13.1%. DE27申请: 2026.1.28-3.11. 申Sydney的话这个很关键"
+    },
+    {
+      "名称": "ARC Future Fellowships",
+      "链接": "https://www.arc.gov.au/",
+      "类型": "🇦🇺 AU Grant",
+      "说明": "Mid-career researcher. FT26已关闭, 关注FT27"
+    },
+    {
+      "名称": "ARC Discovery Projects",
+      "链接": "https://www.arc.gov.au/",
+      "类型": "🇦🇺 AU Grant",
+      "说明": "澳洲core research grant, 类似NSF standard grant. 拿到faculty后申请"
+    },
+    {
+      "名称": "ARC Linkage Projects",
+      "链接": "https://www.arc.gov.au/",
+      "类型": "🇦🇺 AU Grant",
+      "说明": "需industry partner合作. 适合open-source tool有industry adoption的情况"
+    },
+    {
+      "名称": "Microsoft Research Fellowship 2026",
+      "链接": "https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/",
+      "类型": "🌏 International",
+      "说明": "美加$47K, 欧洲$27K, 亚太$17K. 覆盖human-AI collaboration. 2026轮次已过(Dec 2025), 关注2027"
+    },
+    {
+      "名称": "Google DeepMind Singapore",
+      "链接": "https://job-boards.greenhouse.io/deepmind",
+      "类型": "🇸🇬 SG Industry",
+      "说明": "Research Scientist: Reasoning & AGI + Autonomous Agents方向. LLM agents/NLP/evaluation, 与研究方向高度匹配"
+    },
+    {
+      "名称": "ByteDance/TikTok Singapore (Seed)",
+      "链接": "https://jobs.bytedance.com",
+      "类型": "🇸🇬 SG Industry",
+      "说明": "LLM Research Scientist (Code AI方向与CodeMap直接相关) + Responsible AI + Conversational AI"
+    },
+    {
+      "名称": "NVIDIA Singapore",
+      "链接": "https://www.nvidia.com/en-sg/about-nvidia/careers/",
+      "类型": "🇸🇬 SG Industry",
+      "说明": "AI Researcher: language model + efficient AI computing"
+    },
+    {
+      "名称": "Sea AI Lab (SAIL)",
+      "链接": "https://careers.sea.com",
+      "类型": "🇸🇬 SG Industry",
+      "说明": "Language models, trustworthy AI, scalable systems. 研究+产品落地兼顾, 应用到Shopee/Garena"
+    },
+    {
+      "名称": "Grab AI Centre",
+      "链接": "https://grab.careers",
+      "类型": "🇸🇬 SG Industry",
+      "说明": "AI researcher/data scientist: mobility, delivery, payments相关AI"
+    },
+    {
+      "名称": "AI Singapore (AISG)",
+      "链接": "https://aisingapore.org/careers/",
+      "类型": "🇸🇬 SG Gov",
+      "说明": "国家级AI计划. Programme Manager, AI Engineer等"
+    },
+    {
+      "名称": "A*STAR",
+      "链接": "https://www.a-star.edu.sg/careers",
+      "类型": "🇸🇬 SG Gov",
+      "说明": "Research Scientist: ML, NLP, drug discovery等"
+    },
+    {
+      "名称": "GovTech Singapore",
+      "链接": "https://www.tech.gov.sg/careers/",
+      "类型": "🇸🇬 SG Gov",
+      "说明": "Data Scientist: 隐私保护技术, 政府数据共享"
+    },
+    {
+      "名称": "DSO National Laboratories",
+      "链接": "https://www.dso.org.sg/careers",
+      "类型": "🇸🇬 SG Gov",
+      "说明": "AI Research Engineer: 国防/安全应用方向"
+    },
+    {
+      "名称": "CRA Career Center",
+      "链接": "https://careercenter.cra.org/",
+      "类型": "📋 Job Board",
+      "说明": "CS faculty positions, largest North America academic CS job board"
+    },
+    {
+      "名称": "Times Higher Education Jobs",
+      "链接": "https://www.timeshighereducation.com/unijobs/listings/",
+      "类型": "📋 Job Board",
+      "说明": "Global academic positions, strong for UK/Europe/Asia/Australia"
+    }
+  ],
+  "faculty_jobs": [
+    {
+      "title": "🔍 CRA Career Center — CS Faculty Positions",
+      "link": "https://careercenter.cra.org/",
+      "source": "faculty_jobs",
+      "summary": "Computing Research Association job board. Largest source of CS academic positions in North America.",
+      "region": "🇺🇸 US",
+      "origin": "Board",
+      "ts": 1792070345,
+      "matched_keyword": "🇺🇸 US"
+    },
+    {
+      "title": "🔍 HigherEdJobs — CS & IT Faculty",
+      "link": "https://www.higheredjobs.com/faculty/search.cfm?JobCat=93",
+      "source": "faculty_jobs",
+      "summary": "Large US-focused academic job board. Filter by Computer Science / IT category.",
+      "region": "🇺🇸 US",
+      "origin": "Board",
+      "ts": 1792070345,
+      "matched_keyword": "🇺🇸 US"
+    },
+    {
+      "title": "🔍 AcademicJobsOnline — Computer Science",
+      "link": "https://academicjobsonline.org/ajo/jobs?department=Computer+Science",
+      "source": "faculty_jobs",
+      "summary": "Global academic recruitment platform. Strong for R1 universities.",
+      "region": "🌐 Global",
+      "origin": "Board",
+      "ts": 1792070345,
+      "matched_keyword": "🌐 Global"
+    },
+    {
+      "title": "🔍 Times Higher Education — Academic Jobs",
+      "link": "https://www.timeshighereducation.com/unijobs/listings/",
+      "source": "faculty_jobs",
+      "summary": "Global academic job listings, strong for UK/Europe/Asia/Australia.",
+      "region": "🌐 Global",
+      "origin": "Board",
+      "ts": 1792070345,
+      "matched_keyword": "🌐 Global"
+    },
+    {
+      "title": "🔍 jobs.ac.uk — CS & IT",
+      "link": "https://www.jobs.ac.uk/search/?activeFacet=subjectFacet&subjectFacet%5B0%5D=Computing+%26+IT",
+      "source": "faculty_jobs",
+      "summary": "UK & Ireland academic positions. Best source for British universities.",
+      "region": "🇬🇧 UK",
+      "origin": "Board",
+      "ts": 1792070345,
+      "matched_keyword": "🇬🇧 UK"
+    },
+    {
+      "title": "🔍 EuroScienceJobs — Computer Science",
+      "link": "https://www.eurosciencejobs.com/jobs/computer_science",
+      "source": "faculty_jobs",
+      "summary": "European academic positions across all countries.",
+      "region": "🇪🇺 Europe",
+      "origin": "Board",
+      "ts": 1792070345,
+      "matched_keyword": "🇪🇺 Europe"
+    },
+    {
+      "title": "🔍 GitHub CS Faculty Jobs Wiki 2026",
+      "link": "https://github.com/academic-cs-jobs",
+      "source": "faculty_jobs",
+      "summary": "Community-maintained spreadsheet/wiki tracking CS faculty openings and their status.",
+      "region": "🌐 Global",
+      "origin": "Board",
+      "ts": 1792070345,
+      "matched_keyword": "🌐 Global"
+    }
+  ]
+}
